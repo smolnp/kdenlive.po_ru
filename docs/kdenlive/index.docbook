@@ -1,1 +1,710 @@
-doc
+<?xml version="1.0" ?>
+<!DOCTYPE book PUBLIC "-//KDE//DTD DocBook XML V4.5-Based Variant V1.1//EN" "dtd/kdedbx45.dtd" [
+  <!ENTITY % addindex "IGNORE">
+  <!ENTITY % Russian "INCLUDE">
+]>
+<book id="kdenlive" lang="&language;">
+<bookinfo>
+<title
+>Краткое руководство по работе в Kdenlive</title>
+<authorgroup>
+<author>
+<personname
+><firstname
+>За основу взята документация из KDE UserBase со страницы <ulink url=" https://userbase.kde.org/Kdenlive/Manual/QuickStart/ru"
+>Kdenlive/Руководство/Быстрый старт</ulink
+>.</firstname
+> <surname
+></surname
+> </personname>
+    </author>
+<othercredit role="translator"
+><firstname
+>Николай</firstname
+><surname
+>Смольянинов</surname
+><affiliation
+><address
+><email
+>smolianinow.colya2016@yandex.ru</email
+></address
+></affiliation
+><contrib
+>Перевод на русский язык</contrib
+></othercredit
+> <othercredit role="reviewer"
+><firstname
+>Александр</firstname
+><surname
+>Поташев</surname
+><affiliation
+><address
+><email
+>aspotashev@gmail.com</email
+></address
+></affiliation
+><contrib
+>Рецензирование</contrib
+></othercredit
+> 
+    </authorgroup>
+<legalnotice
+>&FDLNotice;</legalnotice>
+<date
+>2018-10-27</date>
+    <releaseinfo
+>Applications 18.12</releaseinfo>
+<abstract>
+<para
+></para>
+    </abstract>
+    <keywordset>
+<keyword
+>KDE</keyword>
+<keyword
+>мультимедиа</keyword>
+<keyword
+>видео</keyword>
+</keywordset>
+</bookinfo>
+<!--userbase <timestamp
+>2018-10-27T11:21:38Z</timestamp
+>-->
+
+<!--userbase-content-->
+<chapter id="quick-start"
+><title
+>Быстрый старт</title
+> 
+<sect1 id="creating-a-new-project"
+><title
+>Создание нового проекта</title
+> 
+<para>
+<screenshot>
+<screeninfo
+></screeninfo>
+  <mediaobject>
+    <imageobject>
+      <imagedata fileref="kdenlive_quickstart-folder-structure.png" format="PNG"/>
+    </imageobject>
+    <textobject>
+      <phrase
+>Структура папок Kdenlive</phrase>
+    </textobject>
+    <caption>
+      <para
+>Структура папок Kdenlive</para>
+    </caption>
+  </mediaobject>
+</screenshot>
+</para>
+<para
+>Сначала создадим папку для нашего нового проекта. Назовём её <filename
+>quickstart-tutorial/</filename
+>. Далее нам понадобятся несколько образцов видеоклипов. В качестве примера загрузим эти: <ulink url="http://granjow.net/uploads/kdenlive/manual/kdenlive-tutorial-videos-2011-avi.tar.bz2"
+>kdenlive-tutorial-videos-2011-avi.tar.bz2</ulink
+> (7 МБ)<footnote
+><para
+>Если вы предпочитаете формат Theora, можете воспользоваться другим архивом <ulink url="http://granjow.net/uploads/kdenlive/manual/kdenlive-tutorial-videos-2011-ogv.tar.bz2"
+>kdenlive-tutorial-videos-2011-ogv.tar.bz2</ulink
+>.</para
+></footnote
+>, извлечём их в папку <filename
+>quickstart-tutorial/Videos/</filename
+>, расположенную внутри папки проекта. </para>
+<para
+>Сверху изображена предложенная структура папок. Каждый проект имеетсобственную папку. Видеофайлы находятся во вложенной папке <filename
+>Videos</filename
+>, звуковые файлы — в вложенной папке <filename
+>Audio</filename
+> и так далее (<ulink url="https://userbase.kde.org/Kdenlive/Manual/Projects_and_Files/ru#.D0.A4.D0.B0.D0.B9.D0.BB.D0.BE.D0.B2.D0.B0.D1.8F_.D1.81.D1.82.D1.80.D1.83.D0.BA.D1.82.D1.83.D1.80.D0.B0"
+>подробнее</ulink
+>). </para>
+<para
+>(Далее предполагается, что вы будете использовать предоставленные образцы видео, но использовать можно любые.) </para>
+<para>
+<screenshot>
+<screeninfo
+></screeninfo>
+  <mediaobject>
+    <imageobject>
+      <imagedata fileref="kdenlive_quickstart-new-project.png" format="PNG"/>
+    </imageobject>
+    <textobject>
+      <phrase
+>Окно «Параметры проекта»</phrase>
+    </textobject>
+    <caption>
+      <para
+>Окно «Параметры проекта»</para>
+    </caption>
+  </mediaobject>
+</screenshot>
+</para>
+<para
+>Open &kdenlive; and create a new project (<menuchoice
+><guimenu
+>File</guimenu
+><guimenuitem
+>New</guimenuitem
+></menuchoice
+>). </para>
+<para
+>Выберем ранее созданную нами папку проекта (<filename
+>quickstart-tutorial/</filename
+>) и соответствующий профиль проекта. Используемые нами файлы имеют параметры 720p, 23,98 кадров/с.<footnote
+><para
+><ulink url="https://ru.wikipedia.org/wiki/720p"
+>720</ulink
+> — высота кадра в пикселах, «p» обозначает <ulink url="https://ru.wikipedia.org/wiki/Прогрессивная_развёртка"
+>прогрессивную развёртку</ulink
+> для отличия от <ulink url="https://ru.wikipedia.org/wiki/Чересстрочная_развёртка"
+>чересстрочной развёртки</ulink
+>, а частота кадров соответствует числу показов полного кадра за секунду.</para
+></footnote
+> Если вы используете собственные файлы и не можете определиться с профилем, &kdenlive; предложит соответствующий профиль при добавлении первого клипа <footnote
+><para
+>Если в окне настройки Kdenlive в разделе <ulink url="https://userbase.kde.org/Special:myLanguage/Kdenlive/Manual/Settings_Menu/Configure_Kdenlive#Misc"
+>Разное</ulink
+> включён параметр <emphasis
+>Проверять соответствие первого добавленного клипа профилю проекта</emphasis
+></para
+></footnote
+>, поэтому можно оставить в поле выбора профиля произвольное значение. </para>
+</sect1>
+<sect1 id="adding-clips"
+><title
+>Добавление клипов</title
+> 
+<para>
+<screenshot>
+<screeninfo
+></screeninfo>
+  <mediaobject>
+    <imageobject>
+      <imagedata fileref="kdenlive_quickstart-add-clips.png" format="PNG"/>
+    </imageobject>
+    <textobject>
+      <phrase
+>Project Tree: Adding video clips</phrase>
+    </textobject>
+    <caption>
+      <para
+>Project Tree: Adding video clips</para>
+    </caption>
+  </mediaobject>
+</screenshot>
+</para>
+<para
+>Now that the project is ready, let’s start adding some clips (&ie; the ones you downloaded). This works via the <emphasis
+>Project Tree widget</emphasis
+>; a click on the <guilabel
+>Add Clip</guilabel
+> icon <inlinemediaobject
+> <imageobject
+> <imagedata fileref="Icon-add-clip.png" format="PNG"/> </imageobject
+> </inlinemediaobject
+> directly opens the file dialog, a click on the small arrow shows a list of additional clip types that can be added as well. Video clips, audio clips, images, and other &kdenlive; projects can be added via the default <guilabel
+>Add Clip</guilabel
+> dialog. </para>
+<para>
+<screenshot>
+<screeninfo
+></screeninfo>
+  <mediaobject>
+    <imageobject>
+      <imagedata fileref="kdenlive_quickstart-mainwindow.png" format="PNG"/>
+    </imageobject>
+    <textobject>
+      <phrase
+>Kdenlive 16.08 window with the tutorial files</phrase>
+    </textobject>
+    <caption>
+      <para
+>Kdenlive 16.08 window with the tutorial files</para>
+    </caption>
+  </mediaobject>
+</screenshot>
+</para>
+<para
+>После добавления клипов &kdenlive; будет выглядеть примерно так. Слева — уже знакомое нам дерево проекта. Посередине — вкладки свойств, эффектов и переходов. Справа — мониторы для просмотра видео: монитор клипа показывает видео оригинального клипа, монитор проекта показывает видео на выходе, с применёнными переходами, эффектами и тому подобным. Внизу находится монтажный стол, на котором редактируются клипы. На монтажном столе используются два типа дорожек: видеодорожки и звуковые дорожки. Видеодорожки могут содержать любые клипы, звуковые дорожки — тоже, но если видеоклип положить на звуковую дорожку, будет воспроизводиться только звук. </para>
+<para>
+<screenshot>
+<screeninfo
+></screeninfo>
+  <mediaobject>
+    <imageobject>
+      <imagedata fileref="kdenlive_quickstart-save-project.png" format="PNG"/>
+    </imageobject>
+    <textobject>
+      <phrase
+>Сохранение проекта Kdenlive</phrase>
+    </textobject>
+    <caption>
+      <para
+>Сохранение проекта Kdenlive</para>
+    </caption>
+  </mediaobject>
+</screenshot>
+</para>
+<para
+>Let’s save the work via <menuchoice
+><guimenu
+>File</guimenu
+><guimenuitem
+>Save</guimenuitem
+></menuchoice
+>. This saves our project, &ie; where we placed the clips on the timeline, which effects we applied, and so on. It can <emphasis
+>not</emphasis
+> be played.<footnote
+><para
+>To be correct, it <emphasis
+>can</emphasis
+> be played using <varname
+>melt yourproject.kdenlive</varname
+>, but this is not the way you would want to present your final video since it is (most likely) too slow. Additionally, it only works if melt is installed.</para
+></footnote
+> The process of creating the final video is called <emphasis
+>Rendering</emphasis
+>. </para>
+</sect1>
+<sect1 id="timeline"
+><title
+>Монтажный стол</title
+> 
+<para
+>See also <link linkend="timeline"
+>Timeline section of the manual</link
+> </para>
+<para
+>Теперь перейдём к самому редактированию. Клипы проекта объединяются в окончательный результат на монтажном столе. Добавить клип на монтажный стол можно с помощью простого перетаскивания: перетащите клип с неаполитанским соусом (Napoli) из дерева проекта на первую видеодорожку монтажного стола. </para>
+<para>
+<screenshot>
+<screeninfo
+></screeninfo>
+  <mediaobject>
+    <imageobject>
+      <imagedata fileref="kdenlive_quickstart-timeline-clips.png" format="PNG"/>
+    </imageobject>
+    <textobject>
+      <phrase
+>Первые клипы на монтажном столе</phrase>
+    </textobject>
+    <caption>
+      <para
+>Первые клипы на монтажном столе</para>
+    </caption>
+  </mediaobject>
+</screenshot>
+</para>
+<para
+>Поскольку к соусу нам понадобятся столовые приборы, возьмите клип с ложкой (spoon) и перетащите его также на первую дорожку. Затем перетащите клип с неаполитанским соусом (Napoli) на начало дорожки монтажного стола (иначе в начале окончательного видео на первых нескольких секундах будет чёрный экран), а клип с ложкой расположите сразу после клипа с соусом, как это показано на изображении сверху. (Мы увеличили масштаб, используя <keycombo
+>&Ctrl;<keycap
+>колесо мыши</keycap
+></keycombo
+>.) </para>
+<para>
+<screenshot>
+<screeninfo
+></screeninfo>
+  <mediaobject>
+    <imageobject>
+      <imagedata fileref="kdenlive_quickstart-timelinecursor.png" format="PNG"/>
+    </imageobject>
+    <textobject>
+      <phrase
+>Курсор монтажного стола</phrase>
+    </textobject>
+    <caption>
+      <para
+>Курсор монтажного стола</para>
+    </caption>
+  </mediaobject>
+</screenshot>
+</para>
+<para
+>Полученный результат уже можно просмотреть нажатием клавиши <keycap
+>Пробел</keycap
+> (или кнопки <guilabel
+>Воспроизвести</guilabel
+> на панели монитора проекта). Вы увидите, что после клипа Napoli сразу начнётся воспроизведение клипа Spoon. Если курсор монтажного стола расположен, допустим, в середине проекта, воспроизведение на мониторе проекта начнётся с середины клипа. Изменить местоположение точки начала воспроизведения можно либо перетаскиванием на линейке монтажного стола, либо перетаскиванием на мониторе проекта. Если вы предпочитаете использовать клавиатуру, <keycombo
+>&Ctrl;<keycap
+>Home</keycap
+></keycombo
+> переведёт курсор в начальную точку для активного монитора. (Выберите <guilabel
+>Монитор проекта</guilabel
+>, если он ещё не был выбран, прежде чем использовать комбинации клавиш.) </para>
+<para>
+<screenshot>
+<screeninfo
+></screeninfo>
+  <mediaobject>
+    <imageobject>
+      <imagedata fileref="kdenlive_quickstart-resize-marker.png" format="PNG"/>
+    </imageobject>
+    <textobject>
+      <phrase
+>Изменение размера</phrase>
+    </textobject>
+    <caption>
+      <para
+>Изменение размера</para>
+    </caption>
+  </mediaobject>
+</screenshot>
+</para>
+<para
+>После приёма пищи можно поиграть, у нас есть клип с бильярдом (Billard). Добавьте его на монтажный стол. В первые полторы секунды в клипе ничего не происходит, поэтому стоит <guilabel
+>вырезать</guilabel
+> эту часть, чтобы убрать скучный участок клипа. Простой способ <footnote
+><para
+>Есть ещё несколько способов вырезать участок из клипа.</para
+></footnote
+> выполнения этой задачи заключается в перемещении курсора до нужной позиции (то есть позиции, до которой хотите обрезать клип), затем следует перетащить левую границу клипа до курсора монтажного стола. При приближении она прилипнет к курсору. </para>
+<para>
+<screenshot>
+<screeninfo
+></screeninfo>
+  <mediaobject>
+    <imageobject>
+      <imagedata fileref="kdenlive_quickstart-overlap-clips.png" format="PNG"/>
+    </imageobject>
+    <textobject>
+      <phrase
+>Перекрытие клипов</phrase>
+    </textobject>
+    <caption>
+      <para
+>Перекрытие клипов</para>
+    </caption>
+  </mediaobject>
+</screenshot>
+</para>
+<para
+>Для добавления <emphasis
+>перехода</emphasis
+> между клипами с ложкой (Spoon) и игрой в бильярд (Billard) один клип должен перекрывать другой. А именно: клипы должны располагаться на разных дорожках, где первый клип должен заканчиваться на несколько кадров позже начала второго. Масштабирование до появления отдельных кадров позволит легко делать одинаковую продолжительность перехода, в данном случаеэто пять кадров. </para>
+<para
+>Масштабирование может осуществляться с помощью <guilabel
+>ползунка масштаба</guilabel
+>, расположенного в правой нижней части окна &kdenlive;, или используя <keycombo
+>&Ctrl;<keycap
+>колесо мыши</keycap
+></keycombo
+>. &kdenlive; увеличивает масштаб отрезка, расположенного вокруг курсора монтажного стола, поэтому сначала установите его в позицию, которую хотите увидеть в увеличенном масштабе. </para>
+<para>
+<screenshot>
+<screeninfo
+></screeninfo>
+  <mediaobject>
+    <imageobject>
+      <imagedata fileref="kdenlive-quickstart-add-transition.png" format="PNG"/>
+    </imageobject>
+    <textobject>
+      <phrase
+>Добавление перехода</phrase>
+    </textobject>
+    <caption>
+      <para
+>Добавление перехода</para>
+    </caption>
+  </mediaobject>
+</screenshot>
+</para>
+<para
+>Now that the clips overlap, the transition can be added. This is done either by right-clicking on the upper clip and choosing <guilabel
+>Add Transition</guilabel
+> or, easier, by clicking the green triangle that appears when you hover the mouse over the lower right corner of the Spoon clip. The latter, by default, adds a dissolve transition, which is in this case the best idea anyway since the Spoon is not required for playing. </para>
+<para
+>Переход «Наплыв» — плавное затухание первого клипа и одновременное плавное появление второго. </para>
+<para>
+<screenshot>
+<screeninfo
+></screeninfo>
+  <mediaobject>
+    <imageobject>
+      <imagedata fileref="kdenlive-quickstart-add-last-clip.png" format="PNG"/>
+    </imageobject>
+    <textobject>
+      <phrase
+></phrase>
+    </textobject>
+  </mediaobject>
+</screenshot>
+</para>
+<para
+>Давайте добавим последний клип, Piano, и снова применим переход «Наплыв».После добавления клипа на первую дорожку монтажного стола нажмите на левый нижний угол нового клипа для добавления перехода. </para>
+<sect2 id="effects"
+><title
+>Эффекты</title
+> 
+<para>
+<screenshot>
+<screeninfo
+></screeninfo>
+  <mediaobject>
+    <imageobject>
+      <imagedata fileref="kdenlive_quickstart-add-effect.png" format="PNG"/>
+    </imageobject>
+    <textobject>
+      <phrase
+>Список эффектов</phrase>
+    </textobject>
+    <caption>
+      <para
+>Список эффектов</para>
+    </caption>
+  </mediaobject>
+</screenshot>
+</para>
+<para
+>The Piano can be colourized by adding an <emphasis
+>effect</emphasis
+> to it. Select the piano clip, then double-click the <guilabel
+>RGB Adjustment</guilabel
+> effect in the <guilabel
+>Effect List</guilabel
+>. If it is not visible, you can get it via <menuchoice
+><guimenu
+>View</guimenu
+><guimenuitem
+>Effect List</guimenuitem
+></menuchoice
+>. </para>
+<para>
+<screenshot>
+<screeninfo
+></screeninfo>
+  <mediaobject>
+    <imageobject>
+      <imagedata fileref="kdenlive_quickstart-effect-flag.png" format="PNG"/>
+    </imageobject>
+    <textobject>
+      <phrase
+></phrase>
+    </textobject>
+  </mediaobject>
+</screenshot>
+</para>
+<para
+>Once the effect has been added, its name will be added to the timeline clip. It will also be shown in the <guilabel
+>Effect Stack</guilabel
+> widget. </para>
+<para>
+<screenshot>
+<screeninfo
+></screeninfo>
+  <mediaobject>
+    <imageobject>
+      <imagedata fileref="kdenlive-quickstart-effectstack.png" format="PNG"/>
+    </imageobject>
+    <textobject>
+      <phrase
+>Свойства эффекта Коррекция RGB</phrase>
+    </textobject>
+    <caption>
+      <para
+>Свойства эффекта Коррекция RGB</para>
+    </caption>
+  </mediaobject>
+</screenshot>
+</para>
+<para
+>Для получения тёплых жёлто-оранжевых тонов в клипе, создающих ощущение уютного вечера, долю компонента синего цвета нужно уменьшить, а красного и зелёного — увеличить. </para>
+<para
+>The values in the effect stack widget can be changed by using the slider (middle mouse button resets it to the default value), or by entering a value directly by double-clicking the number to the right of the slider. </para>
+<para
+>Effects can also be added with the <guilabel
+>Add new effect</guilabel
+> icon (framed in the image on the left) in the <guilabel
+>Effect Stack</guilabel
+>; It always refers to the timeline clip that is currently selected. By unchecking the checkbox they are temporarily disabled (the settings remain though), this is &eg; useful for effects that require a lot of computing power, so they can be disabled when editing and enabled again for rendering. </para>
+<para
+>При использовании некоторых эффектов можно добавлять ключевые кадры. В свойствах эффекта такая возможность будет отмечена значком с часами. Ключевые кадры используются для изменения параметров эффекта с течением времени. В нашем случае использование ключевых кадров предоставляет возможность постепенно изменить цвет клипа с пианино с тёплого вечернего на холодный ночной. </para>
+<para>
+<screenshot>
+<screeninfo
+></screeninfo>
+  <mediaobject>
+    <imageobject>
+      <imagedata fileref="kdenlive_quickstart-keyframes.png" format="PNG"/>
+    </imageobject>
+    <textobject>
+      <phrase
+>Ключевые кадры для эффектов</phrase>
+    </textobject>
+    <caption>
+      <para
+>Ключевые кадры для эффектов</para>
+    </caption>
+  </mediaobject>
+</screenshot>
+</para>
+<para
+>After clicking the <guilabel
+>keyframe</guilabel
+> icon (the clock icon framed in the previous image), the Effect Stack widget will re-arrange. By default there will be two keyframes, one at the beginning of the timeline clip and one at the end. Move the timeline cursor to the end of the timeline clip, such that the project monitor actually shows the new colours when changing the parameters of the keyframe at the end. </para>
+<para
+>Make sure the last keyframe is selected in the Effect Stack’s list. Then you are ready to flood the piano with a deep blue. </para>
+<para
+>Переместите курсор монтажного стола в начало проекта и воспроизведите его (с помощью клавиши <keycap
+>Пробел</keycap
+> или кнопки <guilabel
+>Воспроизведение</guilabel
+> на <guilabel
+>Мониторе проекта</guilabel
+>), пианино теперь меняет тон указанным вами образом. </para>
+<para
+>Ключевые кадры — самая сложная часть этого урока. Если вы поняли принцип их работы, то с лёгкостью освоите &kdenlive;! </para>
+<para
+>See also <link linkend="effects"
+>Effects section of the manual</link
+>. </para>
+</sect2>
+<sect2 id="music"
+><title
+>Музыка</title
+> 
+<para>
+<screenshot>
+<screeninfo
+></screeninfo>
+  <mediaobject>
+    <imageobject>
+      <imagedata fileref="kdenlive_quickstart-fadeout.png" format="PNG"/>
+    </imageobject>
+    <textobject>
+      <phrase
+>Затухание звука</phrase>
+    </textobject>
+    <caption>
+      <para
+>Затухание звука</para>
+    </caption>
+  </mediaobject>
+</screenshot>
+</para>
+<para
+>Так как эти клипы не содержат звука, давайте найдём к нашему проекту хорошее музыкальное произведение, из вашей коллекции или на сайтах вроде <ulink url="http://www.jamendo.com"
+>Jamendo</ulink
+>. После добавления звукового клипа нужно перетащить его на звуковую дорожку на монтажном столе. </para>
+<para
+>The audio clip can be resized on the timeline the same way as video clips are. The cursor will snap in at the end of the project automatically. To add a fade out effect at the end of the audio clip (except if you found a file with exactly the right length) you can hover the top right (or left) edge of the timeline clip and drag the green disc to the position where fading out should start.<footnote
+><para
+>This green disc is a shorthand for adding the effect <menuchoice
+><guimenu
+>Fade</guimenu
+><guimenuitem
+>Fade out</guimenuitem
+></menuchoice
+>. Both ways lead to the same result.</para
+></footnote>
+</para>
+</sect2>
+</sect1>
+<sect1 id="rendering"
+><title
+>Сборка проекта</title
+> 
+<para>
+<screenshot>
+<screeninfo
+></screeninfo>
+  <mediaobject>
+    <imageobject>
+      <imagedata fileref="kdenlive_quickstart-renderer.png" format="PNG"/>
+    </imageobject>
+    <textobject>
+      <phrase
+>Диалоговое окно сборки</phrase>
+    </textobject>
+    <caption>
+      <para
+>Диалоговое окно сборки</para>
+    </caption>
+  </mediaobject>
+</screenshot>
+</para>
+<para
+>A few minutes left, and the project is finished! Click the Render button (or go to <menuchoice
+><guimenu
+>Project</guimenu
+><guimenuitem
+>Render</guimenuitem
+></menuchoice
+>, or press <keycombo
+>&Ctrl;&Enter;</keycombo
+>) to get the dialog shown on the left. Select the desired output file for our new video with all effects and transitions, choose MPEG4 (works nearly everywhere) and a bitrate of 2000k (the higher the bitrate, the larger the output file and the better the quality – but since the bitrate for the input clips was 2000k already, using a higher one would not improve quality and is therefore unnecessary), and press the <guilabel
+>Render to File</guilabel
+> button. </para>
+<para>
+<screenshot>
+<screeninfo
+></screeninfo>
+  <mediaobject>
+    <imageobject>
+      <imagedata fileref="kdenlive_quickstart-rendering.png" format="PNG"/>
+    </imageobject>
+    <textobject>
+      <phrase
+>Процесс сборки</phrase>
+    </textobject>
+    <caption>
+      <para
+>Процесс сборки</para>
+    </caption>
+  </mediaobject>
+</screenshot>
+</para>
+<para
+>Через несколько секунд сборка завершится, и ваш первый проект в &kdenlive; будет завершён. Поздравляем! </para>
+<screenshot>
+<screeninfo
+></screeninfo>
+  <mediaobject>
+    <imageobject>
+      <imagedata fileref="kdenlive_quickstart-rendering.png" format="PNG"/>
+    </imageobject>
+    <textobject>
+      <phrase
+>Процесс сборки</phrase>
+    </textobject>
+    <caption>
+      <para
+>Процесс сборки</para>
+    </caption>
+  </mediaobject>
+</screenshot>
+</sect1>
+<sect1>
+<title
+>Полное руководство</title
+> 
+<para
+>Более подробную информацию по работе с текущей версией &kdenlive; можно найти в <ulink url="http://userbase.kde.org/Special:myLanguage/Kdenlive/Manual"
+>полном руководстве пользователя</ulink
+>. </para>
+</sect1>
+
+</chapter>
+
+<!--userbase-content-->
+<chapter id="credits">
+<title
+>Авторские права и лицензия</title>
+    <para
+>Список авторов оригинала документации и историю её версий можнопосмотреть здесь: <ulink url="http://userbase.kde.org/index.php?title=Kdenlive/Manual/QuickStart&amp;action=history"
+>Kdenlive/Manual/QuickStart — история изменений</ulink
+>.</para>
+    <para
+>Перевод на русский язык: Николай Смольянинов <email
+>smolianinow.colya2016@yandex.ru</email
+></para
+> <para
+>Рецензирование перевода: Александр Поташев <email
+>aspotashev@gmail.com</email
+></para
+> &underFDL; </chapter>
+&documentation.index;
+</book>
