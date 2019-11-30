@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2019-11-30 03:18+0100\n"
-"PO-Revision-Date: 2019-11-30 11:13+0300\n"
+"PO-Revision-Date: 2019-11-30 13:16+0300\n"
 "Last-Translator: Николай Смольянинов <smolianinow.colya2016@yandex.ru>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -4904,9 +4904,9 @@ msgid "Color Bars"
 msgstr "Цветные полосы"
 
 #: data/generators/frei0r_test_pat_b.xml:4
-#, fuzzy, kde-format
+#, kde-format
 msgid "Generates test card lookalikes"
-msgstr "Создает двойников тестовых карт"
+msgstr "Генерирует копию настроечного телевизионного сигнала"
 
 #: data/generators/frei0r_test_pat_b.xml:7
 #, no-c-format, kde-format
@@ -5139,7 +5139,7 @@ msgstr "Форсировать деинтерлейс наложением"
 #: data/transitions/slide.xml:3 src/monitor/view/kdenlivemonitorripple.qml:83
 #, kde-format
 msgid "Slide"
-msgstr "Скольжение"
+msgstr "Слайд"
 
 #: data/transitions/slide.xml:4
 #, kde-format
@@ -10974,12 +10974,12 @@ msgstr "Точка выхода"
 #: src/monitor/view/kdenlivemonitorripple.qml:23
 #, kde-format
 msgid "Ripple"
-msgstr ""
+msgstr "Обрезка со сдвигом"
 
 #: src/monitor/view/kdenlivemonitorripple.qml:43
 #, kde-format
 msgid "Rolling"
-msgstr ""
+msgstr "Прокрутка"
 
 #: src/monitor/view/kdenlivemonitorripple.qml:63
 #, kde-format
@@ -11104,9 +11104,9 @@ msgid "Destination folder"
 msgstr "Папка назначения"
 
 #: src/project/clipstabilize.cpp:75 src/project/clipstabilize.cpp:165
-#, fuzzy, kde-format
+#, kde-format
 msgid "Last setting"
-msgstr "Последняя настройка"
+msgstr "Завершающие параметры"
 
 #: src/project/clipstabilize.cpp:159
 #, kde-format
