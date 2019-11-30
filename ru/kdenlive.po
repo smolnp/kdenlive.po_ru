@@ -17,8 +17,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-28 03:11+0100\n"
-"PO-Revision-Date: 2019-11-28 11:05+0300\n"
+"POT-Creation-Date: 2019-11-30 03:18+0100\n"
+"PO-Revision-Date: 2019-11-30 11:13+0300\n"
 "Last-Translator: Николай Смольянинов <smolianinow.colya2016@yandex.ru>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -5456,18 +5456,18 @@ msgid "Missing keyframe detected at %1, automatically re-added"
 msgstr ""
 "Утерян ключевой кадр в позиции %1. Кадр добавлен повторно автоматически"
 
-#: src/assets/model/assetcommand.cpp:41 src/assets/model/assetcommand.cpp:44
-#: src/assets/model/assetcommand.cpp:92 src/assets/model/assetcommand.cpp:95
+#: src/assets/model/assetcommand.cpp:40 src/assets/model/assetcommand.cpp:42
+#: src/assets/model/assetcommand.cpp:89 src/assets/model/assetcommand.cpp:91
 #, kde-format
 msgid "Edit %1"
 msgstr "Изменить %1"
 
-#: src/assets/model/assetcommand.cpp:154 src/assets/model/assetcommand.cpp:157
+#: src/assets/model/assetcommand.cpp:149 src/assets/model/assetcommand.cpp:151
 #, kde-format
 msgid "Edit %1 keyframe"
 msgstr "Изменить %1 ключевой кадр"
 
-#: src/assets/model/assetcommand.cpp:198 src/assets/model/assetcommand.cpp:201
+#: src/assets/model/assetcommand.cpp:191 src/assets/model/assetcommand.cpp:193
 #, kde-format
 msgid "Update %1"
 msgstr "Обновлено %1"
@@ -5595,7 +5595,7 @@ msgstr "Удалить все ключевые кадры за курсором"
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: src/assets/view/widgets/animationwidget.cpp:201
 #: src/assets/view/widgets/keyframewidget.cpp:155 src/bin/bin.cpp:784
-#: src/monitor/monitor.cpp:333 src/ui/clipstabilize_ui.ui:20
+#: src/monitor/monitor.cpp:337 src/ui/clipstabilize_ui.ui:20
 #, kde-format
 msgid "Options"
 msgstr "Параметры"
@@ -5865,12 +5865,12 @@ msgstr "Тень"
 
 #: src/audiomixer/mixermanager.cpp:166
 #: src/audiospectrum/audiographspectrum.cpp:105
-#: src/timeline2/view/qml/timeline.qml:756
+#: src/timeline2/view/qml/timeline.qml:757
 #, kde-format
 msgid "Master"
 msgstr "Мастер"
 
-#: src/audiomixer/mixerwidget.cpp:151 src/monitor/monitor.cpp:288
+#: src/audiomixer/mixerwidget.cpp:151 src/monitor/monitor.cpp:292
 #, kde-format
 msgid "Volume"
 msgstr "Громкость"
@@ -6009,7 +6009,7 @@ msgid "Delete bin Clips"
 msgstr "Удалить клипы из корзины"
 
 #: src/bin/bin.cpp:1075 src/bin/bin.cpp:1220 src/dialogs/renderwidget.cpp:722
-#: src/dialogs/renderwidget.cpp:1013 src/dialogs/renderwidget.cpp:2241
+#: src/dialogs/renderwidget.cpp:1013 src/dialogs/renderwidget.cpp:2243
 #, kde-format
 msgid "Unable to write to file %1"
 msgstr "Запись в файл %1 невозможна"
@@ -6401,17 +6401,17 @@ msgstr ""
 "Размер изображения не превышает 8 пикселей.\n"
 "Это не предусмотрено в поддержке нашего видеофреймворка."
 
-#: src/bin/projectclip.cpp:1234
+#: src/bin/projectclip.cpp:1237
 #, kde-format
 msgid "Clip already contains analysis data %1"
 msgstr "Клип уже содержит данные анализа %1"
 
-#: src/bin/projectclip.cpp:1234
+#: src/bin/projectclip.cpp:1237
 #, kde-format
 msgid "Merge"
 msgstr "Объединить"
 
-#: src/bin/projectclip.cpp:1235
+#: src/bin/projectclip.cpp:1238
 #, kde-format
 msgid "Add"
 msgstr "Добавить"
@@ -6462,22 +6462,22 @@ msgstr "Неизвестно"
 msgid "Zone"
 msgstr "Участок"
 
-#: src/bin/projectitemmodel.cpp:666
+#: src/bin/projectitemmodel.cpp:671
 #, fuzzy, kde-format
 msgid "Add bin clip"
 msgstr "Добавить клип корзины"
 
-#: src/bin/projectitemmodel.cpp:735
+#: src/bin/projectitemmodel.cpp:740
 #, kde-format
 msgid "Add a sub clip"
 msgstr "Добавить подклип"
 
-#: src/bin/projectitemmodel.cpp:776
+#: src/bin/projectitemmodel.cpp:781
 #, kde-format
 msgid "Rename Folder"
 msgstr "Переименовать папку"
 
-#: src/bin/projectitemmodel.cpp:805 src/mainwindow.cpp:1197
+#: src/bin/projectitemmodel.cpp:810 src/mainwindow.cpp:1197
 #, kde-format
 msgid "Clean Project"
 msgstr "Очистить проект"
@@ -6903,8 +6903,8 @@ msgstr ""
 "Профиль с таким именем уже существует в профилях MLT по умолчанию, выберите "
 "другое имя для этого профиля."
 
-#: src/dialogs/renderwidget.cpp:123 src/dialogs/renderwidget.cpp:1617
-#: src/dialogs/renderwidget.cpp:2681
+#: src/dialogs/renderwidget.cpp:123 src/dialogs/renderwidget.cpp:1619
+#: src/dialogs/renderwidget.cpp:2683
 #, kde-format
 msgid "Waiting..."
 msgstr "Ожидание..."
@@ -7050,8 +7050,8 @@ msgstr ""
 
 #: src/dialogs/renderwidget.cpp:728 src/dialogs/renderwidget.cpp:957
 #: src/dialogs/renderwidget.cpp:963 src/dialogs/renderwidget.cpp:1019
-#: src/dialogs/renderwidget.cpp:1587 src/dialogs/renderwidget.cpp:1592
-#: src/dialogs/renderwidget.cpp:2815 src/dialogs/renderwidget.cpp:2839
+#: src/dialogs/renderwidget.cpp:1589 src/dialogs/renderwidget.cpp:1594
+#: src/dialogs/renderwidget.cpp:2817 src/dialogs/renderwidget.cpp:2841
 #: src/doc/kdenlivedoc.cpp:626 src/doc/kdenlivedoc.cpp:632
 #: src/dvdwizard/dvdwizard.cpp:995 src/dvdwizard/dvdwizard.cpp:1001
 #: src/profiles/profilerepository.cpp:200
@@ -7062,8 +7062,8 @@ msgstr ""
 msgid "Cannot write to file %1"
 msgstr "Запись в файл %1 невозможна"
 
-#: src/dialogs/renderwidget.cpp:749 src/dialogs/renderwidget.cpp:2221
-#: src/dialogs/renderwidget.cpp:2277
+#: src/dialogs/renderwidget.cpp:749 src/dialogs/renderwidget.cpp:2223
+#: src/dialogs/renderwidget.cpp:2279
 #, kde-format
 msgctxt "Category Name"
 msgid "Custom"
@@ -7081,7 +7081,7 @@ msgstr ""
 "Не найдено приложение melt (является частью MLT), необходимое для проведения "
 "сборки"
 
-#: src/dialogs/renderwidget.cpp:1094 src/dialogs/renderwidget.cpp:2656
+#: src/dialogs/renderwidget.cpp:1094 src/dialogs/renderwidget.cpp:2658
 #: src/project/dialogs/archivewidget.cpp:858
 #, kde-format
 msgid "Output file already exists. Do you want to overwrite it?"
@@ -7129,7 +7129,7 @@ msgctxt "the first in a list of chapters"
 msgid "Start"
 msgstr "Запустить"
 
-#: src/dialogs/renderwidget.cpp:1606 src/dialogs/renderwidget.cpp:2668
+#: src/dialogs/renderwidget.cpp:1608 src/dialogs/renderwidget.cpp:2670
 #, kde-format
 msgid ""
 "There is already a job writing file:<br /><b>%1</b><br />Abort the job if "
@@ -7138,47 +7138,47 @@ msgstr ""
 "Выполняется задание по записи файла:<br><b>%1</b><br>Отмените задание, чтобы "
 "перезаписать файл..."
 
-#: src/dialogs/renderwidget.cpp:1607 src/dialogs/renderwidget.cpp:2669
+#: src/dialogs/renderwidget.cpp:1609 src/dialogs/renderwidget.cpp:2671
 #, kde-format
 msgid "Already running"
 msgstr "Уже запущено"
 
-#: src/dialogs/renderwidget.cpp:1623 src/dialogs/renderwidget.cpp:1645
+#: src/dialogs/renderwidget.cpp:1625 src/dialogs/renderwidget.cpp:1647
 #, kde-format
 msgid "Video without audio track"
 msgstr "Видео без звуковой дорожки"
 
-#: src/dialogs/renderwidget.cpp:1747
+#: src/dialogs/renderwidget.cpp:1749
 #, kde-format
 msgid "Rendering <i>%1</i> started"
 msgstr "Сборка <i>%1</i> запущена"
 
-#: src/dialogs/renderwidget.cpp:1799
+#: src/dialogs/renderwidget.cpp:1801
 #, kde-format
 msgid "Standard (%1) not compatible with project profile (%2)"
 msgstr "Стандарт (%1) не совместим с профилем проекта (%2)"
 
-#: src/dialogs/renderwidget.cpp:1812
+#: src/dialogs/renderwidget.cpp:1814
 #, kde-format
 msgid "Frame rate (%1) not compatible with project profile (%2)"
 msgstr "Частота смены кадров (%1) не совместима с профилем проекта (%2)"
 
-#: src/dialogs/renderwidget.cpp:1831
+#: src/dialogs/renderwidget.cpp:1833
 #, kde-format
 msgid "Unsupported video format: %1"
 msgstr "Неподдерживаемый формат видео: %1"
 
-#: src/dialogs/renderwidget.cpp:1848
+#: src/dialogs/renderwidget.cpp:1850
 #, kde-format
 msgid "Unsupported audio codec: %1"
 msgstr "Неподдерживаемый аудиокодек: %1"
 
-#: src/dialogs/renderwidget.cpp:1865
+#: src/dialogs/renderwidget.cpp:1867
 #, kde-format
 msgid "Unsupported video codec: %1"
 msgstr "Неподдерживаемый видеокодек: %1"
 
-#: src/dialogs/renderwidget.cpp:1876
+#: src/dialogs/renderwidget.cpp:1878
 #, kde-format
 msgid ""
 "This render profile uses a 'profile' parameter.<br />Unless you know what "
@@ -7188,39 +7188,39 @@ msgstr ""
 "неуверенным в правильности такого выбора, лучше изменить параметр на "
 "mlt_profile."
 
-#: src/dialogs/renderwidget.cpp:1904 src/monitor/monitor.cpp:1002
+#: src/dialogs/renderwidget.cpp:1906 src/monitor/monitor.cpp:1004
 #, kde-format
 msgid "untitled"
 msgstr "безымянный"
 
-#: src/dialogs/renderwidget.cpp:1935
+#: src/dialogs/renderwidget.cpp:1937
 #, kde-format
 msgid "No matching profile"
 msgstr "Нет соответствующего профиля"
 
-#: src/dialogs/renderwidget.cpp:1939
+#: src/dialogs/renderwidget.cpp:1941
 #, kde-format
 msgid "Invalid profile"
 msgstr "Недопустимый профиль"
 
-#: src/dialogs/renderwidget.cpp:2100
+#: src/dialogs/renderwidget.cpp:2102
 #, kde-format
 msgid "Lossless/HQ"
 msgstr "Без потерь/HQ"
 
-#: src/dialogs/renderwidget.cpp:2143
+#: src/dialogs/renderwidget.cpp:2145
 #, kde-format
 msgctxt "Category Name"
 msgid "Images sequence"
 msgstr "Серия изображений"
 
-#: src/dialogs/renderwidget.cpp:2355
+#: src/dialogs/renderwidget.cpp:2357
 #, kde-format
 msgctxt "Attribute Name"
 msgid "Custom"
 msgstr "Пользовательский"
 
-#: src/dialogs/renderwidget.cpp:2449 src/dialogs/renderwidget.cpp:2477
+#: src/dialogs/renderwidget.cpp:2451 src/dialogs/renderwidget.cpp:2479
 #, kde-format
 msgid "%1 day "
 msgid_plural "%1 days "
@@ -7229,49 +7229,49 @@ msgstr[1] "%1 дня "
 msgstr[2] "%1 дней "
 msgstr[3] "%1 день "
 
-#: src/dialogs/renderwidget.cpp:2451
+#: src/dialogs/renderwidget.cpp:2453
 #, kde-format
 msgid "Remaining time %1"
 msgstr "До завершения осталось %1"
 
-#: src/dialogs/renderwidget.cpp:2479
+#: src/dialogs/renderwidget.cpp:2481
 #, kde-format
 msgid "Rendering finished in %1"
 msgstr "Сборка завершена в %1"
 
-#: src/dialogs/renderwidget.cpp:2488
+#: src/dialogs/renderwidget.cpp:2490
 #, kde-format
 msgid "Rendering of %1 finished in %2"
 msgstr "Сборка %1 завершена в %2"
 
-#: src/dialogs/renderwidget.cpp:2505
+#: src/dialogs/renderwidget.cpp:2507
 #, kde-format
 msgid "<strong>Rendering of %1 crashed</strong><br />"
 msgstr "<strong>Во время сборки %1 произошёл сбой</strong><br />"
 
 #. i18n: ectx: property (text), widget (QPushButton, abort_job)
-#: src/dialogs/renderwidget.cpp:2548 src/ui/renderwidget_ui.ui:819
+#: src/dialogs/renderwidget.cpp:2550 src/ui/renderwidget_ui.ui:819
 #, kde-format
 msgid "Abort Job"
 msgstr "Прервать задание"
 
-#: src/dialogs/renderwidget.cpp:2551
+#: src/dialogs/renderwidget.cpp:2553
 #, kde-format
 msgid "Remove Job"
 msgstr "Удалить задание"
 
-#: src/dialogs/renderwidget.cpp:2924
+#: src/dialogs/renderwidget.cpp:2926
 #, kde-format
 msgid "Export audio (automatic)"
 msgstr "Экспорт звука (автоматически)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, export_audio)
-#: src/dialogs/renderwidget.cpp:2926 src/ui/renderwidget_ui.ui:677
+#: src/dialogs/renderwidget.cpp:2928 src/ui/renderwidget_ui.ui:677
 #, kde-format
 msgid "Export audio"
 msgstr "Экспорт звука"
 
-#: src/dialogs/renderwidget.cpp:3019
+#: src/dialogs/renderwidget.cpp:3021
 #, kde-format
 msgid ""
 "Codec speed parameters:\n"
@@ -7281,12 +7281,12 @@ msgstr ""
 "%1"
 
 # https://userbase.kde.org/Kdenlive/Manual/Projects_and_Files/Clips#Proxy_clips
-#: src/dialogs/renderwidget.cpp:3057
+#: src/dialogs/renderwidget.cpp:3059
 #, kde-format
 msgid "Rendering using low quality proxy"
 msgstr "Сборка идёт с использованием низкокачественного прокси"
 
-#: src/dialogs/renderwidget.cpp:3074
+#: src/dialogs/renderwidget.cpp:3076
 #, kde-format
 msgid "Add to current project"
 msgstr "Добавить в текущий проект"
@@ -8168,7 +8168,7 @@ msgstr "Проект DVD (*.kdvd)"
 msgid "File %1 is not a Kdenlive project file."
 msgstr "Файл %1 не является файлом проекта Kdenlive."
 
-#: src/dvdwizard/dvdwizardmenu.cpp:167 src/monitor/monitor.cpp:237
+#: src/dvdwizard/dvdwizardmenu.cpp:167 src/monitor/monitor.cpp:241
 #: src/monitor/monitormanager.cpp:364
 #, kde-format
 msgid "Play"
@@ -8328,12 +8328,12 @@ msgstr "Удалить эффект %1"
 msgid "Copy effect"
 msgstr "Копировать эффект"
 
-#: src/effects/effectstack/model/effectstackmodel.cpp:478
+#: src/effects/effectstack/model/effectstackmodel.cpp:477
 #, kde-format
 msgid "Add effect %1"
 msgstr "Добавить эффект %1"
 
-#: src/effects/effectstack/model/effectstackmodel.cpp:773
+#: src/effects/effectstack/model/effectstackmodel.cpp:771
 #, kde-format
 msgid "Move effect %1"
 msgstr "Переместить эффект %1"
@@ -9228,7 +9228,7 @@ msgid "Monitor %1"
 msgstr "Монитор %1"
 
 #: src/mainwindow.cpp:301 src/monitor/recmanager.cpp:120
-#: src/timeline2/view/qml/timeline.qml:674
+#: src/timeline2/view/qml/timeline.qml:675
 #, kde-format
 msgid "Configure Recording"
 msgstr "Настройка записи"
@@ -9878,12 +9878,12 @@ msgstr "Сгруппировать клипы"
 msgid "Ungroup Clips"
 msgstr "Разгруппировать клипы"
 
-#: src/mainwindow.cpp:1424 src/timeline2/view/qml/timeline.qml:514
+#: src/mainwindow.cpp:1424 src/timeline2/view/qml/timeline.qml:515
 #, kde-format
 msgid "Insert Space"
 msgstr "Вставить пробел"
 
-#: src/mainwindow.cpp:1425 src/timeline2/view/qml/timeline.qml:530
+#: src/mainwindow.cpp:1425 src/timeline2/view/qml/timeline.qml:531
 #, kde-format
 msgid "Remove Space"
 msgstr "Удалить пробел"
@@ -9907,7 +9907,7 @@ msgstr "Мастер эффекты"
 #: src/timeline2/view/dialogs/trackdialog.cpp:31
 #: src/timeline2/view/dialogs/trackdialog.cpp:66
 #: src/timeline2/view/dialogs/tracksconfigdialog.cpp:89
-#: src/timeline2/view/qml/timeline.qml:656
+#: src/timeline2/view/qml/timeline.qml:657
 #, kde-format
 msgid "Delete Track"
 msgstr "Удалить дорожку"
@@ -9928,10 +9928,10 @@ msgid "Disable Timeline Preview"
 msgstr "Отключить предпросмотр монтажного стола"
 
 #: src/mainwindow.cpp:1469 src/monitor/view/SceneToolBar.qml:80
-#: src/timeline2/view/qml/timeline.qml:539
-#: src/timeline2/view/qml/timeline.qml:579
-#: src/timeline2/view/qml/timeline.qml:594
-#: src/timeline2/view/qml/timeline.qml:628
+#: src/timeline2/view/qml/timeline.qml:540
+#: src/timeline2/view/qml/timeline.qml:580
+#: src/timeline2/view/qml/timeline.qml:595
+#: src/timeline2/view/qml/timeline.qml:629
 #, kde-format
 msgid "Add Guide"
 msgstr "Добавить направляющую"
@@ -9941,8 +9941,8 @@ msgstr "Добавить направляющую"
 msgid "Delete Guide"
 msgstr "Удалить направляющую"
 
-#: src/mainwindow.cpp:1471 src/timeline2/view/qml/timeline.qml:554
-#: src/timeline2/view/qml/timeline.qml:609
+#: src/mainwindow.cpp:1471 src/timeline2/view/qml/timeline.qml:555
+#: src/timeline2/view/qml/timeline.qml:610
 #, kde-format
 msgid "Edit Guide"
 msgstr "Изменить направляющую"
@@ -9982,7 +9982,7 @@ msgstr "Вкл/Выкл целевую дорожку"
 msgid "Toggle Track Active"
 msgstr "Вкл/Выкл активную дорожку"
 
-#: src/mainwindow.cpp:1528 src/timeline2/view/qml/timeline.qml:617
+#: src/mainwindow.cpp:1528 src/timeline2/view/qml/timeline.qml:618
 #, kde-format
 msgid "Add Project Note"
 msgstr "Добавить заметку к проекту"
@@ -10597,124 +10597,124 @@ msgstr ""
 "Что-то не так с установленной версией Kdenlive или настройкой драйверов, "
 "требуется устранение проблем."
 
-#: src/monitor/monitor.cpp:212
+#: src/monitor/monitor.cpp:216
 #, kde-format
 msgid "Insert Zone to Project Bin"
 msgstr "Вставить участок в корзину проекта"
 
-#: src/monitor/monitor.cpp:219 src/monitor/monitormanager.cpp:478
+#: src/monitor/monitor.cpp:223 src/monitor/monitormanager.cpp:478
 #, kde-format
 msgid "Set Zone In"
 msgstr "Установить начало участка"
 
-#: src/monitor/monitor.cpp:220 src/monitor/monitormanager.cpp:482
+#: src/monitor/monitor.cpp:224 src/monitor/monitormanager.cpp:482
 #, kde-format
 msgid "Set Zone Out"
 msgstr "Установить конец участка"
 
-#: src/monitor/monitor.cpp:235
+#: src/monitor/monitor.cpp:239
 #, kde-format
 msgid "Play..."
 msgstr "Воспроизвести..."
 
-#: src/monitor/monitor.cpp:237 src/monitor/monitormanager.cpp:364
+#: src/monitor/monitor.cpp:241 src/monitor/monitormanager.cpp:364
 #: src/monitor/monitormanager.cpp:370
 #, kde-format
 msgid "Pause"
 msgstr "Пауза"
 
-#: src/monitor/monitor.cpp:257
+#: src/monitor/monitor.cpp:261
 #, kde-format
 msgid "Misc..."
 msgstr "Разное..."
 
-#: src/monitor/monitor.cpp:261
+#: src/monitor/monitor.cpp:265
 #, kde-format
 msgid "Go to marker..."
 msgstr "Перейти к маркеру..."
 
-#: src/monitor/monitor.cpp:263 src/timeline2/view/qml/timeline.qml:545
-#: src/timeline2/view/qml/timeline.qml:600
+#: src/monitor/monitor.cpp:267 src/timeline2/view/qml/timeline.qml:546
+#: src/timeline2/view/qml/timeline.qml:601
 #, kde-format
 msgid "Go to guide..."
 msgstr "Перейти к направляющей..."
 
-#: src/monitor/monitor.cpp:268
+#: src/monitor/monitor.cpp:272
 #, kde-format
 msgid "Force Monitor Size"
 msgstr "Форсировать размер монитора"
 
-#: src/monitor/monitor.cpp:269
+#: src/monitor/monitor.cpp:273
 #, kde-format
 msgid "Force 100%"
 msgstr "Форсировать 100%"
 
-#: src/monitor/monitor.cpp:271
+#: src/monitor/monitor.cpp:275
 #, kde-format
 msgid "Force 50%"
 msgstr "Форсировать 50%"
 
-#: src/monitor/monitor.cpp:273
+#: src/monitor/monitor.cpp:277
 #, kde-format
 msgid "Free Resize"
 msgstr "Произвольный размер"
 
-#: src/monitor/monitor.cpp:286
+#: src/monitor/monitor.cpp:290
 #, kde-format
 msgid "Audio volume"
 msgstr "Громкость звука"
 
-#: src/monitor/monitor.cpp:321
+#: src/monitor/monitor.cpp:325
 #, kde-format
 msgid "Show/Hide edit mode"
 msgstr "Показать/Скрыть режим редактирования"
 
-#: src/monitor/monitor.cpp:484
+#: src/monitor/monitor.cpp:488
 #, kde-format
 msgid "Save zone"
 msgstr "Сохранить участок"
 
-#: src/monitor/monitor.cpp:486
+#: src/monitor/monitor.cpp:490
 #, kde-format
 msgid "Extract Zone"
 msgstr "Извлечь участок"
 
-#: src/monitor/monitor.cpp:496
+#: src/monitor/monitor.cpp:500
 #, kde-format
 msgid "Set current image as thumbnail"
 msgstr "Установить текущее изображение как миниатюру"
 
-#: src/monitor/monitor.cpp:504
+#: src/monitor/monitor.cpp:508
 #, kde-format
 msgid "Show Audio Levels"
 msgstr "Показать уровни звука"
 
-#: src/monitor/monitor.cpp:538
+#: src/monitor/monitor.cpp:542
 #, kde-format
 msgid "Your screen resolution is not sufficient for this action"
 msgstr "Ваше разрешение экрана не позволяет выполнить это действие"
 
-#: src/monitor/monitor.cpp:1014
+#: src/monitor/monitor.cpp:1016
 #, kde-format
 msgid "Save Image"
 msgstr "Сохранить изображение"
 
-#: src/monitor/monitor.cpp:1014
+#: src/monitor/monitor.cpp:1016
 #, kde-format
 msgid "Save Image to Project"
 msgstr "Сохранить изображение в проект"
 
-#: src/monitor/monitor.cpp:1019
+#: src/monitor/monitor.cpp:1021
 #, kde-format
 msgid "Export image using source resolution"
 msgstr "Экспорт изображения с использованием разрешения источника"
 
-#: src/monitor/monitor.cpp:1735
+#: src/monitor/monitor.cpp:1737
 #, kde-format
 msgid "Cannot initialize Movit's GLSL manager, please disable Movit"
 msgstr "Не удалось инициализировать менеджер GLSL Movit, отключите Movit"
 
-#: src/monitor/monitor.cpp:1777 src/monitor/monitor.cpp:1829
+#: src/monitor/monitor.cpp:1779 src/monitor/monitor.cpp:1831
 #, kde-format
 msgid ""
 "The alphagrad filter is required for that feature, please install frei0r and "
@@ -10723,17 +10723,17 @@ msgstr ""
 "Для данной функции требуется фильтр alphagrad. Установите frei0r и "
 "перезапустите Kdenlive"
 
-#: src/monitor/monitor.cpp:1797
+#: src/monitor/monitor.cpp:1799
 #, kde-format
 msgid "Clip has no effects"
 msgstr "В клипе отсутствуют какие либо эффекты"
 
-#: src/monitor/monitor.cpp:1799
+#: src/monitor/monitor.cpp:1801
 #, kde-format
 msgid "Select a clip in project bin to compare effect"
 msgstr "Для сравнения эффектов выберите клип в корзине проекта"
 
-#: src/monitor/monitor.cpp:1836
+#: src/monitor/monitor.cpp:1838
 #, kde-format
 msgid ""
 "The cairoblend transition is required for that feature, please install "
@@ -10742,7 +10742,7 @@ msgstr ""
 "Для данной функции требуется переход cairoblend. Установите frei0r и "
 "перезапустите Kdenlive"
 
-#: src/monitor/monitor.cpp:1882
+#: src/monitor/monitor.cpp:1884
 #, kde-format
 msgid "Enable edit mode in monitor to edit effect"
 msgstr "Для редактирования эффекта включите режим редактирования в мониторе"
@@ -10906,15 +10906,15 @@ msgstr "Веб-камера"
 msgid "Show Record Control"
 msgstr "Показать контроль записи"
 
-#: src/monitor/recmanager.cpp:318
+#: src/monitor/recmanager.cpp:315
 #, kde-format
 msgid ""
 "Failed to start the capture application:\n"
 "%1"
 msgstr "Ошибка запуска приложения захвата экрана %1"
 
-#: src/monitor/recmanager.cpp:329 src/monitor/recmanager.cpp:332
-#: src/monitor/recmanager.cpp:458
+#: src/monitor/recmanager.cpp:326 src/monitor/recmanager.cpp:329
+#: src/monitor/recmanager.cpp:455
 #, kde-format
 msgid "Capture crashed, please check your parameters"
 msgstr "Захват не удался, проверьте ваши параметры"
@@ -11013,8 +11013,8 @@ msgstr "Эффект"
 msgid "Change Overlay"
 msgstr "Изменить наложение"
 
-#: src/monitor/view/SceneToolBar.qml:89 src/timeline2/view/qml/timeline.qml:576
-#: src/timeline2/view/qml/timeline.qml:625
+#: src/monitor/view/SceneToolBar.qml:89 src/timeline2/view/qml/timeline.qml:577
+#: src/timeline2/view/qml/timeline.qml:626
 #, kde-format
 msgid "Remove Guide"
 msgstr "Убрать направляющую"
@@ -12569,7 +12569,7 @@ msgstr "Изменить композицию"
 
 #: src/timeline2/view/dialogs/trackdialog.cpp:31
 #: src/timeline2/view/dialogs/tracksconfigdialog.cpp:85
-#: src/timeline2/view/qml/timeline.qml:650
+#: src/timeline2/view/qml/timeline.qml:651
 #, kde-format
 msgid "Add Track"
 msgstr "Добавить дорожку"
@@ -12706,27 +12706,27 @@ msgid "Insert an effect..."
 msgstr "Вставить эффект..."
 
 #: src/timeline2/view/qml/ClipMenu.qml:149
-#: src/timeline2/view/qml/timeline.qml:561
+#: src/timeline2/view/qml/timeline.qml:562
 #, kde-format
 msgid "Insert a composition..."
 msgstr "Вставить композицию..."
 
-#: src/timeline2/view/qml/timeline.qml:504
+#: src/timeline2/view/qml/timeline.qml:505
 #, kde-format
 msgid "Paste"
 msgstr "Вставить"
 
-#: src/timeline2/view/qml/timeline.qml:522
+#: src/timeline2/view/qml/timeline.qml:523
 #, kde-format
 msgid "Remove Space On Active Track"
 msgstr "Удалить пробел на активной дорожке"
 
-#: src/timeline2/view/qml/timeline.qml:635
+#: src/timeline2/view/qml/timeline.qml:636
 #, kde-format
 msgid "Timeline error"
 msgstr "Ошибка монтажного стола"
 
-#: src/timeline2/view/qml/timeline.qml:637
+#: src/timeline2/view/qml/timeline.qml:638
 #, kde-format
 msgid ""
 "Impossible to add a composition at that position. There might not be enough "
@@ -12734,42 +12734,42 @@ msgid ""
 msgstr ""
 "Добавление композиции в этой позиции невозможно. Может не хватить места"
 
-#: src/timeline2/view/qml/timeline.qml:664
+#: src/timeline2/view/qml/timeline.qml:665
 #, kde-format
 msgid "Show Record Controls"
 msgstr "Показать кнопку записи"
 
-#: src/timeline2/view/qml/timeline.qml:680
+#: src/timeline2/view/qml/timeline.qml:681
 #, kde-format
 msgid "Track thumbnails"
 msgstr "Миниатюры дорожки"
 
-#: src/timeline2/view/qml/timeline.qml:684
+#: src/timeline2/view/qml/timeline.qml:685
 #, kde-format
 msgid "In frame"
 msgstr "Первый кадр"
 
-#: src/timeline2/view/qml/timeline.qml:691
+#: src/timeline2/view/qml/timeline.qml:692
 #, kde-format
 msgid "In / out frames"
 msgstr "Первый и последний кадры"
 
-#: src/timeline2/view/qml/timeline.qml:699
+#: src/timeline2/view/qml/timeline.qml:700
 #, kde-format
 msgid "All frames"
 msgstr "Все кадры"
 
-#: src/timeline2/view/qml/timeline.qml:706
+#: src/timeline2/view/qml/timeline.qml:707
 #, kde-format
 msgid "No thumbnails"
 msgstr "Без миниатюр"
 
-#: src/timeline2/view/qml/timeline.qml:753
+#: src/timeline2/view/qml/timeline.qml:754
 #, kde-format
 msgid "Show master effects"
 msgstr "Показать мастер эффекты"
 
-#: src/timeline2/view/qml/timeline.qml:1236
+#: src/timeline2/view/qml/timeline.qml:1238
 #, kde-format
 msgid ""
 "\n"
