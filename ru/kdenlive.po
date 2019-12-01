@@ -17,8 +17,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-11-30 03:18+0100\n"
-"PO-Revision-Date: 2019-11-30 13:16+0300\n"
+"POT-Creation-Date: 2019-12-01 03:16+0100\n"
+"PO-Revision-Date: 2019-12-01 14:35+0300\n"
 "Last-Translator: Николай Смольянинов <smolianinow.colya2016@yandex.ru>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -5016,7 +5016,7 @@ msgid "%lumaNames"
 msgstr "%lumaNames"
 
 #: data/transitions/dissolve.xml:7
-#, fuzzy, kde-format
+#, kde-format
 msgid "Luma Map"
 msgstr "Карта яркости"
 
@@ -6047,7 +6047,7 @@ msgid "Folder"
 msgstr "Папка"
 
 #: src/bin/bin.cpp:1248
-#, fuzzy, kde-format
+#, kde-format
 msgid "Create bin folder"
 msgstr "Создать папку корзины"
 
@@ -6463,7 +6463,7 @@ msgid "Zone"
 msgstr "Участок"
 
 #: src/bin/projectitemmodel.cpp:671
-#, fuzzy, kde-format
+#, kde-format
 msgid "Add bin clip"
 msgstr "Добавить клип корзины"
 
@@ -12303,7 +12303,7 @@ msgid "Remove space"
 msgstr "Удалить пробел"
 
 #: src/timeline2/model/timelinefunctions.cpp:323
-#, fuzzy, kde-format
+#, kde-format
 msgid "Lift zone"
 msgstr "Поднять участок"
 
@@ -12404,9 +12404,9 @@ msgstr "Укажите имя клипа для библиотеки"
 #: src/timeline2/model/timelinefunctions.cpp:1284
 #: src/timeline2/model/timelinefunctions.cpp:1334
 #: src/timeline2/model/timelinefunctions.cpp:1362
-#, fuzzy, kde-format
+#, kde-format
 msgid "Not enough tracks to paste clipboard"
-msgstr "Недостаточно дорожек для втавки"
+msgstr "Не хватает дорожек для втавки из буфера обмена"
 
 #: src/timeline2/model/timelinefunctions.cpp:1369
 #: src/timeline2/model/timelinefunctions.cpp:1374
@@ -12769,7 +12769,7 @@ msgstr "Без миниатюр"
 msgid "Show master effects"
 msgstr "Показать мастер эффекты"
 
-#: src/timeline2/view/qml/timeline.qml:1238
+#: src/timeline2/view/qml/timeline.qml:1237
 #, kde-format
 msgid ""
 "\n"
