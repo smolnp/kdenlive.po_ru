@@ -17,8 +17,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-01 03:16+0100\n"
-"PO-Revision-Date: 2019-12-01 14:35+0300\n"
+"POT-Creation-Date: 2019-12-03 03:15+0100\n"
+"PO-Revision-Date: 2019-12-03 16:39+0300\n"
 "Last-Translator: Николай Смольянинов <smolianinow.colya2016@yandex.ru>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -482,8 +482,7 @@ msgstr "Смешивание"
 #: data/effects/frei0r_alpha0ps.xml:63 data/effects/frei0r_mask0mate.xml:19
 #: data/effects/invert.xml:3 data/effects/mirror.xml:11
 #: data/effects/rotoscoping.xml:19 data/effects/shape.xml:18
-#: data/transitions/composite.xml:16 data/transitions/region.xml:33
-#: data/transitions/slide.xml:19 data/transitions/wipe.xml:14
+#: data/transitions/region.xml:33 data/transitions/wipe.xml:14
 #, kde-format
 msgid "Invert"
 msgstr "Инвертировать"
