@@ -17,8 +17,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-03 03:15+0100\n"
-"PO-Revision-Date: 2019-12-03 16:39+0300\n"
+"POT-Creation-Date: 2019-12-04 02:54+0100\n"
+"PO-Revision-Date: 2019-12-04 20:12+0300\n"
 "Last-Translator: Николай Смольянинов <smolianinow.colya2016@yandex.ru>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -4716,7 +4716,7 @@ msgstr "Кадрирование"
 msgid "Disabled = keep border, enabled = black background"
 msgstr "Выкл = сохранить границу, Вкл = чёрный фон"
 
-#: data/effects/vidstab.xml:39 src/bin/bin.cpp:767
+#: data/effects/vidstab.xml:39 src/bin/bin.cpp:766
 #: src/project/dialogs/slideshowclip.cpp:73 src/titler/titlewidget.cpp:349
 #, kde-format
 msgid "Zoom"
@@ -5307,7 +5307,7 @@ msgstr "Добавить в избранное"
 #. i18n: ectx: property (text), widget (QLabel, nameLabel)
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: src/assets/assetlist/view/qml/assetList.qml:331
-#: src/bin/projectitemmodel.cpp:229
+#: src/bin/projectitemmodel.cpp:226
 #: src/timeline2/view/dialogs/tracksconfigdialog.cpp:75
 #: src/ui/colorclip_ui.ui:20 src/ui/configtranscode_ui.ui:70
 #: src/ui/qtextclip_ui.ui:111 src/ui/slideshowclip_ui.ui:20
@@ -5593,7 +5593,7 @@ msgstr "Удалить все ключевые кадры за курсором"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
 #: src/assets/view/widgets/animationwidget.cpp:201
-#: src/assets/view/widgets/keyframewidget.cpp:155 src/bin/bin.cpp:784
+#: src/assets/view/widgets/keyframewidget.cpp:155 src/bin/bin.cpp:783
 #: src/monitor/monitor.cpp:337 src/ui/clipstabilize_ui.ui:20
 #, kde-format
 msgid "Options"
@@ -5918,7 +5918,7 @@ msgstr ""
 msgid "Enable Audio Spectrum"
 msgstr "Включить спектр звуковых частот"
 
-#: src/bin/bin.cpp:598
+#: src/bin/bin.cpp:597
 #, kde-format
 msgid "%1 job"
 msgid_plural "%1 jobs"
@@ -5927,7 +5927,7 @@ msgstr[1] "%1 задания"
 msgstr[2] "%1 заданий"
 msgstr[3] "%1 задание"
 
-#: src/bin/bin.cpp:599
+#: src/bin/bin.cpp:598
 #, kde-format
 msgid "%1 pending job"
 msgid_plural "%1 pending jobs"
@@ -5936,84 +5936,84 @@ msgstr[1] "%1 задания  в очереди"
 msgstr[2] "%1 заданий в очереди"
 msgstr[3] "%1 задание в очереди"
 
-#: src/bin/bin.cpp:692
+#: src/bin/bin.cpp:691
 #, kde-format
 msgid "Search..."
 msgstr "Поиск..."
 
-#: src/bin/bin.cpp:736
+#: src/bin/bin.cpp:735
 #, kde-format
 msgid "View Mode"
 msgstr "Режим  просмотра"
 
-#: src/bin/bin.cpp:738
+#: src/bin/bin.cpp:737
 #, kde-format
 msgid "Tree View"
 msgstr "В виде таблицы"
 
-#: src/bin/bin.cpp:746
+#: src/bin/bin.cpp:745
 #, kde-format
 msgid "Icon View"
 msgstr "В виде миниатюр"
 
-#: src/bin/bin.cpp:753
+#: src/bin/bin.cpp:752
 #, kde-format
 msgid "Disable Bin Effects"
 msgstr "Отключить эффекты"
 
 #. i18n: ectx: attribute (title), widget (QWidget, tab)
-#: src/bin/bin.cpp:765 src/ui/projectsettings_ui.ui:27
+#: src/bin/bin.cpp:764 src/ui/projectsettings_ui.ui:27
 #, kde-format
 msgid "Settings"
 msgstr "Параметры"
 
-#: src/bin/bin.cpp:773
+#: src/bin/bin.cpp:772
 #, kde-format
 msgid "Show date"
 msgstr "Показать дату"
 
-#: src/bin/bin.cpp:776
+#: src/bin/bin.cpp:775
 #, kde-format
 msgid "Show description"
 msgstr "Показать описание"
 
-#: src/bin/bin.cpp:796
+#: src/bin/bin.cpp:795
 #, kde-format
 msgid "Cancel All Jobs"
 msgstr "Отменить все задания"
 
-#: src/bin/bin.cpp:798
+#: src/bin/bin.cpp:797
 #, kde-format
 msgid "Cancel Current Clip Jobs"
 msgstr "Отменить текущие задания"
 
-#: src/bin/bin.cpp:800
+#: src/bin/bin.cpp:799
 #, kde-format
 msgid "Cancel Pending Jobs"
 msgstr "Отменить задания в очереди"
 
-#: src/bin/bin.cpp:1032
+#: src/bin/bin.cpp:1031
 #, kde-format
 msgid "This will delete all selected clips from the timeline"
 msgstr "С монтажного стола будут удалены все выбранные клипы"
 
-#: src/bin/bin.cpp:1035
+#: src/bin/bin.cpp:1034
 #, kde-format
 msgid "This will delete all folder content"
 msgstr "Все элементы будут удалены из папки"
 
-#: src/bin/bin.cpp:1043
+#: src/bin/bin.cpp:1042
 #, kde-format
 msgid "Delete bin Clips"
 msgstr "Удалить клипы из корзины"
 
-#: src/bin/bin.cpp:1075 src/bin/bin.cpp:1220 src/dialogs/renderwidget.cpp:722
+#: src/bin/bin.cpp:1074 src/bin/bin.cpp:1219 src/dialogs/renderwidget.cpp:722
 #: src/dialogs/renderwidget.cpp:1013 src/dialogs/renderwidget.cpp:2243
 #, kde-format
 msgid "Unable to write to file %1"
 msgstr "Запись в файл %1 невозможна"
 
-#: src/bin/bin.cpp:1082 src/bin/bin.cpp:1226 src/doc/kdenlivedoc.cpp:609
+#: src/bin/bin.cpp:1081 src/bin/bin.cpp:1225 src/doc/kdenlivedoc.cpp:609
 #, kde-format
 msgid ""
 "Your project file was modified by Kdenlive.\n"
@@ -6022,132 +6022,132 @@ msgstr ""
 "Файл проекта был изменён Kdenlive.\n"
 "На всякий случай создана резервная копия с именем %1."
 
-#: src/bin/bin.cpp:1115
+#: src/bin/bin.cpp:1114
 #, kde-format
 msgid "Could not locate %1"
 msgstr "Не удалось найти %1"
 
-#: src/bin/bin.cpp:1145
+#: src/bin/bin.cpp:1144
 #, kde-format
 msgctxt "append to clip name to indicate a copied idem"
 msgid " (copy)"
 msgstr " (копия)"
 
-#: src/bin/bin.cpp:1149
+#: src/bin/bin.cpp:1148
 #, kde-format
 msgid "Duplicate clip"
 msgstr "Дублировать клип"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: src/bin/bin.cpp:1247 src/project/dialogs/temporarydata.cpp:441
+#: src/bin/bin.cpp:1246 src/project/dialogs/temporarydata.cpp:441
 #: src/ui/slideshowclip_ui.ui:60
 #, kde-format
 msgid "Folder"
 msgstr "Папка"
 
-#: src/bin/bin.cpp:1248
+#: src/bin/bin.cpp:1247
 #, kde-format
 msgid "Create bin folder"
 msgstr "Создать папку корзины"
 
-#: src/bin/bin.cpp:1337 src/bin/bin.cpp:1353 src/bin/bin.cpp:2070
+#: src/bin/bin.cpp:1336 src/bin/bin.cpp:1352 src/bin/bin.cpp:2052
 #: src/timeline2/model/timelinemodel.cpp:1152
 #, kde-format
 msgid "Delete Clip"
 msgstr "Удалить клип"
 
-#: src/bin/bin.cpp:1338 src/bin/bin.cpp:1354 src/bin/bin.cpp:2046
+#: src/bin/bin.cpp:1337 src/bin/bin.cpp:1353 src/bin/bin.cpp:2028
 #, kde-format
 msgid "Proxy Clip"
 msgstr "Прокси-клип"
 
-#: src/bin/bin.cpp:1345
+#: src/bin/bin.cpp:1344
 #, kde-format
 msgid "Delete Folder"
 msgstr "Удалить папку"
 
-#: src/bin/bin.cpp:1346
+#: src/bin/bin.cpp:1345
 #, kde-format
 msgid "Proxy Folder"
 msgstr "Папка прокси-файлов"
 
-#: src/bin/bin.cpp:2014
+#: src/bin/bin.cpp:1996
 #, kde-format
 msgid "Add Clip or Folder"
 msgstr "Добавить клип или папку"
 
-#: src/bin/bin.cpp:2018
+#: src/bin/bin.cpp:2000
 #, kde-format
 msgid "Add Color Clip"
 msgstr "Добавить цветовой клип"
 
-#: src/bin/bin.cpp:2019 src/project/dialogs/slideshowclip.cpp:41
+#: src/bin/bin.cpp:2001 src/project/dialogs/slideshowclip.cpp:41
 #, kde-format
 msgid "Add Slideshow Clip"
 msgstr "Добавить слайд-шоу"
 
-#: src/bin/bin.cpp:2020
+#: src/bin/bin.cpp:2002
 #, kde-format
 msgid "Add Title Clip"
 msgstr "Добавить клип титров"
 
-#: src/bin/bin.cpp:2021
+#: src/bin/bin.cpp:2003
 #, kde-format
 msgid "Add Template Title"
 msgstr "Добавить шаблон титров"
 
-#: src/bin/bin.cpp:2024
+#: src/bin/bin.cpp:2006
 #, kde-format
 msgid "Online Resources"
 msgstr "Онлайн ресурсы"
 
-#: src/bin/bin.cpp:2029
+#: src/bin/bin.cpp:2011
 #, kde-format
 msgid "Locate Clip..."
 msgstr "Найти клип..."
 
-#: src/bin/bin.cpp:2035
+#: src/bin/bin.cpp:2017
 #, kde-format
 msgid "Reload Clip"
 msgstr "Перезагрузить клип"
 
-#: src/bin/bin.cpp:2041
+#: src/bin/bin.cpp:2023
 #, kde-format
 msgid "Duplicate Clip"
 msgstr "Дублировать клип"
 
 #. i18n: ectx: property (windowTitle), widget (QDialog, ClipProperties_UI)
-#: src/bin/bin.cpp:2053 src/bin/bin.cpp:2092 src/ui/clipproperties_ui.ui:14
+#: src/bin/bin.cpp:2035 src/bin/bin.cpp:2076 src/ui/clipproperties_ui.ui:14
 #, kde-format
 msgid "Clip Properties"
 msgstr "Свойства клипа"
 
-#: src/bin/bin.cpp:2058 src/mltcontroller/clippropertiescontroller.cpp:250
+#: src/bin/bin.cpp:2040 src/mltcontroller/clippropertiescontroller.cpp:250
 #, kde-format
 msgid "Edit Clip"
 msgstr "Изменить клип"
 
-#: src/bin/bin.cpp:2064
+#: src/bin/bin.cpp:2046
 #, kde-format
 msgid "Rename Clip"
 msgstr "Переименовать клип"
 
-#: src/bin/bin.cpp:2076
+#: src/bin/bin.cpp:2058
 #, kde-format
 msgid "Create Folder"
 msgstr "Создать папку"
 
-#: src/bin/bin.cpp:2181 src/monitor/recmanager.cpp:59
+#: src/bin/bin.cpp:2165 src/monitor/recmanager.cpp:59
 #, kde-format
 msgid "Show log"
 msgstr "Показать журнал"
 
-#: src/bin/bin.cpp:2184
+#: src/bin/bin.cpp:2168
 #, kde-format
 msgid "Detailed log"
 msgstr "Подробный журнал"
 
-#: src/bin/bin.cpp:2240 src/bin/bincommands.cpp:33 src/bin/bincommands.cpp:53
+#: src/bin/bin.cpp:2224 src/bin/bincommands.cpp:33 src/bin/bincommands.cpp:53
 #, kde-format
 msgid "Move Clip"
 msgid_plural "Move Clips"
@@ -6156,30 +6156,30 @@ msgstr[1] "Переместить клипа"
 msgstr[2] "Переместить клипов"
 msgstr[3] "Переместить клип"
 
-#: src/bin/bin.cpp:2277
+#: src/bin/bin.cpp:2261
 #, kde-format
 msgid "No valid clip to insert"
 msgstr "Нет допустимого клипа для вставки"
 
-#: src/bin/bin.cpp:2301 src/timeline2/view/timelinecontroller.cpp:892
+#: src/bin/bin.cpp:2285 src/timeline2/view/timelinecontroller.cpp:892
 #, kde-format
 msgid "Select a clip to apply an effect"
 msgstr "Для применения эффекта выберите клип"
 
-#: src/bin/bin.cpp:2330 src/effects/effectstack/view/effectstackview.cpp:172
+#: src/bin/bin.cpp:2314 src/effects/effectstack/view/effectstackview.cpp:172
 #: src/mainwindow.cpp:2623
 #, kde-format
 msgid "Cannot add effect to clip"
 msgstr "Невозможно добавить эффект к клипу"
 
-#: src/bin/bin.cpp:2632
+#: src/bin/bin.cpp:2616
 #, kde-format
 msgid "Please set a default application to open images in the Settings dialog"
 msgstr ""
 "В диалоговом окне «Настройка» укажите приложение, которое по умолчанию будет "
 "использоваться для открытия изображений"
 
-#: src/bin/bin.cpp:2639
+#: src/bin/bin.cpp:2623
 #, kde-format
 msgid ""
 "Please set a default application to open audio files in the Settings dialog"
@@ -6187,7 +6187,7 @@ msgstr ""
 "В диалоговом окне «Настройка» укажите приложение, которое по умолчанию будет "
 "использоваться для открытия звуковых файлов"
 
-#: src/bin/bin.cpp:2841
+#: src/bin/bin.cpp:2825
 #, kde-format
 msgid ""
 "You are editing an external title clip (%1). Do you want to save your "
@@ -6196,42 +6196,42 @@ msgstr ""
 "Вы редактируете внешний клип титров (%1). Сохранить изменения в файл с "
 "титрами или применить изменения только к этому проекту?"
 
-#: src/bin/bin.cpp:2844 src/titler/titlewidget.cpp:1996
+#: src/bin/bin.cpp:2828 src/titler/titlewidget.cpp:1996
 #, kde-format
 msgid "Save Title"
 msgstr "Сохранить титры"
 
-#: src/bin/bin.cpp:2844
+#: src/bin/bin.cpp:2828
 #, kde-format
 msgid "Save to title file"
 msgstr "Сохранить в файл с титрами"
 
-#: src/bin/bin.cpp:2845
+#: src/bin/bin.cpp:2829
 #, kde-format
 msgid "Save in project only"
 msgstr "Сохранить только в проекте"
 
-#: src/bin/bin.cpp:2904
+#: src/bin/bin.cpp:2888
 #, kde-format
 msgid "Clip is invalid, will be removed from project."
 msgstr "Недопустимый клип, он будет удалён из проекта."
 
-#: src/bin/bin.cpp:2908 src/jobs/meltjob.cpp:124 src/jobs/meltjob.cpp:157
+#: src/bin/bin.cpp:2892 src/jobs/meltjob.cpp:124 src/jobs/meltjob.cpp:157
 #, kde-format
 msgid "Invalid clip"
 msgstr "Недопустимый клип"
 
-#: src/bin/bin.cpp:3027
+#: src/bin/bin.cpp:3011
 #, kde-format
 msgid "Enable proxies"
 msgstr "Включить прокси"
 
-#: src/bin/bin.cpp:3027
+#: src/bin/bin.cpp:3011
 #, kde-format
 msgid "Disable proxies"
 msgstr "Выключить прокси"
 
-#: src/bin/bin.cpp:3161
+#: src/bin/bin.cpp:3145
 #, kde-format
 msgid "Rebuild proxies"
 msgstr "Пересоздать прокси"
@@ -6424,17 +6424,7 @@ msgstr[1] "%1 клипа"
 msgstr[2] "%1 клипов"
 msgstr[3] "%1 клип"
 
-#: src/bin/projectfolderup.cpp:32
-#, kde-format
-msgid "Back"
-msgstr "Назад"
-
-#: src/bin/projectfolderup.cpp:53
-#, kde-format
-msgid "Go up"
-msgstr "Вверх"
-
-#: src/bin/projectitemmodel.cpp:232 src/project/dialogs/projectsettings.cpp:218
+#: src/bin/projectitemmodel.cpp:229 src/project/dialogs/projectsettings.cpp:218
 #: src/project/dialogs/temporarydata.cpp:441
 #, kde-format
 msgid "Date"
@@ -6442,13 +6432,13 @@ msgstr "Дата"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #. i18n: ectx: property (text), widget (QLabel, label_description)
-#: src/bin/projectitemmodel.cpp:235 src/ui/clipproperties_ui.ui:41
+#: src/bin/projectitemmodel.cpp:232 src/ui/clipproperties_ui.ui:41
 #: src/ui/configtranscode_ui.ui:80 src/ui/profiledialog_ui.ui:60
 #, kde-format
 msgid "Description"
 msgstr "Описание"
 
-#: src/bin/projectitemmodel.cpp:238 src/doc/documentchecker.cpp:450
+#: src/bin/projectitemmodel.cpp:235 src/doc/documentchecker.cpp:450
 #: src/dvdwizard/dvdwizardvob.cpp:352 src/dvdwizard/dvdwizardvob.cpp:841
 #: src/mltcontroller/clipcontroller.cpp:377 src/profiles/profileinfo.cpp:60
 #: src/profiles/profilerepository.cpp:132 src/utils/resourcewidget.cpp:629
@@ -6456,27 +6446,27 @@ msgstr "Описание"
 msgid "Unknown"
 msgstr "Неизвестно"
 
-#: src/bin/projectitemmodel.cpp:497
+#: src/bin/projectitemmodel.cpp:494
 #, kde-format
 msgid "Zone"
 msgstr "Участок"
 
-#: src/bin/projectitemmodel.cpp:671
+#: src/bin/projectitemmodel.cpp:668
 #, kde-format
 msgid "Add bin clip"
 msgstr "Добавить клип корзины"
 
-#: src/bin/projectitemmodel.cpp:740
+#: src/bin/projectitemmodel.cpp:737
 #, kde-format
 msgid "Add a sub clip"
 msgstr "Добавить подклип"
 
-#: src/bin/projectitemmodel.cpp:781
+#: src/bin/projectitemmodel.cpp:778
 #, kde-format
 msgid "Rename Folder"
 msgstr "Переименовать папку"
 
-#: src/bin/projectitemmodel.cpp:810 src/mainwindow.cpp:1197
+#: src/bin/projectitemmodel.cpp:807 src/mainwindow.cpp:1197
 #, kde-format
 msgid "Clean Project"
 msgstr "Очистить проект"
@@ -10580,12 +10570,12 @@ msgstr "Текстовый файл (*.txt)"
 msgid "Open Analysis Data"
 msgstr "Открыть данные анализа"
 
-#: src/monitor/glwidget.cpp:1632 src/monitor/glwidget.cpp:1652
+#: src/monitor/glwidget.cpp:1635 src/monitor/glwidget.cpp:1656
 #, kde-format
 msgid "Select a zone to play"
 msgstr "Выберите участок для воспроизведения"
 
-#: src/monitor/glwidget.cpp:1707
+#: src/monitor/glwidget.cpp:1712
 #, kde-format
 msgid ""
 "Could not create the video preview window.\n"
@@ -16492,6 +16482,12 @@ msgstr "%1м"
 msgctxt "h as hours"
 msgid "%1h"
 msgstr "%1ч"
+
+#~ msgid "Back"
+#~ msgstr "Назад"
+
+#~ msgid "Go up"
+#~ msgstr "Вверх"
 
 #~ msgid "Loudness"
 #~ msgstr "Громкость"
