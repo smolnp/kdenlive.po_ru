@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2019-12-08 03:06+0100\n"
-"PO-Revision-Date: 2019-12-08 14:07+0300\n"
+"PO-Revision-Date: 2019-12-08 14:46+0300\n"
 "Last-Translator: Николай Смольянинов <smolianinow.colya2016@yandex.ru>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -7326,7 +7326,7 @@ msgstr "Не удалось преобразовать старые пользо
 #, kde-format
 msgid "Startup error or warning, check our <a href='#'>online manual</a>."
 msgstr ""
-"Ошибка запуска или предупреждение, более подробно см. <a href='#'>online-"
+"Ошибка при запуске или предупреждение, подробнее см. <a href='#'>онлайн-"
 "руководство</a>."
 
 #: src/dialogs/wizard.cpp:144
@@ -7788,7 +7788,7 @@ msgstr ""
 #: src/doc/kdenlivedoc.cpp:212
 #, kde-format
 msgid "Error opening file"
-msgstr "Ошибка открытия файла"
+msgstr "Ошибка при открытии файла"
 
 #: src/doc/kdenlivedoc.cpp:149 src/doc/kdenlivedoc.cpp:166
 #: src/doc/kdenlivedoc.cpp:212
@@ -8416,7 +8416,8 @@ msgstr ""
 #, kde-format
 msgid "Audio thumbs: error reading audio thumbnail created with FFmpeg\n"
 msgstr ""
-"Миниатюры звука: ошибка чтения миниатюры звука, созданной с помощью FFmpeg.\n"
+"Миниатюры звука: ошибка при чтении миниатюры звука, созданной с помощью "
+"FFmpeg.\n"
 
 #: src/jobs/audiothumbjob.cpp:299
 #, kde-format
@@ -8957,7 +8958,7 @@ msgstr ""
 #: src/library/librarywidget.cpp:338
 #, kde-format
 msgid "Error removing %1"
-msgstr "Ошибка удаления %1"
+msgstr "Ошибка при удалении %1"
 
 #: src/library/librarywidget.cpp:346
 #, kde-format
@@ -8977,7 +8978,7 @@ msgstr "Папка %1 уже существует"
 #: src/library/librarywidget.cpp:372
 #, kde-format
 msgid "Error creating folder %1"
-msgstr "Ошибка создания папки %1"
+msgstr "Ошибка при создании папки %1"
 
 #: src/library/librarywidget.cpp:471
 #, kde-format
@@ -10583,8 +10584,8 @@ msgid ""
 "please fix it."
 msgstr ""
 "Не удалось создать окно предпросмотра видео.\n"
-"Что-то не так с установленной версией Kdenlive или настройкой драйверов, "
-"требуется устранение проблем."
+"Возможно были допущены ошибки в установке Kdenlive или настройке драйвера, "
+"устраните их."
 
 #: src/monitor/monitor.cpp:217
 #, kde-format
@@ -11284,12 +11285,12 @@ msgstr "Архивная копия проекта успешно создана
 #: src/project/dialogs/archivewidget.cpp:922
 #, kde-format
 msgid "There was an error processing project file"
-msgstr "Во время обработки файла проекта возникла ошибка"
+msgstr "Во время обработки файла проекта произошла ошибка"
 
 #: src/project/dialogs/archivewidget.cpp:676
 #, kde-format
 msgid "There was an error while copying the files: %1"
-msgstr "Во время копирования файлов возникла ошибка: %1"
+msgstr "Во время копирования файлов произошла ошибка: %1"
 
 #: src/project/dialogs/archivewidget.cpp:848
 #, kde-format
@@ -11783,7 +11784,7 @@ msgstr "Перемещение папки проекта"
 #: src/project/projectmanager.cpp:832
 #, kde-format
 msgid "Error moving project folder: %1"
-msgstr "Ошибка перемещения папки проекта: %1"
+msgstr "Ошибка при перемещении папки проекта: %1"
 
 #: src/project/projectmanager.cpp:853
 #, kde-format
@@ -12713,7 +12714,7 @@ msgstr "Удалить пробел на активной дорожке"
 #: src/timeline2/view/qml/timeline.qml:643
 #, kde-format
 msgid "Timeline error"
-msgstr "Ошибка монтажного стола"
+msgstr "Ошибка на монтажном столе"
 
 #: src/timeline2/view/qml/timeline.qml:645
 #, kde-format
@@ -16271,7 +16272,7 @@ msgstr "Показать всё"
 #: src/utils/freesound.cpp:194 src/utils/resourcewidget.cpp:492
 #, kde-format
 msgid "Error Loading Data"
-msgstr "Ошибка загрузки данных"
+msgstr "Ошибка при получении данных"
 
 #: src/utils/archiveorg.cpp:107 src/utils/freesound.cpp:105
 #, kde-format
@@ -16285,7 +16286,7 @@ msgstr[3] "Найден %1 результат"
 #: src/utils/archiveorg.cpp:202
 #, kde-format
 msgid "Error Loading Extra Data"
-msgstr "Ошибка загрузки дополнительных данных"
+msgstr "Ошибка при получении дополнительных данных"
 
 #: src/utils/freesound.cpp:207
 #, kde-format
@@ -16412,12 +16413,12 @@ msgstr "Сохранить файл как"
 #: src/utils/resourcewidget.cpp:847
 #, kde-format
 msgid "Error Saving File"
-msgstr "Ошибка сохранения файла"
+msgstr "Ошибка при сохранении файла"
 
 #: src/utils/resourcewidget.cpp:860
 #, kde-format
 msgid "Error Downloading File. Error code: %1"
-msgstr "Ошибка загрузки файла. Код ошибки: %1"
+msgstr "Ошибка при загрузке файла. Код ошибки: %1"
 
 #: src/utils/thememanager.cpp:75
 #, kde-format
