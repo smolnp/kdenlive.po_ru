@@ -1,0 +1,111 @@
+# Alexander Potashev <aspotashev@gmail.com>, 2015, 2018.
+msgid ""
+msgstr ""
+"Project-Id-Version: desktop files\n"
+"Report-Msgid-Bugs-To: https://bugs.kde.org\n"
+"POT-Creation-Date: 2019-11-15 02:42+0000\n"
+"PO-Revision-Date: 2019-12-08 15:21+0300\n"
+"Last-Translator: Alexander Potashev <aspotashev@gmail.com>\n"
+"Language-Team: Russian <kde-russian@lists.kde.ru>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Poedit 2.2.4\n"
+
+#: data/kdenlive_keyboardschemes.knsrc:2
+msgctxt "Name"
+msgid "Kdenlive Keyboard Schemes"
+msgstr "Схемы горячих клавиш"
+
+#: data/kdenlive.notifyrc:4
+msgctxt "Comment"
+msgid "Kdenlive"
+msgstr "Kdenlive"
+
+#: data/kdenlive.notifyrc:50
+msgctxt "Name"
+msgid "Rendering finished"
+msgstr "Сборка завершена"
+
+#: data/kdenlive.notifyrc:91
+msgctxt "Comment"
+msgid "Rendering is over"
+msgstr "Сборка завершена"
+
+#: data/kdenlive.notifyrc:135
+msgctxt "Name"
+msgid "Rendering started"
+msgstr "Сборка запущена"
+
+#: data/kdenlive.notifyrc:176
+msgctxt "Comment"
+msgid "Rendering was started"
+msgstr "Сборка запущена"
+
+#: data/kdenlive.notifyrc:220
+msgctxt "Name"
+msgid "Frame captured"
+msgstr "Кадр получен"
+
+#: data/kdenlive.notifyrc:261
+msgctxt "Comment"
+msgid "A frame was captured to disk"
+msgstr "Выполнен захват кадра с сохранением на диск"
+
+#: data/kdenlive.notifyrc:306
+msgctxt "Name"
+msgid "Ready to capture"
+msgstr "Готов к захвату"
+
+#: data/kdenlive.notifyrc:351
+msgctxt "Name"
+msgid "Error"
+msgstr "Ошибка"
+
+#: data/kdenlive.notifyrc:395
+msgctxt "Comment"
+msgid "An error occurred in Kdenlive"
+msgstr "В Kdenlive произошла ошибка"
+
+#: data/kdenlive_renderprofiles.knsrc:2
+msgctxt "Name"
+msgid "Kdenlive Render Profiles"
+msgstr "Профили сборки Kdenlive"
+
+#: data/kdenlive_titles.knsrc:2
+msgctxt "Name"
+msgid "Kdenlive Title Templates"
+msgstr "Шаблоны титров Kdenlive"
+
+#: data/kdenlive_wipes.knsrc:2
+msgctxt "Name"
+msgid "Kdenlive Transition Wipes"
+msgstr "Файлы вытеснения Kdenlive"
+
+#: data/org.kde.kdenlive.desktop:3
+msgctxt "Name"
+msgid "Kdenlive"
+msgstr "Kdenlive"
+
+#: data/org.kde.kdenlive.desktop:47
+msgctxt "GenericName"
+msgid "Video Editor"
+msgstr "Видеоредактор"
+
+#: data/org.kde.kdenlive.desktop:89
+msgctxt "Comment"
+msgid "Nonlinear video editor by KDE"
+msgstr "Нелинейный видеоредактор от KDE"
+
+#: data/org.kde.kdenlive.desktop:129
+msgctxt "Keywords"
+msgid "editing;video;audio;mlt;kde;"
+msgstr "editing;video;audio;редактирование;видео;аудио;mlt;kde;"
+
+#: thumbnailer/mltpreview.desktop:3
+msgctxt "Name"
+msgid "MLT Playlist"
+msgstr "Список воспроизведения MLT"
