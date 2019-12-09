@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2019-12-09 03:00+0100\n"
-"PO-Revision-Date: 2019-12-10 00:13+0200\n"
+"PO-Revision-Date: 2019-12-10 00:19+0200\n"
 "Last-Translator: Николай Смольянинов <smolianinow.colya2016@yandex.ru>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -7049,7 +7049,7 @@ msgstr ""
 #: src/project/projectmanager.cpp:1022 src/titler/titlewidget.cpp:2012
 #, kde-format
 msgid "Cannot write to file %1"
-msgstr "Запись в файл %1 невозможна"
+msgstr "Не удалось записать в файл %1"
 
 #: src/dialogs/renderwidget.cpp:749 src/dialogs/renderwidget.cpp:2223
 #: src/dialogs/renderwidget.cpp:2279
