@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2019-12-10 03:15+0100\n"
-"PO-Revision-Date: 2019-12-10 14:08+0200\n"
+"PO-Revision-Date: 2019-12-10 15:05+0200\n"
 "Last-Translator: Николай Смольянинов <smolianinow.colya2016@yandex.ru>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -6170,7 +6170,7 @@ msgstr "Для применения эффекта выберите клип"
 #: src/mainwindow.cpp:2623
 #, kde-format
 msgid "Cannot add effect to clip"
-msgstr "Невозможно добавить эффект к клипу"
+msgstr "Не удалось добавить эффект к клипу"
 
 #: src/bin/bin.cpp:2618
 #, kde-format
@@ -7781,7 +7781,7 @@ msgid ""
 "Cannot open the project file,\n"
 "Do you want to open a backup file?"
 msgstr ""
-"Невозможно открыть файл проекта.\n"
+"Не удалось открыть файл проекта.\n"
 "Открыть резервную копию файла?"
 
 #: src/doc/kdenlivedoc.cpp:149 src/doc/kdenlivedoc.cpp:166
@@ -7803,7 +7803,7 @@ msgid ""
 "%1 (line %2, col %3)\n"
 "Do you want to open a backup file?"
 msgstr ""
-"Невозможно открыть файл проекта. Ошибка:\n"
+"Не удалось открыть файл проекта. Ошибка:\n"
 "%1 (строка %2, столбец %3)\n"
 "Открыть резервную копию файла?"
 
@@ -7875,7 +7875,7 @@ msgstr ""
 #: src/doc/kdenlivedoc.cpp:457 src/doc/kdenlivedoc.cpp:467
 #, kde-format
 msgid "Cannot create autosave file %1"
-msgstr "Невозможно создать файл автосохранения %1"
+msgstr "Не удалось создать файл автосохранения %1"
 
 #: src/doc/kdenlivedoc.cpp:462 src/doc/kdenlivedoc.cpp:587
 #, kde-format
@@ -8452,7 +8452,7 @@ msgstr "Файл уже существует"
 #: src/jobs/cutclipjob.cpp:134
 #, kde-format
 msgid "You cannot overwrite original clip."
-msgstr "Невозможно перезаписать оригинальный клип."
+msgstr "Не удалось перезаписать оригинальный клип."
 
 #: src/jobs/cutclipjob.cpp:155 src/jobs/transcodeclipjob.cpp:169
 #, kde-format
@@ -8467,7 +8467,7 @@ msgstr "Применить фильтр к клипу"
 #: src/jobs/filterclipjob.cpp:62 src/jobs/stabilizejob.cpp:64
 #, kde-format
 msgid "Cannot create filter %1"
-msgstr "Невозможно создать фильтр %1"
+msgstr "Не удалось создать фильтр %1"
 
 #. i18n: ectx: property (text), widget (QCheckBox, checkBox)
 #: src/jobs/filterjob.cpp:110 src/project/dialogs/clipspeed.cpp:43
@@ -8557,7 +8557,7 @@ msgstr "Не удалось создать получателя данных."
 #: src/jobs/meltjob.cpp:227
 #, kde-format
 msgid "Cannot create filter."
-msgstr "Невозможно создать фильтр."
+msgstr "Не удалось создать фильтр."
 
 #: src/jobs/proxyclipjob.cpp:48
 #, kde-format
@@ -8591,7 +8591,7 @@ msgstr "Разделение сцены"
 #: src/jobs/scenesplitjob.cpp:69
 #, kde-format
 msgid "Cannot create filter motion_est. Cannot split scenes"
-msgstr "Невозможно создать фильтр motion_est. Не удалось разделить сцены"
+msgstr "Фильтр motion_est не создан. Разделение на сцены не удалось"
 
 #: src/jobs/scenesplitjob.cpp:123
 #, kde-format
@@ -12320,7 +12320,7 @@ msgstr "Вставить участок"
 #: src/timeline2/model/timelinefunctions.cpp:510
 #, kde-format
 msgid "Cannot move selected group"
-msgstr "Не удаётся переместить выбранную группу"
+msgstr "Нельзя переместить выбранную группу"
 
 #: src/timeline2/model/timelinefunctions.cpp:604
 #: src/timeline2/view/qml/ClipMenu.qml:138
@@ -12379,7 +12379,8 @@ msgstr "Изменить композитную дорожку"
 #: src/timeline2/model/timelinefunctions.cpp:793
 #, kde-format
 msgid "Cannot enable multitrack view on a single track"
-msgstr "Нельзя включить многодорожечный просмотр используя одну дорожку"
+msgstr ""
+"Нельзя включить многодорожечный просмотр при использовании одной дорожки"
 
 #: src/timeline2/model/timelinefunctions.cpp:943
 #, kde-format
@@ -12497,7 +12498,7 @@ msgstr "Разгруппировать клипы"
 #: src/timeline2/model/timelinemodel.cpp:2282
 #, kde-format
 msgid "Cannot delete last track in timeline"
-msgstr "Не удаётся удалить последнюю дорожку на монтажном столе"
+msgstr "Нельзя удалить последнюю дорожку монтажного стола"
 
 #: src/timeline2/model/timelinemodel.cpp:2435
 #, kde-format
@@ -12592,7 +12593,7 @@ msgstr "Опустить дорожку"
 #: src/timeline2/view/previewmanager.cpp:92
 #, kde-format
 msgid "Wrong document ID, cannot create temporary folder"
-msgstr "Неверный идентификатор документа, невозможно создать временную папку"
+msgstr "Неверный идентификатор документа, временная папка не создана"
 
 #: src/timeline2/view/previewmanager.cpp:97
 #, kde-format
@@ -12721,8 +12722,7 @@ msgstr "Ошибка на монтажном столе"
 msgid ""
 "Impossible to add a composition at that position. There might not be enough "
 "space"
-msgstr ""
-"Добавление композиции в этой позиции невозможно. Может не хватить места"
+msgstr "Добавление композиции в эту позицию невозможно. Недостаточно места"
 
 #: src/timeline2/view/qml/timeline.qml:672
 #, kde-format
