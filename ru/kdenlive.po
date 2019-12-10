@@ -17,8 +17,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2019-12-09 03:00+0100\n"
-"PO-Revision-Date: 2019-12-10 00:19+0200\n"
+"POT-Creation-Date: 2019-12-10 03:15+0100\n"
+"PO-Revision-Date: 2019-12-10 14:08+0200\n"
 "Last-Translator: Николай Смольянинов <smolianinow.colya2016@yandex.ru>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -8604,7 +8604,7 @@ msgid "Scene %1"
 msgstr "Сцена %1"
 
 #: src/jobs/speedjob.cpp:56 src/mainwindow.cpp:3120
-#: src/timeline2/model/timelinemodel.cpp:3336
+#: src/timeline2/model/timelinemodel.cpp:3377
 #, kde-format
 msgid "Change clip speed"
 msgstr "Изменить скорость клипа"
@@ -9883,7 +9883,7 @@ msgstr "Удалить пробел"
 msgid "Remove Space In All Tracks"
 msgstr "Удалить пробелы на всех дорожках"
 
-#: src/mainwindow.cpp:1429 src/timeline2/model/timelinemodel.cpp:2162
+#: src/mainwindow.cpp:1429 src/timeline2/model/timelinemodel.cpp:2203
 #, kde-format
 msgid "Insert Track"
 msgstr "Вставить дорожку"
@@ -9893,7 +9893,7 @@ msgstr "Вставить дорожку"
 msgid "Master effects"
 msgstr "Мастер эффекты"
 
-#: src/mainwindow.cpp:1440 src/timeline2/model/timelinemodel.cpp:2231
+#: src/mainwindow.cpp:1440 src/timeline2/model/timelinemodel.cpp:2272
 #: src/timeline2/view/dialogs/trackdialog.cpp:31
 #: src/timeline2/view/dialogs/trackdialog.cpp:66
 #: src/timeline2/view/dialogs/tracksconfigdialog.cpp:89
@@ -12463,96 +12463,96 @@ msgstr "Удалить композицию"
 msgid "Move group"
 msgstr "Переместить группу"
 
-#: src/timeline2/model/timelinemodel.cpp:1746
+#: src/timeline2/model/timelinemodel.cpp:1787
 #, kde-format
 msgid "Resize group"
 msgstr "Изменить размер группы"
 
-#: src/timeline2/model/timelinemodel.cpp:1841
+#: src/timeline2/model/timelinemodel.cpp:1882
 #, kde-format
 msgid "Resize clip speed"
 msgstr "Изменить скорость клипа"
 
-#: src/timeline2/model/timelinemodel.cpp:1990
+#: src/timeline2/model/timelinemodel.cpp:2031
 #, kde-format
 msgid "Resize clip"
 msgstr "Изменить размер клипа"
 
-#: src/timeline2/model/timelinemodel.cpp:1992
+#: src/timeline2/model/timelinemodel.cpp:2033
 #, kde-format
 msgid "Resize composition"
 msgstr "Размер композиции"
 
-#: src/timeline2/model/timelinemodel.cpp:2031
+#: src/timeline2/model/timelinemodel.cpp:2072
 #, kde-format
 msgid "Group clips"
 msgstr "Сгруппировать клипы"
 
-#: src/timeline2/model/timelinemodel.cpp:2115
-#: src/timeline2/model/timelinemodel.cpp:2131
+#: src/timeline2/model/timelinemodel.cpp:2156
+#: src/timeline2/model/timelinemodel.cpp:2172
 #, kde-format
 msgid "Ungroup clips"
 msgstr "Разгруппировать клипы"
 
-#: src/timeline2/model/timelinemodel.cpp:2241
+#: src/timeline2/model/timelinemodel.cpp:2282
 #, kde-format
 msgid "Cannot delete last track in timeline"
 msgstr "Не удаётся удалить последнюю дорожку на монтажном столе"
 
-#: src/timeline2/model/timelinemodel.cpp:2394
+#: src/timeline2/model/timelinemodel.cpp:2435
 #, kde-format
 msgid "Cannot add effect %1 to selected track"
 msgstr "Не удаётся добавить эффект %1 на выбранную дорожку"
 
-#: src/timeline2/model/timelinemodel.cpp:2409
+#: src/timeline2/model/timelinemodel.cpp:2450
 #, kde-format
 msgid "Cannot paste effect to selected track"
 msgstr "Не удаётся вставить эффект на выбранную дорожку"
 
-#: src/timeline2/model/timelinemodel.cpp:2427
+#: src/timeline2/model/timelinemodel.cpp:2468
 #: src/timeline2/view/timelinecontroller.cpp:887
 #, kde-format
 msgid "Cannot add effect %1 to selected clip"
 msgstr "Не удаётся добавить эффект %1 к выбранному клипу"
 
-#: src/timeline2/model/timelinemodel.cpp:2462
+#: src/timeline2/model/timelinemodel.cpp:2503
 #, kde-format
 msgid "Adjust Fade"
 msgstr "Настройка затемнения"
 
-#: src/timeline2/model/timelinemodel.cpp:2624
+#: src/timeline2/model/timelinemodel.cpp:2665
 #, kde-format
 msgid "Insert Composition"
 msgstr "Добавить композицию"
 
-#: src/timeline2/model/timelinemodel.cpp:2744
+#: src/timeline2/model/timelinemodel.cpp:2785
 #, kde-format
 msgid "Move composition"
 msgstr "Переместить композицию"
 
-#: src/timeline2/model/timelinemodel.cpp:3326
+#: src/timeline2/model/timelinemodel.cpp:3367
 #, kde-format
 msgid "Change speed failed"
 msgstr "Не удалось изменить скорость"
 
-#: src/timeline2/model/timelinemodel.cpp:3616
+#: src/timeline2/model/timelinemodel.cpp:3657
 #: src/timeline2/view/qml/TrackHead.qml:342
 #, kde-format
 msgid "Lock track"
 msgstr "Заблокировать дорожку"
 
-#: src/timeline2/model/timelinemodel.cpp:3621
+#: src/timeline2/model/timelinemodel.cpp:3662
 #: src/timeline2/view/qml/TrackHead.qml:342
 #, kde-format
 msgid "Unlock track"
 msgstr "Разблокировать дорожку"
 
-#: src/timeline2/model/timelinemodel.cpp:3648
+#: src/timeline2/model/timelinemodel.cpp:3689
 #, kde-format
 msgid "Cannot operate on grouped composition, please ungroup"
 msgstr "Разгруппируете композицию для дальнейшей работы с ней"
 
-#: src/timeline2/model/timelinemodel.cpp:3670
+#: src/timeline2/model/timelinemodel.cpp:3711
 #, kde-format
 msgid "Change composition"
 msgstr "Изменить композицию"
