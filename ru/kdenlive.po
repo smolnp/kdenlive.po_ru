@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2019-12-19 03:07+0100\n"
-"PO-Revision-Date: 2019-12-19 17:42+0300\n"
+"PO-Revision-Date: 2019-12-19 18:14+0300\n"
 "Last-Translator: Николай Смольянинов <smolianinow.colya2016@yandex.ru>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -10235,9 +10235,7 @@ msgstr "Управление данными кэша"
 msgid ""
 "This will hide the menu bar completely. You can show it again by typing Ctrl"
 "+M."
-msgstr ""
-"Строка меню будет полностью скрыта. Чтобы восстановить строку меню, нажмите "
-"Ctrl+M."
+msgstr "Строка меню будет скрыта. Чтобы её вернуть, нажмите Ctrl+M."
 
 #: src/mainwindow.cpp:3721
 #, kde-format
@@ -12487,7 +12485,7 @@ msgstr "Изменить размер клипа"
 #: src/timeline2/model/timelinemodel.cpp:2073
 #, kde-format
 msgid "Resize composition"
-msgstr "Размер композиции"
+msgstr "Изменить размер композиции"
 
 #: src/timeline2/model/timelinemodel.cpp:2112
 #, kde-format
@@ -13040,7 +13038,7 @@ msgstr "Ширина рамки"
 #, kde-format
 msgctxt "Font style"
 msgid "Light"
-msgstr "Ненасыщенный"
+msgstr "Тонкий"
 
 #: src/titler/titlewidget.cpp:240
 #, kde-format
