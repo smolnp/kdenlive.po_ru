@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2019-12-24 03:04+0100\n"
-"PO-Revision-Date: 2019-12-24 19:02+0300\n"
+"PO-Revision-Date: 2019-12-24 19:40+0300\n"
 "Last-Translator: Николай Смольянинов <smolianinow.colya2016@yandex.ru>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -7278,7 +7278,7 @@ msgstr ""
 #: src/dialogs/renderwidget.cpp:3059
 #, kde-format
 msgid "Rendering using low quality proxy"
-msgstr "Сборка идёт с использованием низкокачественного прокси"
+msgstr "Сборка с использованием низкокачественного прокси"
 
 #: src/dialogs/renderwidget.cpp:3076
 #, kde-format
@@ -9020,7 +9020,7 @@ msgstr "Все права защищены © 2007-2019 разработчики
 #: src/main.cpp:150
 #, kde-format
 msgid "Please report bugs to https://bugs.kde.org"
-msgstr "Сообщения об ошибках просим направлять через http://bugs.kde.org"
+msgstr "Сообщения об ошибках направляйте по адресу https://bugs.kde.org"
 
 #: src/main.cpp:152
 #, kde-format
@@ -9567,7 +9567,7 @@ msgstr "Сбросить конфигурацию"
 #: src/mainwindow.cpp:1206
 #, kde-format
 msgid "Adjust Profile to Current Clip"
-msgstr "Установка профиля по текущему клипу"
+msgstr "Параметры профиля по текущему клипу"
 
 #: src/mainwindow.cpp:1208
 #, kde-format
@@ -9682,7 +9682,7 @@ msgstr "К следующей точке привязки"
 #: src/mainwindow.cpp:1284
 #, kde-format
 msgid "Align Playhead to Mouse Position"
-msgstr "Выровнять курсор воспроизведения с положением указателя мыши"
+msgstr "Выровнять указатель воспроизведения по курсору мыши"
 
 #: src/mainwindow.cpp:1286
 #, kde-format
@@ -13403,8 +13403,8 @@ msgstr ""
 "пробелом 0x00a0), Швейцария, Германия, Финляндия и Швеция.</"
 "p><p><strong>&lsaquo;</strong> и <strong>&rsaquo;</strong> (U+2039/203a, "
 "<code>&amp;lsaquo;/&amp;rsaquo;</code>) — эквивалентные им одинарные кавычки."
-"</p><p>См. <a href=\"http://ru.wikipedia.org/wiki/Кавычки>Wikipedia:Кавычки</"
-"a></p>"
+"</p><p>См. <a href=\"https://ru.wikipedia.org/wiki/Кавычки>Wikipedia:"
+"Кавычки</a></p>"
 
 #: src/titler/unicodedialog.cpp:160
 #, kde-format
@@ -13469,7 +13469,7 @@ msgid ""
 "Punctuation Apostrophe. Should be used instead of U+0027. See <a href="
 "\"https://en.wikipedia.org/wiki/Apostrophe\">Wikipedia:Apostrophe</a>"
 msgstr ""
-"Апостроф. Должен использоваться вместо U+0027.См. <a href=\"http://ru."
+"Апостроф. Должен использоваться вместо U+0027.См. <a href=\"https://ru."
 "wikipedia.org/wiki/Апостроф\">Wikipedia:Апостроф</a>"
 
 #: src/titler/unicodedialog.cpp:182
@@ -13483,7 +13483,7 @@ msgid ""
 "wikipedia.org/wiki/Dash\">Wikipedia:Dash</a></p>"
 msgstr ""
 "<p>Короткое тире. В русской типографике не используется.</p><p>См. <a href="
-"\"http://ru.wikipedia.org/wiki/Тире\">Wikipedia:Тире</a></p>"
+"\"https://ru.wikipedia.org/wiki/Тире\">Wikipedia:Тире</a></p>"
 
 #: src/titler/unicodedialog.cpp:187
 #, kde-format
@@ -13498,7 +13498,7 @@ msgstr ""
 "русской традиции: </p><p><em>Это&nbsp;&mdash; тире!</em> (Отбивается на два "
 "пункта от окружающих слов или обрамляется пробелами)</p><p><em>Закон "
 "Бойля&mdash;Мариотта.</em> (Не отбивается)</p><p><em>Великая Отечественная "
-"война 1941&mdash;1945 гаг.</em> (Не отбивается)</p><p>См. <a href=\"http://"
+"война 1941&mdash;1945 гаг.</em> (Не отбивается)</p><p>См. <a href=\"https://"
 "ru.wikipedia.org/wiki/Тире\">Wikipedia:Тире</a></p>"
 
 #: src/titler/unicodedialog.cpp:190
@@ -13543,7 +13543,7 @@ msgid ""
 "Quarter note (Am.) or crochet (Brit.). See <a href=\"https://en.wikipedia."
 "org/wiki/Quarter_note\">Wikipedia:Quarter_note</a>"
 msgstr ""
-"Нота в одну четвёртую. См. <a href=\"http://en.wikipedia.org/wiki/"
+"Нота в одну четвёртую. См. <a href=\"https://en.wikipedia.org/wiki/"
 "Quarter_note\">Википедия:Четвертная_нота (на английском)</a>"
 
 #: src/titler/unicodedialog.cpp:203
@@ -13554,7 +13554,7 @@ msgid ""
 "Eighth_note</a>"
 msgstr ""
 "Нота в одну восьмую. Длительностью в половину четвертной ноты (U+2669). См. "
-"<a href=\"http://en.wikipedia.org/wiki/Eighth_note\">Википедия:Восьмая_нота "
+"<a href=\"https://en.wikipedia.org/wiki/Eighth_note\">Википедия:Восьмая_нота "
 "(на английском)</a>"
 
 #: src/titler/unicodedialog.cpp:206
@@ -13565,7 +13565,7 @@ msgid ""
 "\">Wikipedia:Sixteenth_note</a>"
 msgstr ""
 "Шестнадцатая нота. Половина такая же длинная, как и восьмая нота (U+266a). "
-"См <a href=\"http://en.wikipedia.org/wiki/Sixteenth_note\">Википедия:"
+"См <a href=\"https://en.wikipedia.org/wiki/Sixteenth_note\">Википедия:"
 "Шестнадцая_нота (на английском)</a>"
 
 #: src/titler/unicodedialog.cpp:209
@@ -13576,7 +13576,7 @@ msgid ""
 "second_note\">Wikipedia:Thirty-second_note</a>"
 msgstr ""
 "Тридцать вторая нота. Длительностью в половину шестнадцатой ноты (U+266b). "
-"См. <a href=\"http://en.wikipedia.org/wiki/Thirty-second_note\">Википедия:"
+"См. <a href=\"https://en.wikipedia.org/wiki/Thirty-second_note\">Википедия:"
 "Тридцать_вторая_нота (на английском)</a>"
 
 #: src/titler/unicodedialog.cpp:212
