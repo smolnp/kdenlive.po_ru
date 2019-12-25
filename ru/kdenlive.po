@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2019-12-25 03:12+0100\n"
-"PO-Revision-Date: 2019-12-25 13:09+0300\n"
+"PO-Revision-Date: 2019-12-25 13:28+0300\n"
 "Last-Translator: Николай Смольянинов <smolianinow.colya2016@yandex.ru>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -5990,12 +5990,12 @@ msgstr "В виде миниатюр"
 #: src/bin/bin.cpp:869
 #, kde-format
 msgid "Descending"
-msgstr "Убыванию"
+msgstr "По убыванию"
 
 #: src/bin/bin.cpp:883
 #, kde-format
 msgid "Sort By"
-msgstr "Сортировать по"
+msgstr "Сортировка"
 
 #: src/bin/bin.cpp:890 src/bin/projectitemmodel.cpp:240
 #: src/project/dialogs/projectsettings.cpp:218
