@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2019-12-29 03:11+0100\n"
-"PO-Revision-Date: 2019-12-29 17:21+0300\n"
+"PO-Revision-Date: 2019-12-29 17:36+0300\n"
 "Last-Translator: Николай Смольянинов <smolianinow.colya2016@yandex.ru>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -5950,7 +5950,7 @@ msgstr "Поиск..."
 #: src/bin/bin.cpp:831
 #, kde-format
 msgid "View Mode"
-msgstr "Режим  просмотра"
+msgstr "Режим просмотра"
 
 #: src/bin/bin.cpp:833
 #, kde-format
@@ -6093,12 +6093,12 @@ msgstr "Дублировать клип"
 #: src/bin/bin.cpp:1443
 #, kde-format
 msgid "AV Clip"
-msgstr "Клип AV"
+msgstr "Видео"
 
 #: src/bin/bin.cpp:1447
 #, kde-format
 msgid "Mute Video"
-msgstr "Выключить видео"
+msgstr "Видео без звука"
 
 #. i18n: ectx: property (text), widget (QCheckBox, rec_audio)
 #. i18n: ectx: property (text), widget (QLabel, audioLabel)
@@ -6148,7 +6148,7 @@ msgstr "Титры"
 #: src/bin/bin.cpp:1471
 #, kde-format
 msgid "Title Template"
-msgstr "Шаблон титров"
+msgstr "Шаблоны титров"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
 #: src/bin/bin.cpp:1528 src/project/dialogs/temporarydata.cpp:441
