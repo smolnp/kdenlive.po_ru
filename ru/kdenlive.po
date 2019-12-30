@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2019-12-29 03:11+0100\n"
-"PO-Revision-Date: 2019-12-29 17:36+0300\n"
+"PO-Revision-Date: 2019-12-30 17:49+0300\n"
 "Last-Translator: Николай Смольянинов <smolianinow.colya2016@yandex.ru>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -3895,7 +3895,7 @@ msgstr "Непрозрачность"
 #: data/effects/movit_rect.xml:3
 #, kde-format
 msgid "Pan and Zoom (GPU)"
-msgstr "Панорама и изменение масштаба (GPU)"
+msgstr "Панорама и приближение (GPU)"
 
 #: data/effects/movit_rect.xml:9
 #, kde-format
