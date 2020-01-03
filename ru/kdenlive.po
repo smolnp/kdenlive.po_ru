@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2020-01-03 03:11+0100\n"
-"PO-Revision-Date: 2020-01-03 18:42+0300\n"
+"PO-Revision-Date: 2020-01-03 18:48+0300\n"
 "Last-Translator: Николай Смольянинов <smolianinow.colya2016@yandex.ru>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -5245,7 +5245,7 @@ msgid ""
 "Failed to generate clip:\n"
 "%1"
 msgstr ""
-"Ошибка создания клипа\n"
+"Не удалось создать клип:\n"
 "%1"
 
 #: plugins/sampleplugin/sampleplugin.cpp:101
@@ -8636,7 +8636,7 @@ msgstr "Не удалось перезаписать оригинальный к
 #: src/jobs/cutclipjob.cpp:152 src/jobs/transcodeclipjob.cpp:169
 #, kde-format
 msgid "Failed to create file."
-msgstr "Ошибка создания файла."
+msgstr "Не удалось создать файл."
 
 #: src/jobs/filterclipjob.cpp:47
 #, kde-format
@@ -8760,7 +8760,7 @@ msgstr ""
 #: src/jobs/proxyclipjob.cpp:300
 #, kde-format
 msgid "Failed to create proxy clip."
-msgstr "Ошибка создания прокси-клипа."
+msgstr "Не удалось создать прокси-клип."
 
 #: src/jobs/scenesplitjob.cpp:50
 #, kde-format
@@ -11078,7 +11078,9 @@ msgstr "Показать контроль записи"
 msgid ""
 "Failed to start the capture application:\n"
 "%1"
-msgstr "Ошибка запуска приложения захвата экрана %1"
+msgstr ""
+"Не удалось запустить приложение захвата:\n"
+"%1"
 
 #: src/monitor/recmanager.cpp:326 src/monitor/recmanager.cpp:329
 #: src/monitor/recmanager.cpp:455
