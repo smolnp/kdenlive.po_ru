@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2020-01-03 03:11+0100\n"
-"PO-Revision-Date: 2020-01-03 18:48+0300\n"
+"PO-Revision-Date: 2020-01-04 20:35+0300\n"
 "Last-Translator: Николай Смольянинов <smolianinow.colya2016@yandex.ru>\n"
 "Language-Team: \n"
 "Language: ru\n"
@@ -704,9 +704,9 @@ msgid ""
 "timecode,frame,file date,local file date,source frame rate,source codec,"
 "source bit rate,source width,source height,source comment"
 msgstr ""
-"тайм-код,кадр,дата файла,дата локального файла,частота кадров источника,"
-"кодек источника,скорость битов источника,ширина источника,высота источника,"
-"комментарий источника"
+"тайм-код,кадр,дата файла,дата локального файла,исходная кадровая частота,"
+"исходный кодек,исходный битрейт, исходная ширина,исходная высота,исходные "
+"комментарии"
 
 #: data/effects/fade_from_black.xml:3 data/effects/fadein.xml:3
 #, kde-format
@@ -3556,7 +3556,7 @@ msgstr "Предел (дБ)"
 #: data/effects/ladspa_limiter.xml:13
 #, kde-format
 msgid "Release time (s)"
-msgstr "Время выключения (с)"
+msgstr "Время восстановления (с)"
 
 #: data/effects/ladspa_phaser.xml:3
 #, kde-format
@@ -3586,7 +3586,7 @@ msgstr "Обратная связь"
 #: data/effects/ladspa_phaser.xml:16
 #, kde-format
 msgid "Spread"
-msgstr "Развернуть"
+msgstr "Интенсивность"
 
 #: data/effects/ladspa_pitch.xml:3
 #, kde-format
@@ -3626,7 +3626,7 @@ msgstr "Изменить темп"
 #: data/effects/ladspa_rate_scale.xml:4
 #, kde-format
 msgid "LADSPA rate scale audio effect"
-msgstr "Изменить темп воспроизведения аудио (эффект LADSPA)"
+msgstr "Темп воспроизведения звука (эффект LADSPA)"
 
 #: data/effects/ladspa_rate_scale.xml:7
 #, kde-format
@@ -3651,7 +3651,7 @@ msgstr "Время реверберации"
 #: data/effects/ladspa_reverb.xml:10 data/effects/ladspa_room_reverb.xml:13
 #, kde-format
 msgid "Damping"
-msgstr "Заглушение"
+msgstr "Демпфирование"
 
 #: data/effects/ladspa_room_reverb.xml:3
 #, kde-format
@@ -7317,22 +7317,22 @@ msgstr "Стандарт (%1) не совместим с профилем про
 #: src/dialogs/renderwidget.cpp:1814
 #, kde-format
 msgid "Frame rate (%1) not compatible with project profile (%2)"
-msgstr "Частота смены кадров (%1) не совместима с профилем проекта (%2)"
+msgstr "Кадровая частота (%1) не совместима с профилем проекта (%2)"
 
 #: src/dialogs/renderwidget.cpp:1833
 #, kde-format
 msgid "Unsupported video format: %1"
-msgstr "Неподдерживаемый формат видео: %1"
+msgstr "Формат видео: %1 не поддерживается"
 
 #: src/dialogs/renderwidget.cpp:1850
 #, kde-format
 msgid "Unsupported audio codec: %1"
-msgstr "Неподдерживаемый аудиокодек: %1"
+msgstr "Звуковой кодек: %1 не поддерживается"
 
 #: src/dialogs/renderwidget.cpp:1867
 #, kde-format
 msgid "Unsupported video codec: %1"
-msgstr "Неподдерживаемый видеокодек: %1"
+msgstr "Видеокодек: %1 не поддерживается"
 
 #: src/dialogs/renderwidget.cpp:1878
 #, kde-format
