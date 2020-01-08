@@ -8,7 +8,7 @@
 # Yury G. Kudryashov <urkud.urkud@gmail.com>, 2012.
 # Alexander Potashev <aspotashev@gmail.com>, 2015.
 # Vladimir Potapov <vladimir.potapov@rosalab.ru>, 2015.
-# Смольянинов Николай <smolianinow.colya2016@yandex.ru>, 2016, 2017, 2018, 2019.
+# Смольянинов Николай <smolianinow.colya2016@yandex.ru>, 2016, 2017, 2018, 2019, 2020.
 # Julia Dronova <juliette.tux@gmail.com>, 2018.
 # Виктор <victorr2007@yandex.ru>, 2018.
 # Olga Mironova <omiro@basealt.ru>, 2018.
@@ -18,15 +18,16 @@ msgstr ""
 "Project-Id-Version: Kdenlive\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2020-01-08 03:14+0100\n"
-"PO-Revision-Date: 2020-01-08 21:22+0300\n"
-"Last-Translator: Николай Смольянинов <smolianinow.colya2016@yandex.ru>\n"
-"Language-Team: \n"
+"PO-Revision-Date: 2020-01-08 21:47+0300\n"
+"Last-Translator:Смольянинов Николай <smolianinow.colya2016@yandex.ru>\n"
+"Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 18.12.2\n"
-"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"	"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Lokalize 2.0\n"
+"Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
+"%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -5930,7 +5931,6 @@ msgid_plural "%1 jobs"
 msgstr[0] "%1 задание"
 msgstr[1] "%1 задания"
 msgstr[2] "%1 заданий"
-msgstr[3] "%1 задание"
 
 #: src/bin/bin.cpp:712
 #, kde-format
@@ -5939,7 +5939,6 @@ msgid_plural "%1 pending jobs"
 msgstr[0] "%1 задание в очереди"
 msgstr[1] "%1 задания  в очереди"
 msgstr[2] "%1 заданий в очереди"
-msgstr[3] "%1 задание в очереди"
 
 #: src/bin/bin.cpp:816
 #, kde-format
@@ -6111,7 +6110,6 @@ msgid_plural "%1 stars"
 msgstr[0] "%1 звезда"
 msgstr[1] "%1 звезды"
 msgstr[2] "%1 звёзд"
-msgstr[3] "%1 звезда"
 
 #: src/bin/bin.cpp:1511
 #, kde-format
@@ -6299,7 +6297,6 @@ msgid_plural "Move Clips"
 msgstr[0] "Переместить клип"
 msgstr[1] "Переместить клипа"
 msgstr[2] "Переместить клипов"
-msgstr[3] "Переместить клип"
 
 #: src/bin/bin.cpp:2664
 #, kde-format
@@ -6419,7 +6416,6 @@ msgid_plural "Add clips"
 msgstr[0] "Добавить клип"
 msgstr[1] "Добавить клипа"
 msgstr[2] "Добавить клипов"
-msgstr[3] "Добавить клип"
 
 #: src/bin/clipcreator.cpp:172
 #, kde-format
@@ -6577,7 +6573,6 @@ msgid_plural "%1 clips"
 msgstr[0] "%1 клип"
 msgstr[1] "%1 клипа"
 msgstr[2] "%1 клипов"
-msgstr[3] "%1 клип"
 
 #: src/bin/projectitemmodel.cpp:260
 #, kde-format
@@ -7382,7 +7377,6 @@ msgid_plural "%1 days "
 msgstr[0] "%1 день "
 msgstr[1] "%1 дня "
 msgstr[2] "%1 дней "
-msgstr[3] "%1 день "
 
 #: src/dialogs/renderwidget.cpp:2453
 #, kde-format
@@ -7751,7 +7745,6 @@ msgid_plural "Missing effects: %2 will be removed from project."
 msgstr[0] "Утерянный эффект: %2 будет удалён из проекта."
 msgstr[1] "Утерянных эффекта: %2 будут удалены из проекта."
 msgstr[2] "Утерянных эффектов: %2 будут удалены из проекта."
-msgstr[3] "Утерянный эффект: %2 будет удалён из проекта."
 
 #: src/doc/documentchecker.cpp:536
 #, kde-format
@@ -7774,9 +7767,6 @@ msgstr[1] ""
 msgstr[2] ""
 "Файл проекта содержит %1 отсутствующих клипов, но работу можно продолжить с "
 "их прокси."
-msgstr[3] ""
-"Файл проекта содержит отсутствующий клип, но работу можно продолжить с их "
-"прокси."
 
 #: src/doc/documentchecker.cpp:558
 #: src/mltcontroller/clippropertiescontroller.cpp:362
@@ -7791,7 +7781,6 @@ msgid_plural "%1 missing proxy clips, will be recreated on project opening"
 msgstr[0] "Утерян %1 прокси-клип, они будут воссозданы при открытии проекта"
 msgstr[1] "Утеряно %1 прокси-клипа, они будут воссозданы при открытии проекта"
 msgstr[2] "Утеряно %1 прокси-клипов, они будут воссозданы при открытии проекта"
-msgstr[3] "Утерян %1 прокси-клип, он будет воссоздан при открытии проекта"
 
 #: src/doc/documentchecker.cpp:564
 #, kde-format
@@ -7830,7 +7819,6 @@ msgid_plural "This will remove the selected clips from this project"
 msgstr[0] "Это удалит выбранный клип из проекта"
 msgstr[1] "Это удалит выбранных клипа из проекта"
 msgstr[2] "Это удалит выбранных клипов из проекта"
-msgstr[3] "Это удалит выбранный клип из проекта"
 
 #: src/doc/documentchecker.cpp:1185
 #, kde-format
@@ -8102,7 +8090,6 @@ msgid_plural "Add proxy clips"
 msgstr[0] "Добавить прокси-клип"
 msgstr[1] "Добавить прокси-клипа"
 msgstr[2] "Добавить прокси-клипов"
-msgstr[3] "Добавить прокси-клип"
 
 #: src/doc/kdenlivedoc.cpp:1173
 #, kde-format
@@ -8111,7 +8098,6 @@ msgid_plural "Remove proxy clips"
 msgstr[0] "Удалить прокси-клип"
 msgstr[1] "Удалить прокси-клипа"
 msgstr[2] "Удалить прокси-клипов"
-msgstr[3] "Удалить прокси-клип"
 
 #: src/doc/kdenlivedoc.cpp:1259
 #, kde-format
@@ -9539,9 +9525,6 @@ msgstr[1] ""
 msgstr[2] ""
 "%1 заданий сборки поставлено в очередь.\n"
 "Что вы хотите сделать с этими заданиями?"
-msgstr[3] ""
-"Одно задание сборки поставлено в очередь.\n"
-"Что вы хотите сделать с этим заданием?"
 
 #: src/mainwindow.cpp:751
 #, kde-format
@@ -10325,7 +10308,6 @@ msgid_plural "Stabilize clips"
 msgstr[0] "Стабилизация клипа"
 msgstr[1] "Стабилизация клипа"
 msgstr[2] "Стабилизация клипа"
-msgstr[3] "Стабилизация клипа"
 
 #: src/mainwindow.cpp:3112
 #, kde-format
@@ -11264,7 +11246,6 @@ msgid_plural "Add clips to project"
 msgstr[0] "Добавить клип в проект"
 msgstr[1] "Добавить клипа в проект"
 msgstr[2] "Добавить клипов в проект"
-msgstr[3] "Добавить клип в проект"
 
 #: src/project/clipstabilize.cpp:61 src/project/cliptranscode.cpp:71
 #, kde-format
@@ -11348,7 +11329,6 @@ msgid_plural "You have %1 missing clips in your project."
 msgstr[0] "%1 отсутствующий клип в проекте."
 msgstr[1] "%1 отсутствующих клипа в проекте."
 msgstr[2] "%1 отсутствующих клипов в проекте."
-msgstr[3] "%1 отсутствующий клип в проекте."
 
 #: src/project/dialogs/archivewidget.cpp:196
 #: src/project/dialogs/archivewidget.cpp:1096
@@ -11358,7 +11338,6 @@ msgid_plural "(%1 items)"
 msgstr[0] "(%1 пункт)"
 msgstr[1] "(%1 пункта)"
 msgstr[2] "(%1 пунктов)"
-msgstr[3] "(%1 пункт)"
 
 #: src/project/dialogs/archivewidget.cpp:203
 #: src/project/dialogs/archivewidget.cpp:1098
@@ -11368,7 +11347,6 @@ msgid_plural "%1 files to archive, requires %2"
 msgstr[0] "Будет добавлен в архив %1 файл, требуется %2"
 msgstr[1] "Будут добавлены в архив %1 файла, требуется %2"
 msgstr[2] "Будут добавлены в архив %1 файлов, требуется %2"
-msgstr[3] "Будет добавлен в архив %1 файл, требуется %2"
 
 #: src/project/dialogs/archivewidget.cpp:204
 #: src/project/dialogs/archivewidget.cpp:679
@@ -11672,7 +11650,6 @@ msgid_plural "%1 images found"
 msgstr[0] "Найдено %1 изображение"
 msgstr[1] "Найдено %1 изображения"
 msgstr[2] "Найдено %1 изображений"
-msgstr[3] "Найдено одно изображение"
 
 #: src/project/dialogs/projectsettings.cpp:650
 #, kde-format
@@ -13436,7 +13413,6 @@ msgid_plural "This title has %1 missing elements"
 msgstr[0] "В этих титрах утерян %1 элемент"
 msgstr[1] "В этих титрах утеряно %1 элемента"
 msgstr[2] "В этих титрах утеряно %1 элементов"
-msgstr[3] "В этих титрах утерян 1 элемент"
 
 #: src/titler/titlewidget.cpp:2072 src/titler/unicodedialog.cpp:29
 #, kde-format
@@ -16391,7 +16367,6 @@ msgid_plural "Found %1 results"
 msgstr[0] "Найдено %1 результат"
 msgstr[1] "Найдено %1 результата"
 msgstr[2] "Найдено %1 результатов"
-msgstr[3] "Найден %1 результат"
 
 #: src/utils/archiveorg.cpp:202
 #, kde-format
