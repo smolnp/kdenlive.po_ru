@@ -17,17 +17,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-01-08 03:14+0100\n"
-"PO-Revision-Date: 2020-01-08 21:47+0300\n"
-"Last-Translator:Смольянинов Николай <smolianinow.colya2016@yandex.ru>\n"
+"POT-Creation-Date: 2020-01-10 03:16+0100\n"
+"PO-Revision-Date: 2020-01-10 17:11+0300\n"
+"Last-Translator: Смольянинов Николай <smolianinow.colya2016@yandex.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 2.0\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Lokalize 2.0\n"
 
 #, kde-format
 msgctxt "NAME OF TRANSLATORS"
@@ -157,7 +157,7 @@ msgstr "Угол"
 #: data/effects/audiospectrum.xml:26
 #, kde-format
 msgid "The rotation angle to be applied to the waveform."
-msgstr "Угол вращения, применяемый к звуковому спектру."
+msgstr "Угол вращения применяемый к звуковому спектру."
 
 #: data/effects/audiospectrum.xml:29 data/effects/audiowaveform.xml:15
 #: data/effects/movit_rect.xml:6 data/effects/pan_zoom.xml:7
@@ -3927,7 +3927,7 @@ msgstr "Внутренний радиус"
 msgid "White Balance (GPU)"
 msgstr "Баланс белого (GPU)"
 
-#: data/effects/mute.xml:3 src/timeline2/view/qml/TrackHead.qml:324
+#: data/effects/mute.xml:3 src/timeline2/view/qml/TrackHead.qml:328
 #, kde-format
 msgid "Mute"
 msgstr "Выключить звук"
@@ -5931,6 +5931,7 @@ msgid_plural "%1 jobs"
 msgstr[0] "%1 задание"
 msgstr[1] "%1 задания"
 msgstr[2] "%1 заданий"
+msgstr[3] "%1 задание"
 
 #: src/bin/bin.cpp:712
 #, kde-format
@@ -5939,6 +5940,7 @@ msgid_plural "%1 pending jobs"
 msgstr[0] "%1 задание в очереди"
 msgstr[1] "%1 задания  в очереди"
 msgstr[2] "%1 заданий в очереди"
+msgstr[3] "%1 задание в очереди"
 
 #: src/bin/bin.cpp:816
 #, kde-format
@@ -6110,6 +6112,7 @@ msgid_plural "%1 stars"
 msgstr[0] "%1 звезда"
 msgstr[1] "%1 звезды"
 msgstr[2] "%1 звёзд"
+msgstr[3] "%1 звезда"
 
 #: src/bin/bin.cpp:1511
 #, kde-format
@@ -6294,9 +6297,10 @@ msgstr "Подробный журнал"
 #, kde-format
 msgid "Move Clip"
 msgid_plural "Move Clips"
-msgstr[0] "Переместить клип"
-msgstr[1] "Переместить клипа"
-msgstr[2] "Переместить клипов"
+msgstr[0] "Переместить клипы"
+msgstr[1] "Переместить клипы"
+msgstr[2] "Переместить клипы"
+msgstr[3] "Переместить клип"
 
 #: src/bin/bin.cpp:2664
 #, kde-format
@@ -6414,8 +6418,9 @@ msgstr "Создать цветной клип"
 msgid "Add clip"
 msgid_plural "Add clips"
 msgstr[0] "Добавить клип"
-msgstr[1] "Добавить клипа"
-msgstr[2] "Добавить клипов"
+msgstr[1] "Добавить клипы"
+msgstr[2] "Добавить клипы"
+msgstr[3] "Добавить клип"
 
 #: src/bin/clipcreator.cpp:172
 #, kde-format
@@ -6573,6 +6578,7 @@ msgid_plural "%1 clips"
 msgstr[0] "%1 клип"
 msgstr[1] "%1 клипа"
 msgstr[2] "%1 клипов"
+msgstr[3] "%1 клип"
 
 #: src/bin/projectitemmodel.cpp:260
 #, kde-format
@@ -7377,6 +7383,7 @@ msgid_plural "%1 days "
 msgstr[0] "%1 день "
 msgstr[1] "%1 дня "
 msgstr[2] "%1 дней "
+msgstr[3] "%1 день "
 
 #: src/dialogs/renderwidget.cpp:2453
 #, kde-format
@@ -7578,8 +7585,8 @@ msgid ""
 "<li>Missing MLT module: <b>sdl</b> or <b>rtaudio</b><br/>required for audio "
 "output</li>"
 msgstr ""
-"<li>Отсутствует модуль MLT:<b>sdl</b> или <B><b>rtaudio</b><br/> требуется "
-"для вывода звука</li>"
+"<li>Отсутствует модуль MLT:<b>sdl</b> или <B><b>rtaudio</b><br/>, "
+"необходимый для вывода звука</li>"
 
 #: src/dialogs/wizard.cpp:476
 #, kde-format
@@ -7587,7 +7594,7 @@ msgid ""
 "<li>Missing MLT module: <b>avformat</b> (FFmpeg)<br/>required for audio/"
 "video</li>"
 msgstr ""
-"<li>Отсутствует MLT модуль<b> avformat</b>(FFmpeg)<br/>необходимый для "
+"<li>Отсутствует MLT модуль<b> avformat</b>(FFmpeg)<br/>, необходимый для "
 "работы со звуком и видео </li>"
 
 #: src/dialogs/wizard.cpp:498
@@ -7745,6 +7752,7 @@ msgid_plural "Missing effects: %2 will be removed from project."
 msgstr[0] "Утерянный эффект: %2 будет удалён из проекта."
 msgstr[1] "Утерянных эффекта: %2 будут удалены из проекта."
 msgstr[2] "Утерянных эффектов: %2 будут удалены из проекта."
+msgstr[3] "Утерянный эффект: %2 будет удалён из проекта."
 
 #: src/doc/documentchecker.cpp:536
 #, kde-format
@@ -7759,14 +7767,16 @@ msgid_plural ""
 "The project file contains %1 missing clips, you can still work with their "
 "proxies."
 msgstr[0] ""
-"Файл проекта содержит %1 отсутствующий клип, но работу можно продолжить с "
+"Файл проекта ссылается на %1 утерянный клип, но работу можно продолжить с "
 "его прокси."
 msgstr[1] ""
-"Файл проекта содержит %1 отсутствующих клипа, но работу можно продолжить с "
+"Файл проекта ссылается на %1 утерянных клипа, но работу можно продолжить с "
 "их прокси."
 msgstr[2] ""
-"Файл проекта содержит %1 отсутствующих клипов, но работу можно продолжить с "
+"Файл проекта ссылается на %1 утерянных клипов, но работу можно продолжить с "
 "их прокси."
+msgstr[3] ""
+"Файл проекта ссылается на утерянный, но работу можно продолжить с его прокси."
 
 #: src/doc/documentchecker.cpp:558
 #: src/mltcontroller/clippropertiescontroller.cpp:362
@@ -7781,6 +7791,7 @@ msgid_plural "%1 missing proxy clips, will be recreated on project opening"
 msgstr[0] "Утерян %1 прокси-клип, они будут воссозданы при открытии проекта"
 msgstr[1] "Утеряно %1 прокси-клипа, они будут воссозданы при открытии проекта"
 msgstr[2] "Утеряно %1 прокси-клипов, они будут воссозданы при открытии проекта"
+msgstr[3] "Утерян %1 прокси-клип, они будут воссозданы при открытии проекта"
 
 #: src/doc/documentchecker.cpp:564
 #, kde-format
@@ -7816,9 +7827,10 @@ msgstr "Укажите новое расположение файла"
 #, kde-format
 msgid "This will remove the selected clip from this project"
 msgid_plural "This will remove the selected clips from this project"
-msgstr[0] "Это удалит выбранный клип из проекта"
-msgstr[1] "Это удалит выбранных клипа из проекта"
-msgstr[2] "Это удалит выбранных клипов из проекта"
+msgstr[0] "Действие удалит выбранные клипы из проекта"
+msgstr[1] "Действие удалит выбранные клипы из проекта"
+msgstr[2] "Действие удалит выбранные клипы из проекта"
+msgstr[3] "Действие удалит выбранный клип из проекта"
 
 #: src/doc/documentchecker.cpp:1185
 #, kde-format
@@ -7832,9 +7844,9 @@ msgid ""
 "system. Please install that language pack. Until then, Kdenlive might not be "
 "able to correctly open the document."
 msgstr ""
-"Документ был создан для языкового стандарта «%1», который отсутствует в "
-"системе. Установите языковой пакет, в противном случае документ может быть "
-"открыт в Kdenlive с ошибками."
+"Документ созданный для языкового стандарта «%1» не найден в системе. "
+"Установите языковой пакет, иначе открытый в Kdenlive документ может "
+"содержать ошибки."
 
 #: src/doc/documentvalidator.cpp:158
 #, kde-format
@@ -8087,17 +8099,19 @@ msgstr ""
 #, kde-format
 msgid "Add proxy clip"
 msgid_plural "Add proxy clips"
-msgstr[0] "Добавить прокси-клип"
-msgstr[1] "Добавить прокси-клипа"
-msgstr[2] "Добавить прокси-клипов"
+msgstr[0] "Добавить прокси-клипы"
+msgstr[1] "Добавить прокси-клипы"
+msgstr[2] "Добавить прокси-клипы"
+msgstr[3] "Добавить прокси-клип"
 
 #: src/doc/kdenlivedoc.cpp:1173
 #, kde-format
 msgid "Remove proxy clip"
 msgid_plural "Remove proxy clips"
-msgstr[0] "Удалить прокси-клип"
-msgstr[1] "Удалить прокси-клипа"
-msgstr[2] "Удалить прокси-клипов"
+msgstr[0] "Удалить прокси-клипы"
+msgstr[1] "Удалить прокси-клипы"
+msgstr[2] "Удалить прокси-клипы"
+msgstr[3] "Удалить прокси-клип"
 
 #: src/doc/kdenlivedoc.cpp:1259
 #, kde-format
@@ -8567,7 +8581,7 @@ msgstr "Извлечение миниатюры звука из клипа %1"
 msgid "Audio thumbs: cannot open file %1"
 msgstr "Не удалось открыть архивный файл %1"
 
-#: src/jobs/audiothumbjob.cpp:147
+#: src/jobs/audiothumbjob.cpp:154
 #, kde-format
 msgid ""
 "Audio thumbs: cannot create temporary file, check disk space and "
@@ -8576,14 +8590,14 @@ msgstr ""
 "Миниатюры звука: не удалось создать временный файл. Проверьте, достаточно ли "
 "места на диске и необходимые права доступа\n"
 
-#: src/jobs/audiothumbjob.cpp:209
+#: src/jobs/audiothumbjob.cpp:216
 #, kde-format
 msgid "Audio thumbs: error reading audio thumbnail created with FFmpeg\n"
 msgstr ""
 "Миниатюры звука: ошибка при чтении миниатюры звука, созданной с помощью "
 "FFmpeg.\n"
 
-#: src/jobs/audiothumbjob.cpp:299
+#: src/jobs/audiothumbjob.cpp:311
 #, kde-format
 msgid "Audio thumbs: cannot open project file %1"
 msgstr "Миниатюры звука: не удалось открыть файл проекта %1"
@@ -8711,7 +8725,7 @@ msgstr "Добавить дополнительные потоки для кли
 #: src/jobs/meltjob.cpp:54
 #, kde-format
 msgid "No producer for this clip."
-msgstr "Отсутствует средство создания этого клипа."
+msgstr "Не найдено средство создания этого клипа."
 
 #: src/jobs/meltjob.cpp:172
 #, kde-format
@@ -9334,27 +9348,27 @@ msgstr ""
 "<a href=\"https://mltframework.org\">MLT</a>, версия %1\n"
 "Библиотеки <a href=\"https://ffmpeg.org\">FFmpeg</a>"
 
-#: src/main.cpp:195
+#: src/main.cpp:193
 #, kde-format
 msgid "Set a custom config file name"
 msgstr "Указать имя пользовательского файла конфигурации"
 
-#: src/main.cpp:196
+#: src/main.cpp:194
 #, kde-format
 msgid "Set the path for MLT environment"
 msgstr "Указать путь для окружения MLT"
 
-#: src/main.cpp:197
+#: src/main.cpp:195
 #, kde-format
 msgid "MLT log level"
 msgstr "Уровень журнала MLT"
 
-#: src/main.cpp:198
+#: src/main.cpp:196
 #, kde-format
 msgid "Comma separated list of clips to add"
 msgstr "Разделённый запятыми список добавляемых клипов"
 
-#: src/main.cpp:199
+#: src/main.cpp:197
 #, kde-format
 msgid "Document to open"
 msgstr "Открываемый документ"
@@ -9525,6 +9539,9 @@ msgstr[1] ""
 msgstr[2] ""
 "%1 заданий сборки поставлено в очередь.\n"
 "Что вы хотите сделать с этими заданиями?"
+msgstr[3] ""
+"%1 задание сборки поставлено в очередь.\n"
+"Что вы хотите сделать с этим заданием?"
 
 #: src/mainwindow.cpp:751
 #, kde-format
@@ -9580,7 +9597,7 @@ msgstr "Композитинг дорожек"
 #: src/scopes/colorscopes/vectorscope.cpp:57
 #, kde-format
 msgid "None"
-msgstr "Отсутствует"
+msgstr "Нет"
 
 #: src/mainwindow.cpp:932 src/mainwindow.cpp:943
 #, kde-format
@@ -10049,7 +10066,7 @@ msgstr "Удалить пробелы на всех дорожках"
 msgid "Insert Track"
 msgstr "Вставить дорожку"
 
-#: src/mainwindow.cpp:1434 src/timeline2/view/timelinecontroller.cpp:2688
+#: src/mainwindow.cpp:1434 src/timeline2/view/timelinecontroller.cpp:2704
 #, kde-format
 msgid "Master effects"
 msgstr "Мастер-эффекты"
@@ -10305,9 +10322,10 @@ msgstr "Стабилизировать (%1)"
 #, kde-format
 msgid "Stabilize clip"
 msgid_plural "Stabilize clips"
-msgstr[0] "Стабилизация клипа"
-msgstr[1] "Стабилизация клипа"
-msgstr[2] "Стабилизация клипа"
+msgstr[0] "Стабилизация клипов"
+msgstr[1] "Стабилизация клипов"
+msgstr[2] "Стабилизация клипов"
+msgstr[3] "Стабилизация клипа"
 
 #: src/mainwindow.cpp:3112
 #, kde-format
@@ -11141,7 +11159,7 @@ msgstr "Скольжение"
 msgid "close"
 msgstr "закрыть"
 
-#: src/monitor/view/kdenlivemonitorrotoscene.qml:215
+#: src/monitor/view/kdenlivemonitorrotoscene.qml:237
 #, kde-format
 msgid ""
 "Click to add points,\n"
@@ -11243,9 +11261,10 @@ msgstr "Стабилизировать клип"
 #, kde-format
 msgid "Add clip to project"
 msgid_plural "Add clips to project"
-msgstr[0] "Добавить клип в проект"
-msgstr[1] "Добавить клипа в проект"
-msgstr[2] "Добавить клипов в проект"
+msgstr[0] "Добавить клипы в проект"
+msgstr[1] "Добавить клипы в проект"
+msgstr[2] "Добавить клипы в проект"
+msgstr[3] "Добавить клип в проект"
 
 #: src/project/clipstabilize.cpp:61 src/project/cliptranscode.cpp:71
 #, kde-format
@@ -11326,9 +11345,10 @@ msgstr "Файлы каше"
 #, kde-format
 msgid "You have %1 missing clip in your project."
 msgid_plural "You have %1 missing clips in your project."
-msgstr[0] "%1 отсутствующий клип в проекте."
-msgstr[1] "%1 отсутствующих клипа в проекте."
-msgstr[2] "%1 отсутствующих клипов в проекте."
+msgstr[0] "В проекте утерян %1 клип."
+msgstr[1] "В проекте утеряно %1 клипа."
+msgstr[2] "В проекте утеряно %1 клипов."
+msgstr[3] "В проекте утерян %1 клип."
 
 #: src/project/dialogs/archivewidget.cpp:196
 #: src/project/dialogs/archivewidget.cpp:1096
@@ -11338,6 +11358,7 @@ msgid_plural "(%1 items)"
 msgstr[0] "(%1 пункт)"
 msgstr[1] "(%1 пункта)"
 msgstr[2] "(%1 пунктов)"
+msgstr[3] "(%1 пункт)"
 
 #: src/project/dialogs/archivewidget.cpp:203
 #: src/project/dialogs/archivewidget.cpp:1098
@@ -11347,6 +11368,7 @@ msgid_plural "%1 files to archive, requires %2"
 msgstr[0] "Будет добавлен в архив %1 файл, требуется %2"
 msgstr[1] "Будут добавлены в архив %1 файла, требуется %2"
 msgstr[2] "Будут добавлены в архив %1 файлов, требуется %2"
+msgstr[3] "Будет добавлен в архив %1 файл, требуется %2"
 
 #: src/project/dialogs/archivewidget.cpp:204
 #: src/project/dialogs/archivewidget.cpp:679
@@ -11650,6 +11672,7 @@ msgid_plural "%1 images found"
 msgstr[0] "Найдено %1 изображение"
 msgstr[1] "Найдено %1 изображения"
 msgstr[2] "Найдено %1 изображений"
+msgstr[3] "Найдено %1 изображение"
 
 #: src/project/dialogs/projectsettings.cpp:650
 #, kde-format
@@ -12463,9 +12486,7 @@ msgstr "Включить клип"
 #: src/timeline2/model/timelinefunctions.cpp:646
 #, kde-format
 msgid "One or more clips do not have audio, or are already audio"
-msgstr ""
-"В одном или в нескольких клипах отсутствует звук, или они уже являются "
-"звуковыми"
+msgstr "Один или несколько клипов не содержат звука или уже являются звуковыми"
 
 #: src/timeline2/model/timelinefunctions.cpp:655
 #, kde-format
@@ -12661,13 +12682,13 @@ msgid "Change speed failed"
 msgstr "Не удалось изменить скорость"
 
 #: src/timeline2/model/timelinemodel.cpp:3717
-#: src/timeline2/view/qml/TrackHead.qml:334
+#: src/timeline2/view/qml/TrackHead.qml:338
 #, kde-format
 msgid "Lock track"
 msgstr "Заблокировать дорожку"
 
 #: src/timeline2/model/timelinemodel.cpp:3722
-#: src/timeline2/view/qml/TrackHead.qml:334
+#: src/timeline2/view/qml/TrackHead.qml:338
 #, kde-format
 msgid "Unlock track"
 msgstr "Разблокировать дорожку"
@@ -12746,22 +12767,22 @@ msgstr ""
 "Не удалось осуществить предпросмотр, проверьте правильность настройки. "
 "%1Показать подробности...%2"
 
-#: src/timeline2/view/qml/Clip.qml:367
+#: src/timeline2/view/qml/Clip.qml:365
 #, kde-format
 msgid "Offset: -%1"
 msgstr "Смещение: - %1"
 
-#: src/timeline2/view/qml/Clip.qml:367
+#: src/timeline2/view/qml/Clip.qml:365
 #, kde-format
 msgid "Offset: %1"
 msgstr "Смещение: %1"
 
-#: src/timeline2/view/qml/Clip.qml:545 src/timeline2/view/qml/Clip.qml:595
+#: src/timeline2/view/qml/Clip.qml:543 src/timeline2/view/qml/Clip.qml:593
 #, kde-format
 msgid "Click to add composition"
 msgstr "Щёлкните для добавления композиции"
 
-#: src/timeline2/view/qml/Clip.qml:702
+#: src/timeline2/view/qml/Clip.qml:700
 #, kde-format
 msgid ""
 "In:%1\n"
@@ -12770,7 +12791,7 @@ msgstr ""
 "In:%1\n"
 "Позиция:%2"
 
-#: src/timeline2/view/qml/Clip.qml:772
+#: src/timeline2/view/qml/Clip.qml:770
 #, kde-format
 msgid "Out: "
 msgstr "Выход: "
@@ -12923,22 +12944,22 @@ msgstr ""
 "Нажатие активирует/дезактивирует дорожку. Активные дорожки работают с "
 "операциями правки"
 
-#: src/timeline2/view/qml/TrackHead.qml:324
+#: src/timeline2/view/qml/TrackHead.qml:328
 #, kde-format
 msgid "Unmute"
 msgstr "Включить"
 
-#: src/timeline2/view/qml/TrackHead.qml:324
+#: src/timeline2/view/qml/TrackHead.qml:328
 #, kde-format
 msgid "Show"
 msgstr "Показать"
 
-#: src/timeline2/view/qml/TrackHead.qml:324
+#: src/timeline2/view/qml/TrackHead.qml:328
 #, kde-format
 msgid "Hide"
 msgstr "Скрыть"
 
-#: src/timeline2/view/qml/TrackHead.qml:417
+#: src/timeline2/view/qml/TrackHead.qml:421
 #, kde-format
 msgid "Edit track name"
 msgstr "Имя дорожки"
@@ -13069,12 +13090,12 @@ msgstr "Отделить звук"
 msgid "Move item"
 msgstr "Переместить элемент"
 
-#: src/timeline2/view/timelinecontroller.cpp:2590
+#: src/timeline2/view/timelinecontroller.cpp:2606
 #, kde-format
 msgid "Impossible to capture on a locked track"
 msgstr "Нельзя выполнить захват на заблокированной дорожке"
 
-#: src/timeline2/view/timelinecontroller.cpp:2601
+#: src/timeline2/view/timelinecontroller.cpp:2617
 #, kde-format
 msgid ""
 "Impossible to capture here: the capture could override clips. Please remove "
@@ -13083,7 +13104,7 @@ msgstr ""
 "Нельзя сохранить захваченное сюда: возможна перезапись клипов. Удалите клипы "
 "за текущей позицией или выберите другую дорожку"
 
-#: src/timeline2/view/timelinecontroller.cpp:2646
+#: src/timeline2/view/timelinecontroller.cpp:2662
 #, kde-format
 msgid "Record audio"
 msgstr "Записать звук"
@@ -13413,6 +13434,7 @@ msgid_plural "This title has %1 missing elements"
 msgstr[0] "В этих титрах утерян %1 элемент"
 msgstr[1] "В этих титрах утеряно %1 элемента"
 msgstr[2] "В этих титрах утеряно %1 элементов"
+msgstr[3] "В этих титрах утерян %1 элемент"
 
 #: src/titler/titlewidget.cpp:2072 src/titler/unicodedialog.cpp:29
 #, kde-format
@@ -16367,6 +16389,7 @@ msgid_plural "Found %1 results"
 msgstr[0] "Найдено %1 результат"
 msgstr[1] "Найдено %1 результата"
 msgstr[2] "Найдено %1 результатов"
+msgstr[3] "Найдено %1 результат"
 
 #: src/utils/archiveorg.cpp:202
 #, kde-format
