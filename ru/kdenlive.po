@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2020-01-16 03:13+0100\n"
-"PO-Revision-Date: 2020-01-16 15:52+0300\n"
+"PO-Revision-Date: 2020-01-16 16:19+0300\n"
 "Last-Translator: smol <smolianinow.colya2016@yandex.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "Language: ru\n"
@@ -6291,9 +6291,9 @@ msgstr "Подробный журнал"
 #, kde-format
 msgid "Move Clip"
 msgid_plural "Move Clips"
-msgstr[0] "Переместить клип"
-msgstr[1] "Переместить клипа"
-msgstr[2] "Переместить клипов"
+msgstr[0] "Переместить клипы"
+msgstr[1] "Переместить клипы"
+msgstr[2] "Переместить клипы"
 msgstr[3] "Переместить клип"
 
 #: src/bin/bin.cpp:2713
@@ -6411,9 +6411,9 @@ msgstr "Создать цветной клип"
 #, kde-format
 msgid "Add clip"
 msgid_plural "Add clips"
-msgstr[0] "Добавить клип"
-msgstr[1] "Добавить клипа"
-msgstr[2] "Добавить клипов"
+msgstr[0] "Добавить клипы"
+msgstr[1] "Добавить клипы"
+msgstr[2] "Добавить клипы"
 msgstr[3] "Добавить клип"
 
 #: src/bin/clipcreator.cpp:172
@@ -8093,18 +8093,18 @@ msgstr ""
 #, kde-format
 msgid "Add proxy clip"
 msgid_plural "Add proxy clips"
-msgstr[0] "Добавить прокси-клип"
-msgstr[1] "Добавить прокси-клипа"
-msgstr[2] "Добавить прокси-клипов"
+msgstr[0] "Добавить прокси-клипы"
+msgstr[1] "Добавить прокси-клипы"
+msgstr[2] "Добавить прокси-клипы"
 msgstr[3] "Добавить прокси-клип"
 
 #: src/doc/kdenlivedoc.cpp:1173
 #, kde-format
 msgid "Remove proxy clip"
 msgid_plural "Remove proxy clips"
-msgstr[0] "Удалить прокси-клип"
-msgstr[1] "Удалить прокси-клипа"
-msgstr[2] "Удалить прокси-клипов"
+msgstr[0] "Удалить прокси-клипы"
+msgstr[1] "Удалить прокси-клипы"
+msgstr[2] "Удалить прокси-клипы"
 msgstr[3] "Удалить прокси-клип"
 
 #: src/doc/kdenlivedoc.cpp:1259
@@ -10342,9 +10342,9 @@ msgstr "Стабилизировать (%1)"
 #, kde-format
 msgid "Stabilize clip"
 msgid_plural "Stabilize clips"
-msgstr[0] "Стабилизация клипа"
-msgstr[1] "Стабилизация клипа"
-msgstr[2] "Стабилизация клипа"
+msgstr[0] "Стабилизация клипов"
+msgstr[1] "Стабилизация клипов"
+msgstr[2] "Стабилизация клипов"
 msgstr[3] "Стабилизация клипа"
 
 #: src/mainwindow.cpp:3157
@@ -11011,7 +11011,7 @@ msgstr "Линейное наложение (быстро)"
 #: src/monitor/monitormanager.cpp:433
 #, kde-format
 msgid "YADIF - temporal only (good)"
-msgstr "YADIF - временной (хорошо)"
+msgstr "YADIF - временное (хорошо)"
 
 #: src/monitor/monitormanager.cpp:434
 #, kde-format
@@ -11278,9 +11278,9 @@ msgstr "Стабилизировать клип"
 #, kde-format
 msgid "Add clip to project"
 msgid_plural "Add clips to project"
-msgstr[0] "Добавить клип в проект"
-msgstr[1] "Добавить клипа в проект"
-msgstr[2] "Добавить клипов в проект"
+msgstr[0] "Добавить клипы в проект"
+msgstr[1] "Добавить клипы в проект"
+msgstr[2] "Добавить клипы в проект"
 msgstr[3] "Добавить клип в проект"
 
 #: src/project/clipstabilize.cpp:61 src/project/cliptranscode.cpp:71
@@ -16422,12 +16422,12 @@ msgstr "Фонотека Freesound"
 #: src/utils/resourcewidget.cpp:69
 #, kde-format
 msgid "Archive.org Video Library"
-msgstr "Видео библиотека Archive.org"
+msgstr "Видеотека Archive.org"
 
 #: src/utils/resourcewidget.cpp:70
 #, kde-format
 msgid "Open Clip Art Graphic Library"
-msgstr "Графическая библиотека Open Clip Art"
+msgstr "Фототека Open Clip Art"
 
 #: src/utils/resourcewidget.cpp:71
 #, kde-format
