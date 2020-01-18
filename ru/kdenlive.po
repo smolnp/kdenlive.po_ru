@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2020-01-18 03:16+0100\n"
-"PO-Revision-Date: 2020-01-18 07:58+0300\n"
+"PO-Revision-Date: 2020-01-18 08:18+0300\n"
 "Last-Translator: Смольянинов Николай <smolianinow.colya2016@yandex.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "Language: ru\n"
@@ -15729,7 +15729,7 @@ msgstr "Подробнее"
 #: src/ui/renderwidget_ui.ui:347
 #, kde-format
 msgid "Parallel processing"
-msgstr "Обрабатывать параллельно"
+msgstr "Параллельная обработка"
 
 #. i18n: ectx: property (text), widget (QPushButton, buttonRender)
 #: src/ui/renderwidget_ui.ui:390
