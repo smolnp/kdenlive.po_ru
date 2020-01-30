@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2020-01-29 02:59+0100\n"
-"PO-Revision-Date: 2020-01-30 12:40+0300\n"
+"PO-Revision-Date: 2020-01-30 21:53+0300\n"
 "Last-Translator: Смольянинов Николай <smolianinow.colya2016@yandex.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "Language: ru\n"
@@ -5287,7 +5287,7 @@ msgstr "Показать избранные элементы"
 #: src/assets/assetlist/view/qml/assetList.qml:122
 #, kde-format
 msgid "Download New Wipes..."
-msgstr "Загрузить новые файлы вытеснения..."
+msgstr "Загрузить новые файлы вытеснения…"
 
 #: src/assets/assetlist/view/qml/assetList.qml:137
 #, kde-format
@@ -5945,7 +5945,7 @@ msgstr[3] "%1 задание в очереди"
 #: src/bin/bin.cpp:818
 #, kde-format
 msgid "Search..."
-msgstr "Поиск..."
+msgstr "Поиск…"
 
 #: src/bin/bin.cpp:862
 #, kde-format
@@ -6245,7 +6245,7 @@ msgstr "Онлайн ресурсы"
 #: src/bin/bin.cpp:2464
 #, kde-format
 msgid "Locate Clip..."
-msgstr "Найти клип..."
+msgstr "Найти клип…"
 
 #: src/bin/bin.cpp:2470
 #, kde-format
@@ -6430,7 +6430,7 @@ msgstr "Загрузка клипов"
 #: src/bin/clipcreator.cpp:219
 #, kde-format
 msgid "Importing bin clips..."
-msgstr "Импорт клипов в корзину..."
+msgstr "Импорт клипов в корзину…"
 
 #: src/bin/clipcreator.cpp:309
 #, kde-format
@@ -7052,7 +7052,7 @@ msgstr ""
 #: src/dialogs/renderwidget.cpp:2676
 #, kde-format
 msgid "Waiting..."
-msgstr "Ожидание..."
+msgstr "Ожидание…"
 
 #: src/dialogs/renderwidget.cpp:126
 #, kde-format
@@ -7087,7 +7087,7 @@ msgstr "Скопировать профиль в избранное"
 #: src/dialogs/renderwidget.cpp:192
 #, kde-format
 msgid "Download New Render Profiles..."
-msgstr "Загрузить новые профили сборки..."
+msgstr "Загрузить новые профили сборки…"
 
 #: src/dialogs/renderwidget.cpp:194
 #, kde-format
@@ -7281,7 +7281,7 @@ msgid ""
 "you want to overwrite it..."
 msgstr ""
 "Выполняется задание по записи файла:<br><b>%1</b><br>Отмените задание, чтобы "
-"перезаписать файл..."
+"перезаписать файл…"
 
 #: src/dialogs/renderwidget.cpp:1602 src/dialogs/renderwidget.cpp:2664
 #, kde-format
@@ -9497,7 +9497,7 @@ msgstr "Предпросмотр результата сборки"
 #: src/mainwindow.cpp:543
 #, kde-format
 msgid "Go to Guide..."
-msgstr "Перейти к направляющей..."
+msgstr "Перейти к направляющей…"
 
 #: src/mainwindow.cpp:551
 #, kde-format
@@ -10192,12 +10192,12 @@ msgstr "Добавить заметку к проекту"
 #: src/mainwindow.cpp:1650
 #, kde-format
 msgid "Extract frame..."
-msgstr "Извлечь кадр..."
+msgstr "Извлечь кадр…"
 
 #: src/mainwindow.cpp:1653
 #, kde-format
 msgid "Extract frame to project..."
-msgstr "Извлечь кадр в проект..."
+msgstr "Извлечь кадр в проект…"
 
 #: src/mainwindow.cpp:1763 src/mainwindow.cpp:1773
 #, kde-format
@@ -10265,7 +10265,7 @@ msgstr "Дополнительно"
 #: src/mainwindow.cpp:2197
 #, kde-format
 msgid "Download New Keyboard Schemes..."
-msgstr "Загрузить новые новые схемы горячих клавиш..."
+msgstr "Загрузить новые новые схемы горячих клавиш…"
 
 #: src/mainwindow.cpp:2204
 #, kde-format
@@ -10823,7 +10823,7 @@ msgstr "Установить конец участка"
 #: src/monitor/monitor.cpp:268
 #, kde-format
 msgid "Play..."
-msgstr "Воспроизвести..."
+msgstr "Воспроизвести…"
 
 #: src/monitor/monitor.cpp:270 src/monitor/monitormanager.cpp:364
 #: src/monitor/monitormanager.cpp:370
@@ -10834,17 +10834,17 @@ msgstr "Пауза"
 #: src/monitor/monitor.cpp:290
 #, kde-format
 msgid "Misc..."
-msgstr "Разное..."
+msgstr "Разное…"
 
 #: src/monitor/monitor.cpp:294
 #, kde-format
 msgid "Go to marker..."
-msgstr "Перейти к маркеру..."
+msgstr "Перейти к маркеру…"
 
 #: src/monitor/monitor.cpp:296 src/timeline2/view/qml/timeline.qml:599
 #, kde-format
 msgid "Go to guide..."
-msgstr "Перейти к направляющей..."
+msgstr "Перейти к направляющей…"
 
 #: src/monitor/monitor.cpp:301
 #, kde-format
@@ -11481,7 +11481,7 @@ msgstr "Недостаточно свободного места на диске
 #: src/project/dialogs/archivewidget.cpp:529
 #, kde-format
 msgid "Archiving..."
-msgstr "Архивирование..."
+msgstr "Архивирование…"
 
 #: src/project/dialogs/archivewidget.cpp:557
 #: src/project/dialogs/archivewidget.cpp:643
@@ -11515,7 +11515,7 @@ msgstr "Не удалось создать временный файл"
 #: src/project/dialogs/archivewidget.cpp:954
 #, kde-format
 msgid "Extracting..."
-msgstr "Извлечение..."
+msgstr "Извлечение…"
 
 #: src/project/dialogs/archivewidget.cpp:1015
 #, kde-format
@@ -12806,7 +12806,7 @@ msgstr "Возникла проблема с папками кэша"
 msgid "Preview rendering failed, check your parameters. %1Show details...%2"
 msgstr ""
 "Не удалось осуществить предпросмотр, проверьте правильность настройки. "
-"%1Показать подробности...%2"
+"%1Показать подробности…%2"
 
 #: src/timeline2/view/qml/Clip.qml:440
 #, kde-format
@@ -12876,13 +12876,13 @@ msgstr "Разрезать по указателю воспроизведени�
 #: src/timeline2/view/timelinewidget.cpp:90
 #, kde-format
 msgid "Insert an effect..."
-msgstr "Вставить эффект..."
+msgstr "Вставить эффект…"
 
 #: src/timeline2/view/qml/ClipMenu.qml:149
 #: src/timeline2/view/timelinewidget.cpp:91
 #, kde-format
 msgid "Insert a composition..."
-msgstr "Вставить композицию..."
+msgstr "Вставить композицию…"
 
 #: src/timeline2/view/qml/timeline.qml:634
 #, kde-format
@@ -13392,7 +13392,7 @@ msgstr "Сохранить как"
 #: src/titler/titlewidget.cpp:422 src/titler/titlewidget.cpp:425
 #, kde-format
 msgid "Download New Title Templates..."
-msgstr "Загрузить новые шаблоны титров..."
+msgstr "Загрузить новые шаблоны титров…"
 
 #: src/titler/titlewidget.cpp:651
 #, kde-format
@@ -14002,7 +14002,7 @@ msgstr "Удалить выбранную точку"
 #: src/ui/unicodewidget_ui.ui:197 src/ui/unicodewidget_ui.ui:222
 #, kde-format
 msgid "..."
-msgstr "..."
+msgstr "…"
 
 #. i18n: ectx: property (toolTip), widget (QToolButton, buttonLinkHandles)
 #: src/ui/bezierspline_ui.ui:111
