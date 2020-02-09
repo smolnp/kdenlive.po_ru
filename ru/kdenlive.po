@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2020-02-09 03:16+0100\n"
-"PO-Revision-Date: 2020-02-09 19:01+0300\n"
+"PO-Revision-Date: 2020-02-09 20:49+0300\n"
 "Last-Translator: Смольянинов Николай <smolianinow.colya2016@yandex.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "Language: ru\n"
@@ -16431,19 +16431,19 @@ msgid "Export Project"
 msgstr "Экспорт проекта"
 
 #: src/utils/otioconvertions.cpp:71 src/utils/otioconvertions.cpp:97
-#, fuzzy, kde-format
+#, kde-format
 msgid "OpenTimelineIO adapters (%1)"
-msgstr "Адаптеры ввода-вывода с открытым монтажным столом (% 1)"
+msgstr "Адаптеры OpenTimelineIO (%1)"
 
 #: src/utils/otioconvertions.cpp:77
-#, fuzzy, kde-format
+#, kde-format
 msgid "Project file could not be saved for export."
 msgstr "Не удалось сохранить файл проекта для архивирования."
 
 #: src/utils/otioconvertions.cpp:82
-#, fuzzy, kde-format
+#, kde-format
 msgid "Unable to write to temporary kdenlive file for export: %1"
-msgstr "Невозможно записать во временный файл kdenlive для экспорта: %1"
+msgstr "Запись во временный файл kdenlive %1 для экспорта невозможна"
 
 #: src/utils/otioconvertions.cpp:95
 #, kde-format
@@ -16456,14 +16456,14 @@ msgid "Imported Project"
 msgstr "Импортированный проект"
 
 #: src/utils/otioconvertions.cpp:120 src/utils/otioconvertions.cpp:131
-#, fuzzy, kde-format
+#, kde-format
 msgid "Project convertion failed"
-msgstr "Проект не был преобразован"
+msgstr "Не удалось преобразовать проект"
 
 #: src/utils/otioconvertions.cpp:124 src/utils/otioconvertions.cpp:135
-#, fuzzy, kde-format
+#, kde-format
 msgid "Project convertion complete"
-msgstr "Проект преобразован успешно"
+msgstr "Преобразование проекта завершено"
 
 #: src/utils/otioconvertions.cpp:139
 #, kde-format
