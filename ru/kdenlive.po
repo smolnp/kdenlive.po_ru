@@ -17,8 +17,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-02-09 03:16+0100\n"
-"PO-Revision-Date: 2020-02-09 20:49+0300\n"
+"POT-Creation-Date: 2020-02-10 03:09+0100\n"
+"PO-Revision-Date: 2020-02-10 16:32+0300\n"
 "Last-Translator: Смольянинов Николай <smolianinow.colya2016@yandex.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "Language: ru\n"
@@ -8701,7 +8701,7 @@ msgstr "Загрузка клипа %1"
 #, kde-format
 msgid "Playlist has a different framerate (%1/%2fps), not recommended."
 msgstr ""
-"Плейлист содержащий другую кадровую частоту (%1/%2кадров/с), не "
+"Плейлист использует другую кадровую частоту (%1/%2кадров/с), не "
 "рекомендуется."
 
 #: src/jobs/loadjob.cpp:400 src/mltcontroller/clippropertiescontroller.cpp:1134
@@ -12656,12 +12656,12 @@ msgstr "Не хватает дорожек для втавки из буфера
 msgid "Pasted clips"
 msgstr "Вставленные клипы"
 
-#: src/timeline2/model/timelinefunctions.cpp:1493
+#: src/timeline2/model/timelinefunctions.cpp:1487
 #, kde-format
 msgid "Could not paste items in timeline"
 msgstr "Элементы не были вставлены на монтажный стол"
 
-#: src/timeline2/model/timelinefunctions.cpp:1510
+#: src/timeline2/model/timelinefunctions.cpp:1504
 #, kde-format
 msgid "Paste clips"
 msgstr "Вставить клипы"
@@ -16457,12 +16457,12 @@ msgstr "Импортированный проект"
 
 #: src/utils/otioconvertions.cpp:120 src/utils/otioconvertions.cpp:131
 #, kde-format
-msgid "Project convertion failed"
+msgid "Project conversion failed"
 msgstr "Не удалось преобразовать проект"
 
 #: src/utils/otioconvertions.cpp:124 src/utils/otioconvertions.cpp:135
 #, kde-format
-msgid "Project convertion complete"
+msgid "Project conversion complete"
 msgstr "Преобразование проекта завершено"
 
 #: src/utils/otioconvertions.cpp:139
