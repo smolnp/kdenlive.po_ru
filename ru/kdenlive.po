@@ -17,8 +17,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-02-10 03:09+0100\n"
-"PO-Revision-Date: 2020-02-10 16:32+0300\n"
+"POT-Creation-Date: 2020-02-12 03:20+0100\n"
+"PO-Revision-Date: 2020-02-12 20:18+0300\n"
 "Last-Translator: Смольянинов Николай <smolianinow.colya2016@yandex.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "Language: ru\n"
@@ -755,7 +755,7 @@ msgstr "Начало"
 
 #. i18n: ectx: property (text), widget (QLabel, label_4)
 #: data/effects/fade_from_black.xml:16 data/effects/fade_to_black.xml:16
-#: src/dialogs/renderwidget.cpp:496 src/ui/wipeval_ui.ui:167
+#: src/dialogs/renderwidget.cpp:495 src/ui/wipeval_ui.ui:167
 #, kde-format
 msgid "End"
 msgstr "Конец"
@@ -5481,8 +5481,8 @@ msgstr "Изменить %1 ключевой кадр"
 msgid "Update %1"
 msgstr "Обновлено %1"
 
-#: src/assets/model/assetparametermodel.cpp:690
-#: src/assets/model/assetparametermodel.cpp:737
+#: src/assets/model/assetparametermodel.cpp:693
+#: src/assets/model/assetparametermodel.cpp:740
 #, kde-format
 msgid "Cannot open preset file %1"
 msgstr "Не удалось открыть файл предустановок %1"
@@ -5874,7 +5874,7 @@ msgstr "Тень"
 
 #: src/audiomixer/mixermanager.cpp:166
 #: src/audiospectrum/audiographspectrum.cpp:105
-#: src/timeline2/view/qml/timeline.qml:608
+#: src/timeline2/view/qml/timeline.qml:609
 #, kde-format
 msgid "Master"
 msgstr "Мастер"
@@ -5884,7 +5884,7 @@ msgstr "Мастер"
 msgid "Volume"
 msgstr "Громкость"
 
-#: src/audiomixer/mixerwidget.cpp:155 src/audiomixer/mixerwidget.cpp:472
+#: src/audiomixer/mixerwidget.cpp:155 src/audiomixer/mixerwidget.cpp:475
 #, kde-format
 msgid "dB"
 msgstr "дБ"
@@ -5899,17 +5899,17 @@ msgstr "Выкл дорожку"
 msgid "Unmute track"
 msgstr "Вкл дорожку"
 
-#: src/audiomixer/mixerwidget.cpp:262
+#: src/audiomixer/mixerwidget.cpp:263
 #, kde-format
 msgid "Solo mode"
 msgstr "Режим соло"
 
-#: src/audiomixer/mixerwidget.cpp:270 src/monitor/recmanager.cpp:55
+#: src/audiomixer/mixerwidget.cpp:271 src/monitor/recmanager.cpp:55
 #, kde-format
 msgid "Record"
 msgstr "Запись"
 
-#: src/audiomixer/mixerwidget.cpp:279
+#: src/audiomixer/mixerwidget.cpp:280
 #, kde-format
 msgid "Show Channels"
 msgstr "Показать каналы"
@@ -6067,8 +6067,8 @@ msgstr "Все элементы будут удалены из папки"
 msgid "Delete bin Clips"
 msgstr "Удалить клипы из корзины"
 
-#: src/bin/bin.cpp:1399 src/bin/bin.cpp:1671 src/dialogs/renderwidget.cpp:722
-#: src/dialogs/renderwidget.cpp:1013 src/dialogs/renderwidget.cpp:2236
+#: src/bin/bin.cpp:1399 src/bin/bin.cpp:1671 src/dialogs/renderwidget.cpp:721
+#: src/dialogs/renderwidget.cpp:1012 src/dialogs/renderwidget.cpp:2238
 #, kde-format
 msgid "Unable to write to file %1"
 msgstr "Запись в файл %1 невозможна"
@@ -7082,8 +7082,8 @@ msgstr ""
 "Профиль с таким именем уже существует в профилях MLT по умолчанию, выберите "
 "другое имя для этого профиля."
 
-#: src/dialogs/renderwidget.cpp:123 src/dialogs/renderwidget.cpp:1612
-#: src/dialogs/renderwidget.cpp:2676
+#: src/dialogs/renderwidget.cpp:123 src/dialogs/renderwidget.cpp:1611
+#: src/dialogs/renderwidget.cpp:2678
 #, kde-format
 msgid "Waiting..."
 msgstr "Ожидание…"
@@ -7139,59 +7139,59 @@ msgstr "Кодирование потоков (0 автоматически)"
 msgid "Preserve aspect ratio"
 msgstr "Сохранить пропорции"
 
-#: src/dialogs/renderwidget.cpp:316
+#: src/dialogs/renderwidget.cpp:315
 #, kde-format
 msgid "File"
 msgstr "Файл"
 
-#: src/dialogs/renderwidget.cpp:324
+#: src/dialogs/renderwidget.cpp:323
 #, kde-format
 msgid "Stored Playlists"
 msgstr "Список сценариев"
 
-#: src/dialogs/renderwidget.cpp:376
+#: src/dialogs/renderwidget.cpp:375
 #, kde-format
 msgid "There was a problem sharing the document: %1"
 msgstr "При попытке публикации документа возникла ошибка: %1"
 
 #. i18n: ectx: property (text), widget (QToolButton, shareButton)
-#: src/dialogs/renderwidget.cpp:376 src/dialogs/renderwidget.cpp:384
+#: src/dialogs/renderwidget.cpp:375 src/dialogs/renderwidget.cpp:383
 #: src/ui/renderwidget_ui.ui:921
 #, kde-format
 msgid "Share"
 msgstr "Поделиться"
 
-#: src/dialogs/renderwidget.cpp:381
+#: src/dialogs/renderwidget.cpp:380
 #, kde-format
 msgid "Document shared successfully"
 msgstr "Документ успешно опубликован"
 
-#: src/dialogs/renderwidget.cpp:384
+#: src/dialogs/renderwidget.cpp:383
 #, kde-format
 msgid "You can find the shared document at: <a href=\"%1\">%1</a>"
 msgstr "Опубликованный документ можно найти здесь: <a href=\"%1\">%1</a>"
 
-#: src/dialogs/renderwidget.cpp:488
+#: src/dialogs/renderwidget.cpp:487
 #, kde-format
 msgid "Beginning"
 msgstr "Начало"
 
-#: src/dialogs/renderwidget.cpp:569 src/dialogs/renderwidget.cpp:587
-#: src/dialogs/renderwidget.cpp:827 src/dialogs/renderwidget.cpp:846
+#: src/dialogs/renderwidget.cpp:568 src/dialogs/renderwidget.cpp:586
+#: src/dialogs/renderwidget.cpp:826 src/dialogs/renderwidget.cpp:845
 #, kde-format
 msgid "Qualities"
 msgstr "Качество"
 
-#: src/dialogs/renderwidget.cpp:570 src/dialogs/renderwidget.cpp:588
-#: src/dialogs/renderwidget.cpp:828 src/dialogs/renderwidget.cpp:847
+#: src/dialogs/renderwidget.cpp:569 src/dialogs/renderwidget.cpp:587
+#: src/dialogs/renderwidget.cpp:827 src/dialogs/renderwidget.cpp:846
 #, kde-format
 msgid "Default quality"
 msgstr "Качество по умолчанию"
 
 #. i18n: ectx: property (text), widget (QLabel, vbitrates_label)
 #. i18n: ectx: property (text), widget (QLabel, abitrates_label)
-#: src/dialogs/renderwidget.cpp:572 src/dialogs/renderwidget.cpp:590
-#: src/dialogs/renderwidget.cpp:830 src/dialogs/renderwidget.cpp:849
+#: src/dialogs/renderwidget.cpp:571 src/dialogs/renderwidget.cpp:589
+#: src/dialogs/renderwidget.cpp:829 src/dialogs/renderwidget.cpp:848
 #: src/ui/saveprofile_ui.ui:53 src/ui/saveprofile_ui.ui:86
 #, kde-format
 msgid "Bitrates"
@@ -7199,26 +7199,26 @@ msgstr "Битрейт"
 
 #. i18n: ectx: property (text), widget (QLabel, default_vbitrate_label)
 #. i18n: ectx: property (text), widget (QLabel, default_abitrate_label)
-#: src/dialogs/renderwidget.cpp:573 src/dialogs/renderwidget.cpp:591
-#: src/dialogs/renderwidget.cpp:831 src/dialogs/renderwidget.cpp:850
+#: src/dialogs/renderwidget.cpp:572 src/dialogs/renderwidget.cpp:590
+#: src/dialogs/renderwidget.cpp:830 src/dialogs/renderwidget.cpp:849
 #: src/ui/saveprofile_ui.ui:33 src/ui/saveprofile_ui.ui:93
 #, kde-format
 msgid "Default bitrate"
 msgstr "Битрейт по умолчанию"
 
-#: src/dialogs/renderwidget.cpp:612 src/dialogs/renderwidget.cpp:620
-#: src/dialogs/renderwidget.cpp:817 src/dialogs/renderwidget.cpp:898
+#: src/dialogs/renderwidget.cpp:611 src/dialogs/renderwidget.cpp:619
+#: src/dialogs/renderwidget.cpp:816 src/dialogs/renderwidget.cpp:897
 #, kde-format
 msgctxt "Group Name"
 msgid "Custom"
 msgstr "Пользовательский"
 
-#: src/dialogs/renderwidget.cpp:701 src/dialogs/renderwidget.cpp:909
+#: src/dialogs/renderwidget.cpp:700 src/dialogs/renderwidget.cpp:908
 #, kde-format
 msgid "Profile already exists"
 msgstr "Профиль уже существует"
 
-#: src/dialogs/renderwidget.cpp:702 src/dialogs/renderwidget.cpp:910
+#: src/dialogs/renderwidget.cpp:701 src/dialogs/renderwidget.cpp:909
 #, kde-format
 msgid ""
 "This profile name already exists. Change the name if you do not want to "
@@ -7227,10 +7227,10 @@ msgstr ""
 "Профиль с этим именем уже существует. Измените имя, в противном случае файл "
 "будет перезаписан."
 
-#: src/dialogs/renderwidget.cpp:728 src/dialogs/renderwidget.cpp:957
-#: src/dialogs/renderwidget.cpp:963 src/dialogs/renderwidget.cpp:1019
-#: src/dialogs/renderwidget.cpp:1582 src/dialogs/renderwidget.cpp:1587
-#: src/dialogs/renderwidget.cpp:2810 src/dialogs/renderwidget.cpp:2834
+#: src/dialogs/renderwidget.cpp:727 src/dialogs/renderwidget.cpp:956
+#: src/dialogs/renderwidget.cpp:962 src/dialogs/renderwidget.cpp:1018
+#: src/dialogs/renderwidget.cpp:1581 src/dialogs/renderwidget.cpp:1586
+#: src/dialogs/renderwidget.cpp:2819 src/dialogs/renderwidget.cpp:2843
 #: src/doc/kdenlivedoc.cpp:626 src/doc/kdenlivedoc.cpp:632
 #: src/dvdwizard/dvdwizard.cpp:995 src/dvdwizard/dvdwizard.cpp:1001
 #: src/profiles/profilerepository.cpp:200
@@ -7241,32 +7241,32 @@ msgstr ""
 msgid "Cannot write to file %1"
 msgstr "Не удалось записать в файл %1"
 
-#: src/dialogs/renderwidget.cpp:749 src/dialogs/renderwidget.cpp:2216
-#: src/dialogs/renderwidget.cpp:2272
+#: src/dialogs/renderwidget.cpp:748 src/dialogs/renderwidget.cpp:2218
+#: src/dialogs/renderwidget.cpp:2274
 #, kde-format
 msgctxt "Category Name"
 msgid "Custom"
 msgstr "Пользовательский"
 
-#: src/dialogs/renderwidget.cpp:868
+#: src/dialogs/renderwidget.cpp:867
 #, kde-format
 msgid "Edit Profile"
 msgstr "Изменить профиль"
 
-#: src/dialogs/renderwidget.cpp:1089
+#: src/dialogs/renderwidget.cpp:1088
 #, kde-format
 msgid "Cannot find the melt program required for rendering (part of Mlt)"
 msgstr ""
 "Не найдено приложение melt (является частью MLT), необходимое для проведения "
 "сборки"
 
-#: src/dialogs/renderwidget.cpp:1094 src/dialogs/renderwidget.cpp:2651
+#: src/dialogs/renderwidget.cpp:1093 src/dialogs/renderwidget.cpp:2653
 #: src/project/dialogs/archivewidget.cpp:858
 #, kde-format
 msgid "Output file already exists. Do you want to overwrite it?"
 msgstr "Файл уже существует. Перезаписать?"
 
-#: src/dialogs/renderwidget.cpp:1107 src/monitor/recmanager.cpp:208
+#: src/dialogs/renderwidget.cpp:1106 src/monitor/recmanager.cpp:208
 #, kde-format
 msgid ""
 "The directory %1, could not be created.\n"
@@ -7275,22 +7275,22 @@ msgstr ""
 "Папка %1, не может быть создана.\n"
 "Убедитесь, что у вас есть необходимые права."
 
-#: src/dialogs/renderwidget.cpp:1162
+#: src/dialogs/renderwidget.cpp:1161
 #, kde-format
 msgid "export"
 msgstr "экспорт"
 
-#: src/dialogs/renderwidget.cpp:1183
+#: src/dialogs/renderwidget.cpp:1182
 #, kde-format
 msgid "Delayed rendering"
 msgstr "Сценарий сборки"
 
-#: src/dialogs/renderwidget.cpp:1183
+#: src/dialogs/renderwidget.cpp:1182
 #, kde-format
 msgid "Select a name for this rendering."
 msgstr "Введите имя сценария сборки."
 
-#: src/dialogs/renderwidget.cpp:1191 src/dvdwizard/dvdwizardvob.cpp:735
+#: src/dialogs/renderwidget.cpp:1190 src/dvdwizard/dvdwizardvob.cpp:735
 #: src/effects/effectstack/view/collapsibleeffectview.cpp:424
 #: src/jobs/filterjob.cpp:103 src/project/clipstabilize.cpp:144
 #: src/project/cliptranscode.cpp:163 src/project/dialogs/archivewidget.cpp:881
@@ -7302,13 +7302,13 @@ msgstr ""
 "Файл %1 существует.\n"
 "Вы хотите его перезаписать?"
 
-#: src/dialogs/renderwidget.cpp:1241
+#: src/dialogs/renderwidget.cpp:1240
 #, kde-format
 msgctxt "the first in a list of chapters"
 msgid "Start"
 msgstr "Запустить"
 
-#: src/dialogs/renderwidget.cpp:1601 src/dialogs/renderwidget.cpp:2663
+#: src/dialogs/renderwidget.cpp:1600 src/dialogs/renderwidget.cpp:2665
 #, kde-format
 msgid ""
 "There is already a job writing file:<br /><b>%1</b><br />Abort the job if "
@@ -7317,47 +7317,47 @@ msgstr ""
 "Выполняется задание по записи файла:<br><b>%1</b><br>Отмените задание, чтобы "
 "перезаписать файл…"
 
-#: src/dialogs/renderwidget.cpp:1602 src/dialogs/renderwidget.cpp:2664
+#: src/dialogs/renderwidget.cpp:1601 src/dialogs/renderwidget.cpp:2666
 #, kde-format
 msgid "Already running"
 msgstr "Уже запущено"
 
-#: src/dialogs/renderwidget.cpp:1618 src/dialogs/renderwidget.cpp:1640
+#: src/dialogs/renderwidget.cpp:1617 src/dialogs/renderwidget.cpp:1639
 #, kde-format
 msgid "Video without audio track"
 msgstr "Видео без звуковой дорожки"
 
-#: src/dialogs/renderwidget.cpp:1742
+#: src/dialogs/renderwidget.cpp:1741
 #, kde-format
 msgid "Rendering <i>%1</i> started"
 msgstr "Сборка <i>%1</i> запущена"
 
-#: src/dialogs/renderwidget.cpp:1794
+#: src/dialogs/renderwidget.cpp:1793
 #, kde-format
 msgid "Standard (%1) not compatible with project profile (%2)"
 msgstr "Стандарт (%1) не совместим с профилем проекта (%2)"
 
-#: src/dialogs/renderwidget.cpp:1807
+#: src/dialogs/renderwidget.cpp:1806
 #, kde-format
 msgid "Frame rate (%1) not compatible with project profile (%2)"
 msgstr "Кадровая частота (%1) не совместима с профилем проекта (%2)"
 
-#: src/dialogs/renderwidget.cpp:1826
+#: src/dialogs/renderwidget.cpp:1825
 #, kde-format
 msgid "Unsupported video format: %1"
 msgstr "Формат видео: %1 не поддерживается"
 
-#: src/dialogs/renderwidget.cpp:1843
+#: src/dialogs/renderwidget.cpp:1842
 #, kde-format
 msgid "Unsupported audio codec: %1"
 msgstr "Звуковой кодек: %1 не поддерживается"
 
-#: src/dialogs/renderwidget.cpp:1860
+#: src/dialogs/renderwidget.cpp:1859
 #, kde-format
 msgid "Unsupported video codec: %1"
 msgstr "Видеокодек: %1 не поддерживается"
 
-#: src/dialogs/renderwidget.cpp:1871
+#: src/dialogs/renderwidget.cpp:1870
 #, kde-format
 msgid ""
 "This render profile uses a 'profile' parameter.<br />Unless you know what "
@@ -7367,39 +7367,39 @@ msgstr ""
 "неуверенным в правильности такого выбора, лучше изменить параметр на "
 "mlt_profile."
 
-#: src/dialogs/renderwidget.cpp:1899 src/monitor/monitor.cpp:1038
+#: src/dialogs/renderwidget.cpp:1901 src/monitor/monitor.cpp:1038
 #, kde-format
 msgid "untitled"
 msgstr "безымянный"
 
-#: src/dialogs/renderwidget.cpp:1930
+#: src/dialogs/renderwidget.cpp:1932
 #, kde-format
 msgid "No matching profile"
 msgstr "Нет соответствующего профиля"
 
-#: src/dialogs/renderwidget.cpp:1934
+#: src/dialogs/renderwidget.cpp:1936
 #, kde-format
 msgid "Invalid profile"
 msgstr "Недопустимый профиль"
 
-#: src/dialogs/renderwidget.cpp:2095
+#: src/dialogs/renderwidget.cpp:2097
 #, kde-format
 msgid "Lossless/HQ"
 msgstr "Без потерь/HQ"
 
-#: src/dialogs/renderwidget.cpp:2138
+#: src/dialogs/renderwidget.cpp:2140
 #, kde-format
 msgctxt "Category Name"
 msgid "Images sequence"
 msgstr "Серия изображений"
 
-#: src/dialogs/renderwidget.cpp:2350
+#: src/dialogs/renderwidget.cpp:2352
 #, kde-format
 msgctxt "Attribute Name"
 msgid "Custom"
 msgstr "Пользовательский"
 
-#: src/dialogs/renderwidget.cpp:2444 src/dialogs/renderwidget.cpp:2472
+#: src/dialogs/renderwidget.cpp:2446 src/dialogs/renderwidget.cpp:2474
 #, kde-format
 msgid "%1 day "
 msgid_plural "%1 days "
@@ -7408,49 +7408,49 @@ msgstr[1] "%1 дня "
 msgstr[2] "%1 дней "
 msgstr[3] "%1 день "
 
-#: src/dialogs/renderwidget.cpp:2446
+#: src/dialogs/renderwidget.cpp:2448
 #, kde-format
 msgid "Remaining time %1"
 msgstr "До завершения осталось %1"
 
-#: src/dialogs/renderwidget.cpp:2474
+#: src/dialogs/renderwidget.cpp:2476
 #, kde-format
 msgid "Rendering finished in %1"
 msgstr "Сборка завершена в %1"
 
-#: src/dialogs/renderwidget.cpp:2483
+#: src/dialogs/renderwidget.cpp:2485
 #, kde-format
 msgid "Rendering of %1 finished in %2"
 msgstr "Сборка %1 завершена в %2"
 
-#: src/dialogs/renderwidget.cpp:2500
+#: src/dialogs/renderwidget.cpp:2502
 #, kde-format
 msgid "<strong>Rendering of %1 crashed</strong><br />"
 msgstr "<strong>Во время сборки %1 произошёл сбой</strong><br />"
 
 #. i18n: ectx: property (text), widget (QPushButton, abort_job)
-#: src/dialogs/renderwidget.cpp:2543 src/ui/renderwidget_ui.ui:819
+#: src/dialogs/renderwidget.cpp:2545 src/ui/renderwidget_ui.ui:819
 #, kde-format
 msgid "Abort Job"
 msgstr "Прервать задание"
 
-#: src/dialogs/renderwidget.cpp:2546
+#: src/dialogs/renderwidget.cpp:2548
 #, kde-format
 msgid "Remove Job"
 msgstr "Удалить задание"
 
-#: src/dialogs/renderwidget.cpp:2919
+#: src/dialogs/renderwidget.cpp:2928
 #, kde-format
 msgid "Export audio (automatic)"
 msgstr "Экспорт звука (автоматически)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, export_audio)
-#: src/dialogs/renderwidget.cpp:2921 src/ui/renderwidget_ui.ui:677
+#: src/dialogs/renderwidget.cpp:2930 src/ui/renderwidget_ui.ui:677
 #, kde-format
 msgid "Export audio"
 msgstr "Экспорт звука"
 
-#: src/dialogs/renderwidget.cpp:3014
+#: src/dialogs/renderwidget.cpp:3023
 #, kde-format
 msgid ""
 "Codec speed parameters:\n"
@@ -7460,12 +7460,12 @@ msgstr ""
 "%1"
 
 # https://userbase.kde.org/Kdenlive/Manual/Projects_and_Files/Clips#Proxy_clips
-#: src/dialogs/renderwidget.cpp:3052
+#: src/dialogs/renderwidget.cpp:3061
 #, kde-format
 msgid "Rendering using low quality proxy"
 msgstr "Сборка с использованием низкокачественного прокси"
 
-#: src/dialogs/renderwidget.cpp:3069
+#: src/dialogs/renderwidget.cpp:3078
 #, kde-format
 msgid "Add to current project"
 msgstr "Добавить в текущий проект"
@@ -8518,12 +8518,12 @@ msgstr "Удалить эффект %1"
 msgid "Copy effect"
 msgstr "Копировать эффект"
 
-#: src/effects/effectstack/model/effectstackmodel.cpp:479
+#: src/effects/effectstack/model/effectstackmodel.cpp:495
 #, kde-format
 msgid "Add effect %1"
 msgstr "Добавить эффект %1"
 
-#: src/effects/effectstack/model/effectstackmodel.cpp:773
+#: src/effects/effectstack/model/effectstackmodel.cpp:789
 #, kde-format
 msgid "Move effect %1"
 msgstr "Переместить эффект %1"
@@ -10169,7 +10169,7 @@ msgstr "Удалить пробелы на всех дорожках"
 msgid "Insert Track"
 msgstr "Вставить дорожку"
 
-#: src/mainwindow.cpp:1578 src/timeline2/view/timelinecontroller.cpp:2810
+#: src/mainwindow.cpp:1578 src/timeline2/view/timelinecontroller.cpp:2819
 #, kde-format
 msgid "Master effects"
 msgstr "Мастер-эффекты"
@@ -12666,7 +12666,7 @@ msgstr "Элементы не были вставлены на монтажны�
 msgid "Paste clips"
 msgstr "Вставить клипы"
 
-#: src/timeline2/model/timelineitemmodel.cpp:598
+#: src/timeline2/model/timelineitemmodel.cpp:609
 #, kde-format
 msgid "Could not setup track compositing, check your install"
 msgstr ""
@@ -12887,7 +12887,7 @@ msgstr ""
 "Не удалось осуществить предпросмотр, проверьте правильность настройки. "
 "%1Показать подробности…%2"
 
-#: src/timeline2/view/qml/Clip.qml:443
+#: src/timeline2/view/qml/Clip.qml:446
 #, kde-format
 msgid ""
 "In:%1\n"
@@ -12896,38 +12896,38 @@ msgstr ""
 "In:%1\n"
 "Позиция:%2"
 
-#: src/timeline2/view/qml/Clip.qml:515
+#: src/timeline2/view/qml/Clip.qml:518
 #, kde-format
 msgid "Out: "
 msgstr "Выход: "
 
-#: src/timeline2/view/qml/Clip.qml:611
+#: src/timeline2/view/qml/Clip.qml:614
 #, kde-format
 msgid "Offset: -%1"
 msgstr "Смещение: - %1"
 
-#: src/timeline2/view/qml/Clip.qml:611
+#: src/timeline2/view/qml/Clip.qml:614
 #, kde-format
 msgid "Offset: %1"
 msgstr "Смещение: %1"
 
-#: src/timeline2/view/qml/Clip.qml:727 src/timeline2/view/qml/Clip.qml:771
+#: src/timeline2/view/qml/Clip.qml:730 src/timeline2/view/qml/Clip.qml:774
 #, kde-format
 msgid "Click to add composition"
 msgstr "Щёлкните для добавления композиции"
 
-#: src/timeline2/view/qml/timeline.qml:598
+#: src/timeline2/view/qml/timeline.qml:599
 #, kde-format
 msgctxt "Initial for Master"
 msgid "M"
 msgstr "M"
 
-#: src/timeline2/view/qml/timeline.qml:605
+#: src/timeline2/view/qml/timeline.qml:606
 #, kde-format
 msgid "Show master effects"
 msgstr "Показать мастер-эффекты"
 
-#: src/timeline2/view/qml/timeline.qml:1110
+#: src/timeline2/view/qml/timeline.qml:1111
 #, kde-format
 msgid ""
 "\n"
@@ -13108,12 +13108,12 @@ msgstr "Отделить звук"
 msgid "Move item"
 msgstr "Переместить элемент"
 
-#: src/timeline2/view/timelinecontroller.cpp:2704
+#: src/timeline2/view/timelinecontroller.cpp:2713
 #, kde-format
 msgid "Impossible to capture on a locked track"
 msgstr "Нельзя выполнить захват на заблокированной дорожке"
 
-#: src/timeline2/view/timelinecontroller.cpp:2715
+#: src/timeline2/view/timelinecontroller.cpp:2724
 #, kde-format
 msgid ""
 "Impossible to capture here: the capture could override clips. Please remove "
@@ -13122,7 +13122,7 @@ msgstr ""
 "Нельзя сохранить захваченное сюда: возможна перезапись клипов. Удалите клипы "
 "за текущей позицией или выберите другую дорожку"
 
-#: src/timeline2/view/timelinecontroller.cpp:2768
+#: src/timeline2/view/timelinecontroller.cpp:2777
 #, kde-format
 msgid "Record audio"
 msgstr "Записать звук"
