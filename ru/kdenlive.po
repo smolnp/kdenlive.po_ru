@@ -17,8 +17,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-02-22 03:10+0100\n"
-"PO-Revision-Date: 2020-02-22 14:36+0300\n"
+"POT-Creation-Date: 2020-02-26 03:22+0100\n"
+"PO-Revision-Date: 2020-02-27 01:09+0300\n"
 "Last-Translator: Смольянинов Николай <smolianinow.colya2016@yandex.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "Language: ru\n"
@@ -8528,12 +8528,12 @@ msgstr "Удалить эффект %1"
 msgid "Copy effect"
 msgstr "Копировать эффект"
 
-#: src/effects/effectstack/model/effectstackmodel.cpp:495
+#: src/effects/effectstack/model/effectstackmodel.cpp:494
 #, kde-format
 msgid "Add effect %1"
 msgstr "Добавить эффект %1"
 
-#: src/effects/effectstack/model/effectstackmodel.cpp:789
+#: src/effects/effectstack/model/effectstackmodel.cpp:788
 #, kde-format
 msgid "Move effect %1"
 msgstr "Переместить эффект %1"
@@ -12923,7 +12923,7 @@ msgstr ""
 "Не удалось осуществить предпросмотр, проверьте правильность настройки. "
 "%1Показать подробности…%2"
 
-#: src/timeline2/view/qml/Clip.qml:449
+#: src/timeline2/view/qml/Clip.qml:450
 #, kde-format
 msgid ""
 "In:%1\n"
@@ -12932,22 +12932,22 @@ msgstr ""
 "In:%1\n"
 "Позиция:%2"
 
-#: src/timeline2/view/qml/Clip.qml:521
+#: src/timeline2/view/qml/Clip.qml:522
 #, kde-format
 msgid "Out: "
 msgstr "Выход: "
 
-#: src/timeline2/view/qml/Clip.qml:617
+#: src/timeline2/view/qml/Clip.qml:618
 #, kde-format
 msgid "Offset: -%1"
 msgstr "Смещение: - %1"
 
-#: src/timeline2/view/qml/Clip.qml:617
+#: src/timeline2/view/qml/Clip.qml:618
 #, kde-format
 msgid "Offset: %1"
 msgstr "Смещение: %1"
 
-#: src/timeline2/view/qml/Clip.qml:733 src/timeline2/view/qml/Clip.qml:777
+#: src/timeline2/view/qml/Clip.qml:734 src/timeline2/view/qml/Clip.qml:778
 #, kde-format
 msgid "Click to add composition"
 msgstr "Щёлкните для добавления композиции"
@@ -13268,7 +13268,7 @@ msgstr "Жирный"
 #, kde-format
 msgctxt "Font style"
 msgid "Black"
-msgstr "Чёрный"
+msgstr "Очень жирный"
 
 #: src/titler/titlewidget.cpp:241
 #, kde-format
