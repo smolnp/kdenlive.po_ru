@@ -17,8 +17,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-02-26 03:22+0100\n"
-"PO-Revision-Date: 2020-02-27 01:09+0300\n"
+"POT-Creation-Date: 2020-02-27 03:16+0100\n"
+"PO-Revision-Date: 2020-02-27 20:01+0300\n"
 "Last-Translator: Смольянинов Николай <smolianinow.colya2016@yandex.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "Language: ru\n"
@@ -531,28 +531,28 @@ msgstr "Кадрирование клипа"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_tabposition)
 #: data/effects/crop.xml:7 data/effects/frei0r_mask0mate.xml:13
-#: src/ui/configmisc_ui.ui:122
+#: src/ui/configmisc_ui.ui:67
 #, kde-format
 msgid "Top"
 msgstr "Сверху"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_tabposition)
 #: data/effects/crop.xml:10 data/effects/frei0r_mask0mate.xml:7
-#: src/ui/configmisc_ui.ui:132
+#: src/ui/configmisc_ui.ui:77
 #, kde-format
 msgid "Left"
 msgstr "Слева"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_tabposition)
 #: data/effects/crop.xml:13 data/effects/frei0r_mask0mate.xml:16
-#: src/ui/configmisc_ui.ui:127
+#: src/ui/configmisc_ui.ui:72
 #, kde-format
 msgid "Bottom"
 msgstr "Снизу"
 
 #. i18n: ectx: property (text), item, widget (QComboBox, kcfg_tabposition)
 #: data/effects/crop.xml:16 data/effects/frei0r_mask0mate.xml:10
-#: src/ui/configmisc_ui.ui:137
+#: src/ui/configmisc_ui.ui:82
 #, kde-format
 msgid "Right"
 msgstr "Справа"
@@ -5401,7 +5401,7 @@ msgstr "Эффекты корзины %1"
 #: src/assets/view/widgets/animationwidget.cpp:107
 #: src/assets/view/widgets/keyframeedit.cpp:53
 #: src/assets/view/widgets/keyframewidget.cpp:69
-#: src/assets/view/widgets/keyframewidget.cpp:290
+#: src/assets/view/widgets/keyframewidget.cpp:291
 #: src/simplekeyframes/simplekeyframewidget.cpp:41
 #: src/simplekeyframes/simplekeyframewidget.cpp:132
 #, kde-format
@@ -5418,7 +5418,7 @@ msgstr "Изменить тип ключевого кадра"
 #: src/assets/keyframes/model/keyframemodel.cpp:155
 #: src/assets/keyframes/model/keyframemodellist.cpp:135
 #: src/assets/view/widgets/keyframeedit.cpp:55
-#: src/assets/view/widgets/keyframewidget.cpp:287
+#: src/assets/view/widgets/keyframewidget.cpp:288
 #: src/simplekeyframes/simplekeyframewidget.cpp:129
 #, kde-format
 msgid "Delete keyframe"
@@ -5437,8 +5437,7 @@ msgid "Move keyframe"
 msgstr "Перенести ключевой кадр"
 
 #: src/assets/keyframes/model/keyframemodel.cpp:329
-#: src/assets/keyframes/model/keyframemodellist.cpp:219
-#: src/assets/keyframes/model/keyframemodellist.cpp:241
+#: src/assets/keyframes/model/keyframemodellist.cpp:227
 #, kde-format
 msgid "Update keyframe"
 msgstr "Обновить ключевой кадр"
@@ -5469,7 +5468,7 @@ msgstr "Сбросить эффект"
 msgid "Delete keyframes"
 msgstr "Удалить ключевые кадры"
 
-#: src/assets/keyframes/model/keyframemodellist.cpp:494
+#: src/assets/keyframes/model/keyframemodellist.cpp:480
 #, kde-format
 msgid "Missing keyframe detected at %1, automatically re-added"
 msgstr ""
@@ -7301,7 +7300,7 @@ msgid "Select a name for this rendering."
 msgstr "Введите имя сценария сборки."
 
 #: src/dialogs/renderwidget.cpp:1194 src/dvdwizard/dvdwizardvob.cpp:735
-#: src/effects/effectstack/view/collapsibleeffectview.cpp:430
+#: src/effects/effectstack/view/collapsibleeffectview.cpp:431
 #: src/jobs/filterjob.cpp:103 src/project/clipstabilize.cpp:144
 #: src/project/cliptranscode.cpp:163 src/project/dialogs/archivewidget.cpp:881
 #, kde-format
@@ -8584,7 +8583,7 @@ msgid "Create Group"
 msgstr "Создать группу"
 
 #: src/effects/effectstack/view/collapsibleeffectview.cpp:182
-#: src/effects/effectstack/view/collapsibleeffectview.cpp:420
+#: src/effects/effectstack/view/collapsibleeffectview.cpp:421
 #, kde-format
 msgid "Save Effect"
 msgstr "Сохранить эффект"
@@ -8594,7 +8593,7 @@ msgstr "Сохранить эффект"
 msgid "Create Region"
 msgstr "Создать область"
 
-#: src/effects/effectstack/view/collapsibleeffectview.cpp:420
+#: src/effects/effectstack/view/collapsibleeffectview.cpp:421
 #, kde-format
 msgid "Name for saved effect: "
 msgstr "Имя сохраняемого эффекта: "
@@ -8702,36 +8701,36 @@ msgstr "Сцена "
 msgid "Auto split"
 msgstr "Авторазбивка"
 
-#: src/jobs/loadjob.cpp:51
+#: src/jobs/loadjob.cpp:54
 #, kde-format
 msgid "Loading clip %1"
 msgstr "Загрузка клипа %1"
 
-#: src/jobs/loadjob.cpp:144
+#: src/jobs/loadjob.cpp:146
 #, kde-format
 msgid "Playlist has a different framerate (%1/%2fps), not recommended."
 msgstr ""
 "Плейлист использует другую кадровую частоту (%1/%2кадров/с), не "
 "рекомендуется."
 
-#: src/jobs/loadjob.cpp:400 src/mltcontroller/clippropertiescontroller.cpp:1154
+#: src/jobs/loadjob.cpp:402 src/mltcontroller/clippropertiescontroller.cpp:1154
 #: src/mltcontroller/clippropertiescontroller.cpp:1179
 #: src/profiles/profilerepository.cpp:184
 #, kde-format
 msgid "Cannot open file %1"
 msgstr "Не удалось открыть файл %1"
 
-#: src/jobs/loadjob.cpp:402
+#: src/jobs/loadjob.cpp:404
 #, kde-format
 msgid "ERROR: Could not load clip %1: producer is invalid"
 msgstr "ОШИБКА: не удалось загрузить клип %1: некорректен производитель"
 
-#: src/jobs/loadjob.cpp:581
+#: src/jobs/loadjob.cpp:583
 #, kde-format
 msgid "Import selected clips"
 msgstr "Импортировать выбранные клипы"
 
-#: src/jobs/loadjob.cpp:583
+#: src/jobs/loadjob.cpp:585
 #, kde-format
 msgid ""
 "Additional streams for clip\n"
@@ -8740,17 +8739,17 @@ msgstr ""
 "Дополнительные потоки для клипа\n"
 "%1"
 
-#: src/jobs/loadjob.cpp:592 src/mltcontroller/clippropertiescontroller.cpp:571
+#: src/jobs/loadjob.cpp:594 src/mltcontroller/clippropertiescontroller.cpp:571
 #, kde-format
 msgid "Video stream %1"
 msgstr "Видеопоток %1"
 
-#: src/jobs/loadjob.cpp:607
+#: src/jobs/loadjob.cpp:609
 #, kde-format
 msgid "Audio stream %1"
 msgstr "Звуковой поток %1"
 
-#: src/jobs/loadjob.cpp:631
+#: src/jobs/loadjob.cpp:633
 #, kde-format
 msgid "Add additional streams for clip"
 msgstr "Добавить дополнительные потоки для клипа"
@@ -9518,7 +9517,7 @@ msgstr "Добавить переход"
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_raisepropstransitions)
 #: src/mainwindow.cpp:428 src/mainwindow.cpp:1686
 #: src/transitions/transitionlist/model/transitiontreemodel.cpp:46
-#: src/ui/configmisc_ui.ui:94 src/ui/configtimeline_ui.ui:108
+#: src/ui/configmisc_ui.ui:166 src/ui/configtimeline_ui.ui:108
 #, kde-format
 msgid "Transitions"
 msgstr "Переходы"
@@ -11439,7 +11438,7 @@ msgstr "Звуковые клипы"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
 #: src/project/dialogs/archivewidget.cpp:73
-#: src/project/dialogs/projectsettings.cpp:324 src/ui/configmisc_ui.ui:58
+#: src/project/dialogs/projectsettings.cpp:324 src/ui/configmisc_ui.ui:130
 #, kde-format
 msgid "Image clips"
 msgstr "Клипы изображений"
@@ -14789,11 +14788,12 @@ msgstr "Кнопка 3"
 msgid "Button 12"
 msgstr "Кнопка 12"
 
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_use_exiftool)
-#: src/ui/configmisc_ui.ui:17
+#. i18n: ectx: property (text), widget (QCheckBox, autosave)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_crashrecovery)
+#: src/ui/configmisc_ui.ui:17 src/ui/wizardextra_ui.ui:59
 #, kde-format
-msgid "Get clip metadata with exiftool"
-msgstr "Получать метаданные клипа от exiftool"
+msgid "Activate crash recovery (auto save)"
+msgstr "Активировать аварийное восстановление (автосохранение)"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_automultistreams)
 #: src/ui/configmisc_ui.ui:24
@@ -14807,84 +14807,89 @@ msgstr "Автоматически импортировать все поток�
 msgid "Get clip metadata created by Magic Lantern"
 msgstr "Получать метаданные клипа от Magic Lantern"
 
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_disable_effect_parameters)
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_usekuiserver)
 #: src/ui/configmisc_ui.ui:38
+#, kde-format
+msgid "Use KDE job tracking for render jobs"
+msgstr "Использовать механизм отслеживания KDE для заданий сборки"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_use_exiftool)
+#: src/ui/configmisc_ui.ui:45
+#, kde-format
+msgid "Get clip metadata with exiftool"
+msgstr "Получать метаданные клипа от exiftool"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_disable_effect_parameters)
+#: src/ui/configmisc_ui.ui:52
 #, kde-format
 msgid "Disable parameters when the effect is disabled"
 msgstr "Отключать параметры при отключении эффекта"
 
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_checkfirstprojectclip)
+#: src/ui/configmisc_ui.ui:59
+#, kde-format
+msgid "Check if first added clip matches project profile"
+msgstr "Проверять соответствие первого добавленного клипа профилю проекта"
+
+#. i18n: ectx: property (text), widget (QLabel, label_4)
+#: src/ui/configmisc_ui.ui:90
+#, kde-format
+msgid "Tab position"
+msgstr "Расположение вкладок"
+
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_openlastproject)
+#: src/ui/configmisc_ui.ui:110
+#, kde-format
+msgid "Open last project on startup"
+msgstr "Открывать последний проект при запуске"
+
 #. i18n: ectx: property (title), widget (QGroupBox, groupBox)
-#: src/ui/configmisc_ui.ui:45
+#: src/ui/configmisc_ui.ui:117
 #, kde-format
 msgid "Default Durations"
 msgstr "Длительность по умолчанию"
 
 #. i18n: ectx: property (text), widget (QLabel, label)
-#: src/ui/configmisc_ui.ui:51
+#: src/ui/configmisc_ui.ui:123
 #, kde-format
 msgid "Color clips"
 msgstr "Цветовые клипы"
 
 #. i18n: ectx: property (text), widget (QLabel, label_8)
-#: src/ui/configmisc_ui.ui:68
+#: src/ui/configmisc_ui.ui:140
 #, kde-format
 msgid "Title clips"
 msgstr "Клипы титров"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: src/ui/configmisc_ui.ui:75
+#: src/ui/configmisc_ui.ui:147
 #, kde-format
 msgid "Image sequence"
 msgstr "Серия изображений"
 
 #. i18n: ectx: property (text), widget (QLabel, label_6)
-#: src/ui/configmisc_ui.ui:101
+#: src/ui/configmisc_ui.ui:173
 #, kde-format
 msgid "Fades"
 msgstr "Затемнения"
 
-#. i18n: ectx: property (text), widget (QLabel, label_4)
-#: src/ui/configmisc_ui.ui:114
-#, kde-format
-msgid "Tab position"
-msgstr "Расположение вкладок"
-
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_autoimagesequence)
-#: src/ui/configmisc_ui.ui:145
+#: src/ui/configmisc_ui.ui:186
 #, kde-format
 msgid "Automatically import image sequences"
 msgstr "Автоматически импортировать серию изображений"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_bypasscodeccheck)
-#: src/ui/configmisc_ui.ui:165
+#: src/ui/configmisc_ui.ui:193
 #, kde-format
 msgid "Bypass codec verification"
 msgstr "Пропускать проверку кодеков"
 
-#. i18n: ectx: property (text), widget (QCheckBox, autosave)
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_crashrecovery)
-#: src/ui/configmisc_ui.ui:185 src/ui/wizardextra_ui.ui:59
+#. i18n: ectx: property (text), widget (QCheckBox, kcfg_disableimagescaling)
+#: src/ui/configmisc_ui.ui:213
 #, kde-format
-msgid "Activate crash recovery (auto save)"
-msgstr "Активировать аварийное восстановление (автосохранение)"
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_checkfirstprojectclip)
-#: src/ui/configmisc_ui.ui:192
-#, kde-format
-msgid "Check if first added clip matches project profile"
-msgstr "Проверять соответствие первого добавленного клипа профилю проекта"
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_usekuiserver)
-#: src/ui/configmisc_ui.ui:199
-#, kde-format
-msgid "Use KDE job tracking for render jobs"
-msgstr "Использовать механизм отслеживания KDE для заданий сборки"
-
-#. i18n: ectx: property (text), widget (QCheckBox, kcfg_openlastproject)
-#: src/ui/configmisc_ui.ui:206
-#, kde-format
-msgid "Open last project on startup"
-msgstr "Открывать последний проект при запуске"
+msgid "Keep images at original size"
+msgstr "Сохранить изображения в оригинальном размере"
 
 #. i18n: ectx: property (text), widget (QCheckBox, kcfg_customprojectfolder)
 #. i18n: ectx: property (text), widget (QCheckBox, custom_folder)
