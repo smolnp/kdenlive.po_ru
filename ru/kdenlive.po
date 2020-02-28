@@ -17,8 +17,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-02-27 03:16+0100\n"
-"PO-Revision-Date: 2020-02-27 23:31+0300\n"
+"POT-Creation-Date: 2020-02-28 03:14+0100\n"
+"PO-Revision-Date: 2020-02-28 17:12+0300\n"
 "Last-Translator: Смольянинов Николай <smolianinow.colya2016@yandex.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "Language: ru\n"
@@ -4427,7 +4427,7 @@ msgstr "Скорость"
 msgid "Phase"
 msgstr "Фаза"
 
-#: data/effects/sox_flanger.xml:28 src/monitor/monitormanager.cpp:445
+#: data/effects/sox_flanger.xml:28 src/monitor/monitormanager.cpp:439
 #, kde-format
 msgid "Interpolation"
 msgstr "Интерполяция"
@@ -6569,7 +6569,7 @@ msgid "No guide found at current position"
 msgstr "В текущей позиции нет направляющей"
 
 #: src/bin/projectclip.cpp:149 src/doc/kdenlivedoc.cpp:797
-#: src/project/dialogs/archivewidget.cpp:200 src/project/projectmanager.cpp:925
+#: src/project/dialogs/archivewidget.cpp:200 src/project/projectmanager.cpp:924
 #, kde-format
 msgid "Untitled"
 msgstr "Безымянный"
@@ -6711,7 +6711,7 @@ msgstr ""
 "Указан недопустимый профиль. По умолчанию используется профиль «dv_pal», но "
 "его можно изменить в окне настройки программы Kdenlive"
 
-#: src/core.cpp:374
+#: src/core.cpp:376
 #, kde-format
 msgid "Your project profile is invalid, rendering might fail."
 msgstr "Некорректный профиль проекта, возможен сбой во время сборки."
@@ -7245,7 +7245,7 @@ msgstr ""
 #: src/profiles/profilerepository.cpp:200
 #: src/project/dialogs/archivewidget.cpp:863
 #: src/project/dialogs/archivewidget.cpp:869
-#: src/project/projectmanager.cpp:1024 src/titler/titlewidget.cpp:2011
+#: src/project/projectmanager.cpp:1023 src/titler/titlewidget.cpp:2011
 #, kde-format
 msgid "Cannot write to file %1"
 msgstr "Не удалось записать в файл %1"
@@ -7376,7 +7376,7 @@ msgstr ""
 "неуверенным в правильности такого выбора, лучше изменить параметр на "
 "mlt_profile."
 
-#: src/dialogs/renderwidget.cpp:1905 src/monitor/monitor.cpp:1044
+#: src/dialogs/renderwidget.cpp:1905 src/monitor/monitor.cpp:1030
 #, kde-format
 msgid "untitled"
 msgstr "безымянный"
@@ -7430,7 +7430,7 @@ msgstr "Сборка завершена за %1"
 #: src/dialogs/renderwidget.cpp:2489
 #, kde-format
 msgid "Rendering of %1 finished in %2"
-msgstr "Сборка %1 завершена в %2"
+msgstr "Сборка %1 завершена за %2"
 
 #: src/dialogs/renderwidget.cpp:2506
 #, kde-format
@@ -8150,7 +8150,7 @@ msgstr[3] "Удалить прокси-клип"
 msgid "Clip type does not support proxies"
 msgstr "Клип данного типа не поддерживает прокси"
 
-#: src/doc/kdenlivedoc.cpp:1406
+#: src/doc/kdenlivedoc.cpp:1405
 #, kde-format
 msgid ""
 "Your default project profile is %1, but your clip's profile is %2.\n"
@@ -8159,43 +8159,43 @@ msgstr ""
 "Используемый по умолчанию профиль проекта %1, а профиль клипа %2.\n"
 "Изменить профиль по умолчанию для будущих проектов?"
 
-#: src/doc/kdenlivedoc.cpp:1408
+#: src/doc/kdenlivedoc.cpp:1407
 #, kde-format
 msgid "Change default project profile"
 msgstr "Изменить профиль проекта по умолчанию"
 
-#: src/doc/kdenlivedoc.cpp:1408
+#: src/doc/kdenlivedoc.cpp:1407
 #, kde-format
 msgid "Change default to %1"
 msgstr "Изменить по умолчанию %1"
 
-#: src/doc/kdenlivedoc.cpp:1409
+#: src/doc/kdenlivedoc.cpp:1408
 #, kde-format
 msgid "Keep current default %1"
 msgstr "Сохранить по умолчанию %1"
 
-#: src/doc/kdenlivedoc.cpp:1409
+#: src/doc/kdenlivedoc.cpp:1408
 #, kde-format
 msgid "Ask me later"
 msgstr "Напомнить позже"
 
-#: src/doc/kdenlivedoc.cpp:1430
+#: src/doc/kdenlivedoc.cpp:1429
 #, kde-format
 msgid "Switch"
 msgstr "Переключить"
 
 #. i18n: ectx: property (text), widget (QPushButton, CancelButton)
-#: src/doc/kdenlivedoc.cpp:1432 src/ui/logindialog_ui.ui:29
+#: src/doc/kdenlivedoc.cpp:1431 src/ui/logindialog_ui.ui:29
 #, kde-format
 msgid "Cancel"
 msgstr "Отменить"
 
-#: src/doc/kdenlivedoc.cpp:1434
+#: src/doc/kdenlivedoc.cpp:1433
 #, kde-format
 msgid "Switch to clip profile %1?"
 msgstr "Переключить на профиль клипа %1?"
 
-#: src/doc/kdenlivedoc.cpp:1464
+#: src/doc/kdenlivedoc.cpp:1463
 #, kde-format
 msgid ""
 "\n"
@@ -8205,7 +8205,7 @@ msgstr ""
 "Предупреждение: неизвестное не целое значение кадров/с, что может привести к "
 "неверному отображению длительности видео."
 
-#: src/doc/kdenlivedoc.cpp:1468
+#: src/doc/kdenlivedoc.cpp:1467
 #, kde-format
 msgid ""
 "\n"
@@ -8214,7 +8214,7 @@ msgstr ""
 "\n"
 "Профиль кадровой частоты взят с оригинала %1"
 
-#: src/doc/kdenlivedoc.cpp:1471
+#: src/doc/kdenlivedoc.cpp:1470
 #, kde-format
 msgid ""
 "No profile found for your clip.\n"
@@ -8223,13 +8223,13 @@ msgstr ""
 "Профиль для клипа не найден.\n"
 "Создать и использовать новый профиль (%1x%2, %3кадров/с)?%4"
 
-#: src/doc/kdenlivedoc.cpp:1745 src/scopes/colorscopes/colorplaneexport.cpp:235
+#: src/doc/kdenlivedoc.cpp:1744 src/scopes/colorscopes/colorplaneexport.cpp:235
 #: src/scopes/colorscopes/colorplaneexport.cpp:263
 #, kde-format
 msgid "Red"
 msgstr "Красный"
 
-#: src/doc/kdenlivedoc.cpp:1746 src/scopes/colorscopes/colorplaneexport.cpp:236
+#: src/doc/kdenlivedoc.cpp:1745 src/scopes/colorscopes/colorplaneexport.cpp:236
 #: src/scopes/colorscopes/colorplaneexport.cpp:264
 #: src/scopes/colorscopes/vectorscope.cpp:51
 #: src/scopes/colorscopes/waveform.cpp:36
@@ -8237,21 +8237,21 @@ msgstr "Красный"
 msgid "Green"
 msgstr "Зелёный"
 
-#: src/doc/kdenlivedoc.cpp:1747 src/scopes/colorscopes/colorplaneexport.cpp:237
+#: src/doc/kdenlivedoc.cpp:1746 src/scopes/colorscopes/colorplaneexport.cpp:237
 #: src/scopes/colorscopes/colorplaneexport.cpp:265
 #, kde-format
 msgid "Blue"
 msgstr "Синий"
 
 #. i18n: ectx: property (text), widget (QLabel, label_3)
-#: src/doc/kdenlivedoc.cpp:1748 src/scopes/colorscopes/waveform.cpp:34
+#: src/doc/kdenlivedoc.cpp:1747 src/scopes/colorscopes/waveform.cpp:34
 #: src/ui/selectivecolor_ui.ui:121
 #, kde-format
 msgid "Yellow"
 msgstr "Жёлтый"
 
 #. i18n: ectx: property (text), widget (QLabel, label_2)
-#: src/doc/kdenlivedoc.cpp:1749 src/ui/selectivecolor_ui.ui:55
+#: src/doc/kdenlivedoc.cpp:1748 src/ui/selectivecolor_ui.ui:55
 #, kde-format
 msgid "Cyan"
 msgstr "Бирюзовый"
@@ -8389,7 +8389,7 @@ msgid "File %1 is not a Kdenlive project file."
 msgstr "Файл %1 не является файлом проекта Kdenlive."
 
 #: src/dvdwizard/dvdwizardmenu.cpp:167 src/monitor/monitor.cpp:280
-#: src/monitor/monitormanager.cpp:362
+#: src/monitor/monitormanager.cpp:356
 #, kde-format
 msgid "Play"
 msgstr "Воспроизвести"
@@ -10899,17 +10899,17 @@ msgstr ""
 msgid "Insert Zone to Project Bin"
 msgstr "Вставить участок в корзину проекта"
 
-#: src/monitor/monitor.cpp:258 src/monitor/monitormanager.cpp:476
+#: src/monitor/monitor.cpp:258 src/monitor/monitormanager.cpp:470
 #, kde-format
 msgid "Set Zone In"
 msgstr "Установить начало участка"
 
-#: src/monitor/monitor.cpp:259 src/monitor/monitormanager.cpp:480
+#: src/monitor/monitor.cpp:259 src/monitor/monitormanager.cpp:474
 #, kde-format
 msgid "Set Zone Out"
 msgstr "Установить конец участка"
 
-#: src/monitor/monitor.cpp:272 src/monitor/monitormanager.cpp:387
+#: src/monitor/monitor.cpp:272 src/monitor/monitormanager.cpp:381
 #, kde-format
 msgid "Rewind"
 msgstr "Назад"
@@ -10919,13 +10919,13 @@ msgstr "Назад"
 msgid "Play..."
 msgstr "Воспроизвести…"
 
-#: src/monitor/monitor.cpp:280 src/monitor/monitormanager.cpp:362
-#: src/monitor/monitormanager.cpp:368
+#: src/monitor/monitor.cpp:280 src/monitor/monitormanager.cpp:356
+#: src/monitor/monitormanager.cpp:362
 #, kde-format
 msgid "Pause"
 msgstr "Пауза"
 
-#: src/monitor/monitor.cpp:299 src/monitor/monitormanager.cpp:399
+#: src/monitor/monitor.cpp:299 src/monitor/monitormanager.cpp:393
 #, kde-format
 msgid "Forward"
 msgstr "Вперёд"
@@ -11000,27 +11000,27 @@ msgstr "Показать уровни звука"
 msgid "Your screen resolution is not sufficient for this action"
 msgstr "Ваше разрешение экрана не позволяет выполнить это действие"
 
-#: src/monitor/monitor.cpp:1056
+#: src/monitor/monitor.cpp:1042
 #, kde-format
 msgid "Save Image"
 msgstr "Сохранить изображение"
 
-#: src/monitor/monitor.cpp:1056
+#: src/monitor/monitor.cpp:1042
 #, kde-format
 msgid "Save Image to Project"
 msgstr "Сохранить изображение в проект"
 
-#: src/monitor/monitor.cpp:1061
+#: src/monitor/monitor.cpp:1047
 #, kde-format
 msgid "Export image using source resolution"
 msgstr "Экспорт изображения с использованием разрешения источника"
 
-#: src/monitor/monitor.cpp:1802
+#: src/monitor/monitor.cpp:1788
 #, kde-format
 msgid "Cannot initialize Movit's GLSL manager, please disable Movit"
 msgstr "Не удалось инициализировать менеджер GLSL Movit, отключите Movit"
 
-#: src/monitor/monitor.cpp:1844 src/monitor/monitor.cpp:1896
+#: src/monitor/monitor.cpp:1830 src/monitor/monitor.cpp:1882
 #, kde-format
 msgid ""
 "The alphagrad filter is required for that feature, please install frei0r and "
@@ -11029,17 +11029,17 @@ msgstr ""
 "Для данной функции требуется фильтр alphagrad. Установите frei0r и "
 "перезапустите Kdenlive"
 
-#: src/monitor/monitor.cpp:1864
+#: src/monitor/monitor.cpp:1850
 #, kde-format
 msgid "Clip has no effects"
 msgstr "В клипе отсутствуют какие либо эффекты"
 
-#: src/monitor/monitor.cpp:1866
+#: src/monitor/monitor.cpp:1852
 #, kde-format
 msgid "Select a clip in project bin to compare effect"
 msgstr "Для сравнения эффектов выберите клип в корзине проекта"
 
-#: src/monitor/monitor.cpp:1903
+#: src/monitor/monitor.cpp:1889
 #, kde-format
 msgid ""
 "The cairoblend transition is required for that feature, please install "
@@ -11048,122 +11048,122 @@ msgstr ""
 "Для данной функции требуется переход cairoblend. Установите frei0r и "
 "перезапустите Kdenlive"
 
-#: src/monitor/monitor.cpp:1949
+#: src/monitor/monitor.cpp:1935
 #, kde-format
 msgid "Enable edit mode in monitor to edit effect"
 msgstr "Для редактирования эффекта включите режим редактирования в мониторе"
 
-#: src/monitor/monitormanager.cpp:372
+#: src/monitor/monitormanager.cpp:366
 #, kde-format
 msgid "Switch monitor fullscreen"
 msgstr "Полноэкранный режим"
 
-#: src/monitor/monitormanager.cpp:377
+#: src/monitor/monitormanager.cpp:371
 #, kde-format
 msgid "Zoom in monitor"
 msgstr "Увеличить монитор"
 
-#: src/monitor/monitormanager.cpp:382
+#: src/monitor/monitormanager.cpp:376
 #, kde-format
 msgid "Zoom out monitor"
 msgstr "Уменьшить монитор"
 
-#: src/monitor/monitormanager.cpp:391
+#: src/monitor/monitormanager.cpp:385
 #, kde-format
 msgid "Rewind 1 Frame"
 msgstr "Назад на 1 кадр"
 
-#: src/monitor/monitormanager.cpp:395
+#: src/monitor/monitormanager.cpp:389
 #, kde-format
 msgid "Rewind 1 Second"
 msgstr "Назад на 1 секунду"
 
-#: src/monitor/monitormanager.cpp:403
+#: src/monitor/monitormanager.cpp:397
 #, kde-format
 msgid "Go to Project Start"
 msgstr "В начало проекта"
 
-#: src/monitor/monitormanager.cpp:407
+#: src/monitor/monitormanager.cpp:401
 #, kde-format
 msgid "Multitrack view"
 msgstr "Многодорожечный просмотр"
 
-#: src/monitor/monitormanager.cpp:416
+#: src/monitor/monitormanager.cpp:410
 #, kde-format
 msgid "Go to Project End"
 msgstr "В конец проекта"
 
-#: src/monitor/monitormanager.cpp:420
+#: src/monitor/monitormanager.cpp:414
 #, kde-format
 msgid "Forward 1 Frame"
 msgstr "Вперёд на 1 кадр"
 
-#: src/monitor/monitormanager.cpp:424
+#: src/monitor/monitormanager.cpp:418
 #, kde-format
 msgid "Forward 1 Second"
 msgstr "Вперёд на 1 секунду"
 
-#: src/monitor/monitormanager.cpp:428
+#: src/monitor/monitormanager.cpp:422
 #, kde-format
 msgid "Deinterlacer"
 msgstr "Деинтерлейсер"
 
-#: src/monitor/monitormanager.cpp:429
+#: src/monitor/monitormanager.cpp:423
 #, kde-format
 msgid "One Field (fast)"
 msgstr "Одно поле (быстро)"
 
-#: src/monitor/monitormanager.cpp:430
+#: src/monitor/monitormanager.cpp:424
 #, kde-format
 msgid "Linear Blend (fast)"
 msgstr "Линейное наложение (быстро)"
 
-#: src/monitor/monitormanager.cpp:431
+#: src/monitor/monitormanager.cpp:425
 #, kde-format
 msgid "YADIF - temporal only (good)"
 msgstr "YADIF - временное (хорошо)"
 
-#: src/monitor/monitormanager.cpp:432
+#: src/monitor/monitormanager.cpp:426
 #, kde-format
 msgid "YADIF - temporal + spacial (best)"
 msgstr "YADIF - временное+пространственное (лучше)"
 
-#: src/monitor/monitormanager.cpp:446
+#: src/monitor/monitormanager.cpp:440
 #, kde-format
 msgid "Nearest Neighbor (fast)"
 msgstr "Ближайшее соседнее (быстро)"
 
-#: src/monitor/monitormanager.cpp:447
+#: src/monitor/monitormanager.cpp:441
 #, kde-format
 msgid "Bilinear (good)"
 msgstr "Билинейная (хорошо)"
 
-#: src/monitor/monitormanager.cpp:448
+#: src/monitor/monitormanager.cpp:442
 #, kde-format
 msgid "Bicubic (better)"
 msgstr "Бикубическая (лучше)"
 
-#: src/monitor/monitormanager.cpp:449
+#: src/monitor/monitormanager.cpp:443
 #, kde-format
 msgid "Hyper/Lanczos (best)"
 msgstr "Гипер/Ланцош (лучшая)"
 
-#: src/monitor/monitormanager.cpp:462
+#: src/monitor/monitormanager.cpp:456
 #, kde-format
 msgid "Go to Zone Start"
 msgstr "В начало участка"
 
-#: src/monitor/monitormanager.cpp:466
+#: src/monitor/monitormanager.cpp:460
 #, kde-format
 msgid "Mute monitor"
 msgstr "Выключить звук"
 
-#: src/monitor/monitormanager.cpp:466
+#: src/monitor/monitormanager.cpp:460
 #, kde-format
 msgid "Unmute monitor"
 msgstr "Включить звук"
 
-#: src/monitor/monitormanager.cpp:472
+#: src/monitor/monitormanager.cpp:466
 #, kde-format
 msgid "Go to Zone End"
 msgstr "В конец участка"
@@ -12032,7 +12032,7 @@ msgstr "Открыть резервную копию"
 msgid "Save changes to document?"
 msgstr "Сохранить изменения в документе?"
 
-#: src/project/projectmanager.cpp:236 src/project/projectmanager.cpp:924
+#: src/project/projectmanager.cpp:236 src/project/projectmanager.cpp:923
 #, kde-format
 msgid ""
 "The project <b>\"%1\"</b> has been changed.\n"
@@ -12080,28 +12080,28 @@ msgstr ""
 msgid "Revert to last saved version"
 msgstr "Вернуться к последней сохранённой версии"
 
-#: src/project/projectmanager.cpp:805
+#: src/project/projectmanager.cpp:804
 #, kde-format
 msgid "Moving project folder"
 msgstr "Перемещение папки проекта"
 
-#: src/project/projectmanager.cpp:827
+#: src/project/projectmanager.cpp:826
 #, kde-format
 msgid "Error moving project folder: %1"
 msgstr "Ошибка при перемещении папки проекта: %1"
 
-#: src/project/projectmanager.cpp:848
+#: src/project/projectmanager.cpp:847
 #, kde-format
 msgid "Project file is corrupted (no tracks). Try to find a backup file?"
 msgstr "Файл проекта повреждён (без дорожек). Найти файл резервной копии?"
 
-#: src/project/projectmanager.cpp:929 src/project/projectmanager.cpp:934
-#: src/project/projectmanager.cpp:944 src/project/projectmanager.cpp:959
+#: src/project/projectmanager.cpp:928 src/project/projectmanager.cpp:933
+#: src/project/projectmanager.cpp:943 src/project/projectmanager.cpp:958
 #, kde-format
 msgid "Project profile change aborted"
 msgstr "Изменение профиля проекта прервано"
 
-#: src/project/projectmanager.cpp:1030
+#: src/project/projectmanager.cpp:1029
 #, kde-format
 msgid "Project profile changed"
 msgstr "Профиль проекта изменён"
