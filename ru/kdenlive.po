@@ -17,8 +17,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Kdenlive\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
-"POT-Creation-Date: 2020-02-29 03:09+0100\n"
-"PO-Revision-Date: 2020-03-02 02:13+0300\n"
+"POT-Creation-Date: 2020-03-03 03:13+0100\n"
+"PO-Revision-Date: 2020-03-03 22:52+0300\n"
 "Last-Translator: Смольянинов Николай <smolianinow.colya2016@yandex.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "Language: ru\n"
@@ -5883,7 +5883,7 @@ msgstr "Тень"
 
 #: src/audiomixer/mixermanager.cpp:166
 #: src/audiospectrum/audiographspectrum.cpp:105
-#: src/timeline2/view/qml/timeline.qml:614
+#: src/timeline2/view/qml/timeline.qml:616
 #, kde-format
 msgid "Master"
 msgstr "Мастер"
@@ -6589,17 +6589,17 @@ msgstr ""
 "Размер изображения не превышает 8 пикселей.\n"
 "Это не предусмотрено в поддержке нашего видеофреймворка."
 
-#: src/bin/projectclip.cpp:1285
+#: src/bin/projectclip.cpp:1293
 #, kde-format
 msgid "Clip already contains analysis data %1"
 msgstr "Клип уже содержит данные анализа %1"
 
-#: src/bin/projectclip.cpp:1285
+#: src/bin/projectclip.cpp:1293
 #, kde-format
 msgid "Merge"
 msgstr "Объединить"
 
-#: src/bin/projectclip.cpp:1286
+#: src/bin/projectclip.cpp:1294
 #, kde-format
 msgid "Add"
 msgstr "Добавить"
@@ -6636,22 +6636,22 @@ msgstr "Неизвестно"
 msgid "Zone"
 msgstr "Участок"
 
-#: src/bin/projectitemmodel.cpp:710
+#: src/bin/projectitemmodel.cpp:707
 #, kde-format
 msgid "Add bin clip"
 msgstr "Добавить клип корзины"
 
-#: src/bin/projectitemmodel.cpp:779
+#: src/bin/projectitemmodel.cpp:776
 #, kde-format
 msgid "Add a sub clip"
 msgstr "Добавить подклип"
 
-#: src/bin/projectitemmodel.cpp:820
+#: src/bin/projectitemmodel.cpp:817
 #, kde-format
 msgid "Rename Folder"
 msgstr "Переименовать папку"
 
-#: src/bin/projectitemmodel.cpp:849 src/mainwindow.cpp:1280
+#: src/bin/projectitemmodel.cpp:846 src/mainwindow.cpp:1280
 #, kde-format
 msgid "Clean Project"
 msgstr "Очистить проект"
@@ -12669,28 +12669,29 @@ msgstr "Добавить клип в библиотеку"
 msgid "Enter a name for the clip in Library"
 msgstr "Укажите имя клипа для библиотеки"
 
-#: src/timeline2/model/timelinefunctions.cpp:1304
-#: src/timeline2/model/timelinefunctions.cpp:1354
-#: src/timeline2/model/timelinefunctions.cpp:1382
+#: src/timeline2/model/timelinefunctions.cpp:1260
+#: src/timeline2/model/timelinefunctions.cpp:1308
+#: src/timeline2/model/timelinefunctions.cpp:1358
+#: src/timeline2/model/timelinefunctions.cpp:1387
 #, kde-format
 msgid "Not enough tracks to paste clipboard"
 msgstr "Не хватает дорожек для вставки из буфера обмена"
 
-#: src/timeline2/model/timelinefunctions.cpp:1390
-#: src/timeline2/model/timelinefunctions.cpp:1404
-#: src/timeline2/model/timelinefunctions.cpp:1413
+#: src/timeline2/model/timelinefunctions.cpp:1395
+#: src/timeline2/model/timelinefunctions.cpp:1409
 #: src/timeline2/model/timelinefunctions.cpp:1418
+#: src/timeline2/model/timelinefunctions.cpp:1423
 #, kde-format
 msgid "Pasted clips"
 msgstr "Вставленные клипы"
 
-#: src/timeline2/model/timelinefunctions.cpp:1521
-#: src/timeline2/model/timelinefunctions.cpp:1540
+#: src/timeline2/model/timelinefunctions.cpp:1526
+#: src/timeline2/model/timelinefunctions.cpp:1545
 #, kde-format
 msgid "Paste clips"
 msgstr "Вставить клипы"
 
-#: src/timeline2/model/timelinefunctions.cpp:1522
+#: src/timeline2/model/timelinefunctions.cpp:1527
 #, kde-format
 msgid "Could not paste items in timeline"
 msgstr "Элементы не были вставлены на монтажный стол"
@@ -12952,18 +12953,18 @@ msgstr "Смещение: %1"
 msgid "Click to add composition"
 msgstr "Щёлкните для добавления композиции"
 
-#: src/timeline2/view/qml/timeline.qml:604
+#: src/timeline2/view/qml/timeline.qml:606
 #, kde-format
 msgctxt "Initial for Master"
 msgid "M"
 msgstr "M"
 
-#: src/timeline2/view/qml/timeline.qml:611
+#: src/timeline2/view/qml/timeline.qml:613
 #, kde-format
 msgid "Show master effects"
 msgstr "Показать мастер-эффекты"
 
-#: src/timeline2/view/qml/timeline.qml:1112
+#: src/timeline2/view/qml/timeline.qml:1114
 #, kde-format
 msgid ""
 "\n"
