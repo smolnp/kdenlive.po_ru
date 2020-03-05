@@ -18,7 +18,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2020-03-05 03:18+0100\n"
-"PO-Revision-Date: 2020-03-05 19:18+0300\n"
+"PO-Revision-Date: 2020-03-05 19:43+0300\n"
 "Last-Translator: Смольянинов Николай <smolianinow.colya2016@yandex.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "Language: ru\n"
@@ -3982,7 +3982,7 @@ msgstr "Область"
 #: data/effects/oldfilm.xml:3
 #, kde-format
 msgid "Oldfilm"
-msgstr "Старое киFilmно"
+msgstr "Старое кино"
 
 #: data/effects/oldfilm.xml:4
 #, kde-format
