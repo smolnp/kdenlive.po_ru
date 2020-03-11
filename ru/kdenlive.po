@@ -6,26 +6,27 @@
 # Pavel Vishnevsky <glukator@gmail.com>, 2009.
 # Александр Прокудин <alexandre.prokoudine@gmail.com>, 2010, 2011.
 # Yury G. Kudryashov <urkud.urkud@gmail.com>, 2012.
-# Alexander Potashev <aspotashev@gmail.com>, 2015.
+# Alexander Potashev <aspotashev@gmail.com>, 2015, 2019.
 # Vladimir Potapov <vladimir.potapov@rosalab.ru>, 2015.
-# Смольянинов Николай <smolianinow.colya2016@yandex.ru>, 2016, 2017, 2018, 2019, 2020.
+# Смольянинов Николай <smolianinow.colya2016@yandex.ru>, 2016, 2017, 2018.
 # Julia Dronova <juliette.tux@gmail.com>, 2018.
-# Виктор Рыжих <victorr2007@yandex.ru>, 2018.
+# Виктор <victorr2007@yandex.ru>, 2018.
 # Olga Mironova <omiro@basealt.ru>, 2018.
 # Mikhail Novosyolov <m.novosyolov@rosalinux.ru>, 2018.
+# Alexander Yavorsky <kekcuha@gmail.com>, 2020.
 msgid ""
 msgstr ""
-"Project-Id-Version: Kdenlive\n"
+"Project-Id-Version: Kdenlive 18.12\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2020-03-11 03:22+0100\n"
-"PO-Revision-Date: 2020-03-11 18:15+0300\n"
-"Last-Translator: Смольянинов Николай <smolianinow.colya2016@yandex.ru>\n"
+"PO-Revision-Date: 2020-03-11 19:41+0300\n"
+"Last-Translator: Alexander Yavorsky <kekcuha@gmail.com>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.3\n"
+"X-Generator: Lokalize 19.12.3\n"
 "Plural-Forms: nplurals=4; plural=n==1 ? 3 : n%10==1 && n%100!=11 ? 0 : n"
 "%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 
@@ -55,7 +56,7 @@ msgstr "Баланс"
 #: data/effects/audiobalance.xml:4
 #, kde-format
 msgid "Adjust the left/right balance"
-msgstr "Скорректировать баланс левого и правого каналов"
+msgstr "Изменить баланс левого и правого каналов"
 
 #: data/effects/audiopan.xml:3 data/effects/audiopan.xml:11
 #: src/project/dialogs/slideshowclip.cpp:69
@@ -899,7 +900,7 @@ msgstr "Заливка изображением или чёрным"
 #: data/effects/frei0r_alpha0ps.xml:4 data/effects/frei0r_alpha0ps.xml:36
 #, kde-format
 msgid "Alpha operations"
-msgstr "Операции с альфа"
+msgstr "Операции с Альфа"
 
 #: data/effects/frei0r_alpha0ps.xml:5 data/effects/frei0r_alpha0ps.xml:37
 #, kde-format
@@ -966,7 +967,7 @@ msgstr "Сжать/Растянуть/Размыть"
 #: data/effects/frei0r_alphagrad.xml:3
 #, kde-format
 msgid "Alpha gradient"
-msgstr "Градиент альфа"
+msgstr "Градиент Альфа"
 
 #: data/effects/frei0r_alphagrad.xml:4
 #, kde-format
@@ -1612,7 +1613,7 @@ msgstr "Время задержки"
 #: data/effects/frei0r_delaygrab.xml:3
 #, kde-format
 msgid "Delay grab"
-msgstr "Захват с задержкой"
+msgstr "Задержка захвата"
 
 #: data/effects/frei0r_delaygrab.xml:4
 #, kde-format
@@ -2096,8 +2097,7 @@ msgstr "Порог насыщенности"
 #, kde-format
 msgid "None, De-Key, Target, Desaturate, Luma adjust"
 msgstr ""
-"Без операции,Без ключевого цвета,Целевой цвет,Обесцвечивание,Коррекция "
-"яркости"
+"Без операции,Без ключевого цвета,Целевой цвет,Обесцвечивание,Коррекция яркости"
 
 #: data/effects/frei0r_keyspillm0pup.xml:38
 #, kde-format
@@ -2534,7 +2534,7 @@ msgstr "Создание карты яркости изображения"
 #: data/effects/frei0r_mask0mate.xml:3
 #, kde-format
 msgid "Rectangular Alpha mask"
-msgstr "Прямоугольная альфа маска"
+msgstr "Прямоугольная Альфа маска"
 
 #: data/effects/frei0r_mask0mate.xml:4
 #, kde-format
@@ -2952,7 +2952,7 @@ msgstr "RGB,ABI,HCI"
 #: data/effects/frei0r_select0r.xml:30 data/effects/frei0r_select0r.xml:65
 #, kde-format
 msgid "Color Model"
-msgstr "Цветовая модель"
+msgstr "Скорректировать баланс левого и правого каналов"
 
 #: data/effects/frei0r_select0r.xml:34 data/effects/frei0r_select0r.xml:69
 #, kde-format
@@ -3270,7 +3270,7 @@ msgstr "Определение порогов для оригинального 
 #: data/effects/frei0r_timeout.xml:4
 #, kde-format
 msgid "Timeout indicator"
-msgstr "Индикатор тайм-аута"
+msgstr "Индикатор Тайм-Aута"
 
 #: data/effects/frei0r_timeout.xml:7
 #, kde-format
@@ -4280,7 +4280,7 @@ msgstr "Цветность в канале V"
 #: data/effects/shape.xml:3
 #, kde-format
 msgid "Shape Alpha"
-msgstr "Фигура альфа"
+msgstr "Фигура Альфа"
 
 #: data/effects/shape.xml:4
 #, kde-format
@@ -4880,8 +4880,8 @@ msgid ""
 "Generate frames with a counter and synchronized tone. The counter can go up "
 "or down."
 msgstr ""
-"Генерирует кадры счётчика синхронно с тоном. Счётчик отсчитывает время как "
-"назад, так и вперёд."
+"Генерировать кадры со счётчиком и синхронизировать с тоном. Счётчик может "
+"отсчитывать и вперёд и назад."
 
 #: data/generators/count.xml:7
 #, kde-format
@@ -4891,12 +4891,12 @@ msgstr "Отсчёт вперёд"
 #: data/generators/count.xml:10
 #, kde-format
 msgid "No background"
-msgstr "Без фона"
+msgstr "Эффект фона"
 
 #: data/generators/count.xml:13
 #, kde-format
 msgid "Seconds to 0,Seconds to 1,Frames,Timecode,Clock"
-msgstr "Секунды от/до 0,Секунды от/до 1,Кадры,Тайм-код,Часы"
+msgstr "Секунды до 0,Секунды до 1,Кадры,Тайм-код,Часы"
 
 #: data/generators/count.xml:14
 #, kde-format
@@ -4906,7 +4906,7 @@ msgstr "Тема счётчика"
 #: data/generators/count.xml:17
 #, kde-format
 msgid "Silent,1kHz beep before end,1kHz beep each second"
-msgstr "Без звука,1кГц постоянный сигнал,1кГц сигнал каждую секунду"
+msgstr "Без звука,1кГц сигнал до конца,1кГц сигнал каждую секунду"
 
 #: data/generators/count.xml:18
 #, kde-format
@@ -4934,9 +4934,8 @@ msgid ""
 "PAL color bars,PAL color bars with red,95% BBC color bars,75% EBU color bars,"
 "SMPTE color bars,Philips PM5544,FuBK,Simplified FuBK"
 msgstr ""
-"Цветные полосы PAL,Цветные полосы PAL с красным,Цветные полосы BBC 95%,"
-"Цветные полосы EBU 75%,Цветные полосы SMPTE,Philips PM5544,FuBK,Упрощенные "
-"FuBK"
+"PAL цветные полосы,PAL цветные полосы с красным,95% BBC цветных полос,75% "
+"EBU цветных полос,SMPTE цветных полос,Philips PM5544,FuBK,Упрощенное FuBK"
 
 #: data/generators/frei0r_test_pat_b.xml:8
 #, kde-format
@@ -4946,7 +4945,7 @@ msgstr "Тип цветных полос"
 #: data/generators/noise.xml:3
 #, kde-format
 msgid "White Noise"
-msgstr "Белый шум"
+msgstr "Шум"
 
 #: data/generators/noise.xml:4
 #, kde-format
@@ -5326,6 +5325,7 @@ msgstr "Добавить в избранное"
 
 #: src/assets/assetlist/view/qml/assetList.qml:326
 #, kde-format
+#| msgid "Delete effect"
 msgid "Delete custom effect"
 msgstr "Удалить пользовательский эффект"
 
@@ -8598,6 +8598,7 @@ msgstr "Сохранить эффект"
 #: src/effects/effectstack/view/collapsibleeffectview.cpp:184
 #: src/effects/effectstack/view/effectstackview.cpp:444
 #, kde-format
+#| msgid "Save Effect"
 msgid "Save Effect Stack"
 msgstr "Сохранить стек эффекта"
 
@@ -8613,6 +8614,7 @@ msgstr "Имя сохраняемого эффекта: "
 
 #: src/effects/effectstack/view/effectstackview.cpp:444
 #, kde-format
+#| msgid "Name for saved effect: "
 msgid "Name for saved stack: "
 msgstr "Имя сохраняемого стека: "
 
@@ -9271,7 +9273,7 @@ msgstr "Перенос на MLT и KDE SC4 / KF5, основной разраб�
 #: src/main.cpp:156
 #, kde-format
 msgid "Nicolas Carion"
-msgstr "Nicolas Carion"
+msgstr "Николас Карион"
 
 #: src/main.cpp:156
 #, kde-format
@@ -9687,7 +9689,7 @@ msgstr "Композитинг дорожек"
 #: src/scopes/colorscopes/vectorscope.cpp:57
 #, kde-format
 msgid "None"
-msgstr "Отсутствует"
+msgstr "Захват с задержкой"
 
 #: src/mainwindow.cpp:1009 src/mainwindow.cpp:1020
 #, kde-format
@@ -13001,8 +13003,7 @@ msgstr "Регулировка скорости"
 msgid ""
 "Click to toggle track as target. Target tracks will receive the inserted "
 "clips"
-msgstr ""
-"Вкл/Выкл целевую дорожку. На целевых дорожках производится вставка клипов"
+msgstr "Вкл/Выкл целевую дорожку. На целевые дорожки ложатся вставленные клипы"
 
 #: src/timeline2/view/qml/TrackHead.qml:211
 #, kde-format
@@ -16722,47 +16723,73 @@ msgctxt "h as hours"
 msgid "%1h"
 msgstr "%1ч"
 
+#, fuzzy
+#~| msgid "Copyright"
 #~ msgid "Copy"
-#~ msgstr "Копировать"
+#~ msgstr "Авторские права"
 
 #~ msgid "Ungroup"
 #~ msgstr "Разгруппировать"
 
+#, fuzzy
+#~| msgid "Split Audio"
 #~ msgid "Align Audio"
-#~ msgstr "Выровнять звук"
+#~ msgstr "Отделить звук от видео"
 
+#, fuzzy
+#~| msgid "Removal"
 #~ msgid "Remove"
-#~ msgstr "Удалить"
+#~ msgstr "Удаление"
 
+#, fuzzy
+#~| msgid "Timeline Toolbar"
 #~ msgid "Timeline error"
-#~ msgstr "Ошибка на монтажном столе"
+#~ msgstr "Панель инструментов монтажного стола"
 
+#, fuzzy
+#~| msgid "Show Record Control"
 #~ msgid "Show Record Controls"
-#~ msgstr "Показать кнопку записи"
+#~ msgstr "Показать контроль записи"
 
+#, fuzzy
+#~| msgid "Thumbnails"
 #~ msgid "Track thumbnails"
-#~ msgstr "Миниатюры дорожки"
+#~ msgstr "Миниатюры"
 
+#, fuzzy
+#~| msgid "Master"
 #~ msgid "Paste"
-#~ msgstr "Вставить"
+#~ msgstr "Мастер"
 
+#, fuzzy
+#~| msgid "Remove Space In All Tracks"
 #~ msgid "Remove Space On Active Track"
-#~ msgstr "Удалить пробел на активной дорожке"
+#~ msgstr "Удалить пробелы на всех дорожках"
 
+#, fuzzy
+#~| msgid "Recording Preview"
 #~ msgid "Full Resolution Preview"
-#~ msgstr "Размер оригинала"
+#~ msgstr "Просмотр записи"
 
+#, fuzzy
+#~| msgid "Recording Preview"
 #~ msgid "1/2 Resolution Preview"
-#~ msgstr "Половина оригинала (1/2)"
+#~ msgstr "Просмотр записи"
 
+#, fuzzy
+#~| msgid "Recording Preview"
 #~ msgid "1/4 Resolution Preview"
-#~ msgstr "Четверть оригинала (1/4)"
+#~ msgstr "Просмотр записи"
 
+#, fuzzy
+#~| msgid "Recording Preview"
 #~ msgid "1/8 Resolution Preview"
-#~ msgstr "Восьмая оригинала (1/8)"
+#~ msgstr "Просмотр записи"
 
+#, fuzzy
+#~| msgid "Select a clip if you want to apply an effect"
 #~ msgid "Select a filter to apply in filter menu"
-#~ msgstr "Выберите и примените фильтр из списка"
+#~ msgstr "Для применения эффекта выберите клип"
 
 #~ msgid "Start at"
 #~ msgstr "Начать с"
@@ -16791,6 +16818,8 @@ msgstr "%1ч"
 #~ msgid "Analyse clip"
 #~ msgstr "Анализ клипа"
 
+#, fuzzy
+#~| msgid "Chroma Key"
 #~ msgid "Chroma-Key"
 #~ msgstr "Хромакей"
 
@@ -16813,22 +16842,32 @@ msgstr "%1ч"
 #~ msgstr "Форма подпространства"
 
 #~ msgid "Overlay audio waveform"
-#~ msgstr "Накладывать спектр звука"
+#~ msgstr "Накладывать звуковую волну"
 
+#, fuzzy
+#~| msgid "&Favorite"
 #~ msgid "Favorites"
-#~ msgstr "Избранные"
+#~ msgstr "&Избранное"
 
+#, fuzzy
+#~| msgid "Bin effects for %1"
 #~ msgid "Find effect"
-#~ msgstr "Найти эффект"
+#~ msgstr "Эффекты для %1"
 
+#, fuzzy
+#~| msgid "Properties"
 #~ msgid "%1 properties"
-#~ msgstr "Свойства \"%1"
+#~ msgstr "Свойства"
 
+#, fuzzy
+#~| msgid "Video only"
 #~ msgid "Video only drag"
-#~ msgstr "Переместить только видео"
+#~ msgstr "Только видео"
 
+#, fuzzy
+#~| msgid "Audio only"
 #~ msgid "Audio only drag"
-#~ msgstr "Переместить только звук"
+#~ msgstr "Только звук"
 
 #~ msgid "Transcode clip"
 #~ msgstr "Перекодировать клип"
@@ -16878,7 +16917,7 @@ msgstr "%1ч"
 #~ msgstr[3] "(%1 клип)"
 
 #~ msgid "I-Frame "
-#~ msgstr "I-Кадр "
+#~ msgstr "I-Кадр"
 
 #~ msgid "Found %count I-Frames"
 #~ msgstr "Найдено %count I-кадров"
@@ -16889,9 +16928,9 @@ msgstr "%1ч"
 #~ msgstr "эффект"
 
 #, fuzzy
-#~| msgid "Compositions"
+#~| msgid "Compositing"
 #~ msgid "compositions"
-#~ msgstr "Композиции"
+#~ msgstr "Композитинг"
 
 #~ msgid "Rename"
 #~ msgstr "Переименовать"
@@ -17003,7 +17042,7 @@ msgstr "%1ч"
 #~ msgstr "Прозрачный фон для изображений"
 
 #~ msgid "dvgrab version %1 at %2"
-#~ msgstr "версия dvgrab %1 в %2"
+#~ msgstr "Версия dvgrab %1 в %2"
 
 #~ msgid ""
 #~ "<strong><em>dvgrab</em> utility not found, please install it for firewire "
@@ -17233,20 +17272,20 @@ msgstr "%1ч"
 #~ "changes"
 #~ msgstr ""
 #~ "Чтобы применить изменения, требуется отсоединить, а затем подсоединить "
-#~ "монитор, с которого ведётся захват"
+#~ "монитор, с которого ведётся захват."
 
 #~ msgid "Capturing"
 #~ msgstr "Выполняется захват"
 
 #~ msgid "You need to stop capture before your changes can be applied"
-#~ msgstr "Чтобы применить изменения, необходимо остановить захват"
+#~ msgstr "Чтобы применить изменения, необходимо остановить захват."
 
 #~ msgid ""
 #~ "ffmpeg or avconv not found,\n"
 #~ " please install it for screen grabs"
 #~ msgstr ""
-#~ "ffmpeg или avconv не найден,\n"
-#~ "установите его для захвата экрана"
+#~ "FFmpeg или avconv не найден,\n"
+#~ "пожалуйста установите его для захвата экрана"
 
 #~ msgid ""
 #~ "Your FFmpeg / Libav installation\n"
@@ -17283,7 +17322,7 @@ msgstr "%1ч"
 #~ "dvgrab utility not found,\n"
 #~ " please install it for firewire capture"
 #~ msgstr ""
-#~ "утилита dvgrab не найдена,\n"
+#~ "Утилита dvgrab не найдена,\n"
 #~ " установите её для захвата через firewire"
 
 #~ msgid ""
@@ -17447,7 +17486,7 @@ msgstr "%1ч"
 #~ msgstr[0] " секунда"
 #~ msgstr[1] " секунды"
 #~ msgstr[2] " секунд"
-#~ msgstr[3] " секунда"
+#~ msgstr[3] "секунда"
 
 #~ msgid "Stopped"
 #~ msgstr "Остановлен"
@@ -17680,10 +17719,10 @@ msgstr "%1ч"
 #~ msgstr "Контрольная дорожка для выравнивания звука ещё не выбрана."
 
 #~ msgid "Cannot find clip to align."
-#~ msgstr "Не найден клип для выравнивания."
+#~ msgstr "Не найден клип для выравнивания"
 
 #~ msgid "Unable to move clip out of timeline."
-#~ msgstr "Нельзя переместить клип за пределы монтажного стола."
+#~ msgstr "Нельзя переместить клип за пределы монтажного стола"
 
 #~ msgid "Unable to move clip due to collision."
 #~ msgstr "Не удалось переместить клип из-за перекрытия с другим фрагментом."
@@ -17695,7 +17734,7 @@ msgstr "%1ч"
 #~ msgstr "Автовыравнивание клипа"
 
 #~ msgid "No empty space to put clip audio"
-#~ msgstr "Нет свободного места для вставки звукового клипа"
+#~ msgstr "Нет свободного места для вставки звукового клипа."
 
 #~ msgid "Cannot update clip (time: %1, track: %2)"
 #~ msgstr "Не удалось обновить клип (время: %1, дорожка: %2)"
@@ -17815,7 +17854,7 @@ msgstr "%1ч"
 #~ msgstr " Длительность группы:"
 
 #~ msgid "Crop from start: "
-#~ msgstr "Обрезать от начала: "
+#~ msgstr "Обрезать от начала:"
 
 #~ msgid ""
 #~ "Use Ctrl to resize only current item, otherwise all items in this group "
@@ -17828,10 +17867,10 @@ msgstr "%1ч"
 #~ msgstr "Длительность: "
 
 #~ msgid "Fade in duration: "
-#~ msgstr "Длительность нарастания: "
+#~ msgstr "Длительность нарастания:"
 
 #~ msgid "Fade out duration: "
-#~ msgstr "Длительность затухания: "
+#~ msgstr "Длительность затухания:"
 
 #~ msgid "Drag to add or resize a fade effect."
 #~ msgstr ""
@@ -17853,7 +17892,7 @@ msgstr "%1ч"
 #~ msgstr "Монтаж с совмещением"
 
 #~ msgid " Slide "
-#~ msgstr " Слайд-шоу "
+#~ msgstr "Слайд-шоу"
 
 #~ msgid "All tracks"
 #~ msgstr "Все дорожки"
@@ -17940,7 +17979,7 @@ msgstr "%1ч"
 #~ msgstr "Использовать прозрачный фон для импортируемых изображений"
 
 #~ msgid "Pro&xy clips"
-#~ msgstr "Прок&си-клипы"
+#~ msgstr "К&липы-прокси"
 
 #~ msgid "Timeline clip and transition corners"
 #~ msgstr "Углы клипов и переходов на монтажном столе"
@@ -18252,20 +18291,3 @@ msgstr "%1ч"
 
 #~ msgid "Custom projects folder"
 #~ msgstr "Папка проектов пользователя"
-
-#~ msgid "Desktop OpenGL"
-#~ msgstr "Рабочий стол OpenGL"
-
-#~ msgid "Split At Playhead"
-#~ msgstr "Разрезать по указателю воспроизведения"
-
-#~ msgid ""
-#~ "Impossible to add a composition at that position. There might not be "
-#~ "enough space"
-#~ msgstr "Добавление композиции в эту позицию невозможно. Недостаточно места"
-
-#~ msgid "Sort by type"
-#~ msgstr "Сортировка по типу"
-
-#~ msgid "Cannot move transition"
-#~ msgstr "Невозможно переместить переход"
