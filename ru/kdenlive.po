@@ -19,7 +19,7 @@ msgstr ""
 "Project-Id-Version: Kdenlive\n"
 "Report-Msgid-Bugs-To: https://bugs.kde.org\n"
 "POT-Creation-Date: 2020-11-07 02:22+0100\n"
-"PO-Revision-Date: 2020-11-07 09:45+0300\n"
+"PO-Revision-Date: 2020-11-07 12:37+0300\n"
 "Last-Translator: Смольянинов Николай <smolianinow.colya2016@yandex.ru>\n"
 "Language-Team: Russian <kde-russian@lists.kde.ru>\n"
 "Language: ru\n"
@@ -5171,7 +5171,7 @@ msgstr ""
 #: src/scopes/colorscopes/colorplaneexport.cpp:266
 #, kde-format
 msgid "Luma"
-msgstr "Яркостный"
+msgstr "Каше"
 
 #: data/transitions/luma.xml:4 data/transitions/wipe.xml:4
 #, kde-format
@@ -6589,9 +6589,9 @@ msgid "Create color clip"
 msgstr "Создать цветной клип"
 
 #: src/bin/clipcreator.cpp:94
-#, fuzzy, kde-format
+#, kde-format
 msgid "You cannot add a project inside itself."
-msgstr "Нельзя добавить проект в самого себя."
+msgstr "Нельзя добавить проект внутрь самого проекта."
 
 #: src/bin/clipcreator.cpp:94
 #, kde-format
@@ -7977,12 +7977,12 @@ msgid "%1 will be replaced by %2"
 msgstr "%1 будет заменён на %2"
 
 #: src/doc/documentchecker.cpp:601
-#, fuzzy, kde-format
+#, kde-format
 msgid "Modified Clips"
 msgstr "Изменённые клипы"
 
 #: src/doc/documentchecker.cpp:605
-#, fuzzy, kde-format
+#, kde-format
 msgid "Clip %1 will be reloaded"
 msgstr "Клип %1 будет перезагружен"
 
@@ -8092,7 +8092,7 @@ msgid "Scanning %1"
 msgstr "Сканирование %1"
 
 #: src/doc/documentchecker.cpp:1116
-#, fuzzy, kde-format
+#, kde-format
 msgid "Enter new location for folder"
 msgstr "Укажите новый адрес папки"
 
@@ -10098,10 +10098,9 @@ msgid "Snap"
 msgstr "Привязка"
 
 #: src/mainwindow.cpp:1213
-#, fuzzy, kde-format
-#| msgid "Show %1 in timeline"
+#, kde-format
 msgid "Show color tags in timeline"
-msgstr "Показать %1 на монтажном столе"
+msgstr "Показывать цветные теги на монтажном столе"
 
 #: src/mainwindow.cpp:1219
 #, kde-format
@@ -10554,7 +10553,6 @@ msgstr[3] "Добавить дорожку"
 msgid "Master effects"
 msgstr "Мастер-эффекты"
 
-# аудиопоток - аудиодорожку
 #: src/mainwindow.cpp:1658
 #, fuzzy, kde-format
 msgid "Switch Track Target Audio Stream"
@@ -10643,12 +10641,12 @@ msgid "Toggle Track Active"
 msgstr "Вкл/Выкл активную дорожку"
 
 #: src/mainwindow.cpp:1758
-#, kde-format
+#, fuzzy, kde-format
 msgid "Toggle All Tracks Active"
 msgstr "Вкл/Выкл все активные дорожки"
 
 #: src/mainwindow.cpp:1760
-#, kde-format
+#, fuzzy, kde-format
 msgid "Switch All Tracks Active"
 msgstr "Вкл/Выкл активацию всех дорожек"
 
@@ -11480,10 +11478,10 @@ msgid "Export image using source resolution"
 msgstr "Экспорт изображения с использованием разрешения источника"
 
 #: src/monitor/monitor.cpp:1526 src/monitor/monitor.cpp:1627
-#, fuzzy, kde-format
+#, kde-format
 msgid "%1 audio stream"
 msgid_plural "%1 audio streams"
-msgstr[0] "%1 аудиопоток"
+msgstr[0] "%1 звуковой поток"
 msgstr[1] "%1 звуковых потока"
 msgstr[2] "%1 звуковых потоков"
 msgstr[3] "%1 звуковой поток"
@@ -13506,21 +13504,19 @@ msgid "Select a clip to apply the mix"
 msgstr "Выберите клип для соединения"
 
 #: src/timeline2/model/timelinemodel.cpp:876
-#, fuzzy, kde-format
-#| msgid "Start"
+#, kde-format
 msgid "start"
-msgstr "Старт"
+msgstr "начальном"
 
 #: src/timeline2/model/timelinemodel.cpp:876
-#, fuzzy, kde-format
-#| msgid "End"
+#, kde-format
 msgid "end"
-msgstr "Окончание"
+msgstr "конечном"
 
 #: src/timeline2/model/timelinemodel.cpp:876
 #, kde-format
 msgid "Not enough frames at clip %1 to apply the mix"
-msgstr "Недостаточно кадров в клипе %1 для соединения"
+msgstr "Недостаточно кадров в %1 клипе для соединения"
 
 #: src/timeline2/model/timelinemodel.cpp:916
 #, kde-format
