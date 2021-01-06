@@ -8,7 +8,7 @@
 # Yury G. Kudryashov <urkud.urkud@gmail.com>, 2012.
 # Alexander Potashev <aspotashev@gmail.com>, 2015, 2019, 2020.
 # Vladimir Potapov <vladimir.potapov@rosalab.ru>, 2015.
-# Смольянинов Николай <smolianinow.colya2016@yandex.ru>, 2016, 2017, 2018, 2019, 2020.
+# Смольянинов Николай <smolianinow.colya2016@yandex.ru>, 2016, 2017, 2018, 2019, 2020, 2021.
 # Julia Dronova <juliette.tux@gmail.com>, 2018.
 # Виктор <victorr2007@yandex.ru>, 2018.
 # Olga Mironova <omiro@basealt.ru>, 2018.
